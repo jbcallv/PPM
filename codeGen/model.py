@@ -41,7 +41,7 @@ from transformers import (
     StoppingCriteriaList,
 )
 
-from evalplus.gen.util.api_request import create_chatgpt_config, request_chatgpt_engine
+#from evalplus.gen.util.api_request import create_chatgpt_config, request_chatgpt_engine
 
 HUMANEVAL_EOS = ["\nclass", "\ndef", "\n#", "\n@", "\nprint", "\nif"]
 #HUMANEVAL_EOS = ['\n    }\n']
@@ -81,6 +81,14 @@ EOS = HUMANEVAL_EOS + NON_CODE_EOS
 #         raise ValueError(
 #             "dataset error"
 #         )
+
+# added for access to gated repositories
+from dotenv import load_dotenv
+load_dotenv()
+from huggingface_hub import login
+
+hf_token = os.getenv('HF_TOKEN')
+login(token=hf_token)
 
 
 # Adopted from https://github.com/huggingface/transformers/pull/14897
