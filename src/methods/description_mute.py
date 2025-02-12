@@ -8,6 +8,10 @@ from nltk.tokenize.treebank import TreebankWordTokenizer, TreebankWordDetokenize
 from typing import List
 from .abstract_method import AbstractMethods
 
+# Joseph - fix nltk download bugs
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+
 
 def contains_only_characters(input_string: str):
     if len(input_string) == 0:
@@ -27,7 +31,8 @@ class _DescriptionMutation(AbstractMethods):
         bert_model_name = 'bert-base-uncased'
         self.device = torch.device('cuda')
         self.berttokenizer = BertTokenizer.from_pretrained(bert_model_name)
-        self.unmasker = pipeline('fill-mask', model='bert-base-uncased')
+        # Joseph - ensure this is loaded to gpu not cpu
+        self.unmasker = pipeline('fill-mask', model='bert-base-uncased', device=self.device)
 
     def mutate(self, language):
         func_entry, comments, demo = self.split_desc_testcases(language)

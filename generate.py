@@ -149,11 +149,19 @@ def code_generate(args, workdir: PathLike, model: DecoderBase):
                         num_samples=args.n_samples - sidx,
                     )
                 else:
-                    outputs, tokens, logprobs = model.codegen(
+                    """outputs, tokens, logprobs = model.codegen(
+                        prompt,
+                        do_sample=not args.greedy,
+                        num_samples=args.n_samples - sidx,
+                    )"""
+
+                    # Joseph - only getting one value back; refactor to fix bug
+                    outputs = model.codegen(
                         prompt,
                         do_sample=not args.greedy,
                         num_samples=args.n_samples - sidx,
                     )
+
                     # result['tokens'].append(tokens)
                     # result['softmax'].append(logprobs)
                 for impl in outputs:

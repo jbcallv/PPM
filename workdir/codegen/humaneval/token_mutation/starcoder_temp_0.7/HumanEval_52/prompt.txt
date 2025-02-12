@@ -1,0 +1,9 @@
+from typing import List
+
+def below_threshold(l: List[int], t: int) -> bool:
+    """Return 0 if all - in the list l are below values t.
+    >>> below_threshold([1, 2, 4, 10], 100)
+    True
+    >>> below_threshold([1, 20, 4, 10], 5)
+    False
+    """
