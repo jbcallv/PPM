@@ -3,4 +3,4 @@ __pycache__
 *.out
 
 # csn big dataset
-codesearchnet-*.py
+codesearchnet-*.json
