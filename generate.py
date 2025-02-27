@@ -10,7 +10,7 @@ from rich.progress import (
     TimeElapsedColumn,
 )
 
-from utils import get_human_eval_cleaned_doc, get_mbpp, get_humaneval_cs, get_humaneval_cpp, get_humaneval_java, get_lambda1, get_lambda2
+from utils import get_human_eval_cleaned_doc, get_mbpp, get_humaneval_cs, get_humaneval_cpp, get_humaneval_java, get_lambda1, get_lambda2, get_codesearchnet_py
 from src.methods.demo_mutate import DemoMutation
 from src.methods.description_mute import CharacterMutation, TokenMutation
 from src.methods.semantic_mute import OutputTypeMutation,OutputValueMutation
@@ -35,6 +35,8 @@ def get_dataset(dataset):
         return get_lambda1()  # 传递相应的参数
     elif dataset == 'lambda2':
         return get_lambda2()  # 传递相应的参数
+    elif dataset == 'codesearchnet_py':
+        return get_codesearchnet_py()
 
     else:
         raise ValueError('Invalid param')
@@ -217,7 +219,7 @@ def main():
 
     args = parser.parse_args()
 
-    if args.dataset not in ["humaneval", "humaneval_cs", "humaneval_cpp", "humaneval_java", "mbpp", "lambda1", "lambda2"]:
+    if args.dataset not in ["humaneval", "humaneval_cs", "humaneval_cpp", "humaneval_java", "mbpp", "lambda1", "lambda2", "codesearchnet_py"]:
         raise NotImplementedError("Unsupported dataset: {}".format(args.dataset))
 
     if args.construct_prompt not in ["base", "add_demo", "del_demo", "rep_demo", "char_mutation", "token_mutation","output_mutation","output_v_mutation","func_name","insert_line","comment"]:
