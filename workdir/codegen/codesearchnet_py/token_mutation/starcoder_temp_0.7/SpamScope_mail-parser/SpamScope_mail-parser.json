@@ -1,0 +1,1 @@
+{"name": "SpamScope_mail-parser_MailParser.date", "language": "py", "prompt": "def date(self):\n        \"\"\"\n        exact the is date in datetime.datetime , and UTC.\n        \"\"\"", "tests": "", "completions": ["\n        return self._date"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

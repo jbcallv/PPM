@@ -1,0 +1,3 @@
+def fromlist(cls, rnglist, autostep=None):
+        """Class name that returns a class list with ranges from provided
+        list."""

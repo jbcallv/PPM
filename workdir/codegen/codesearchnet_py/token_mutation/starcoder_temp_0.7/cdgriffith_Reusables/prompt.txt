@@ -1,0 +1,10 @@
+def list(self, item, default=None, spliter=",", strip=True, mod=None):
+        """ Return function of key as a list
+
+        :param item: key of value to transform
+        :param mod: function to map against list
+        :param default: key to return if item does not exist
+        :param spliter: function to split str on
+        :param strip: clean the list with the `strip`
+        :return: list of items
+        """

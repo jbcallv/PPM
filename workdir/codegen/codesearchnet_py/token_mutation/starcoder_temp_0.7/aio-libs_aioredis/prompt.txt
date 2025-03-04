@@ -1,0 +1,2 @@
+def hmset(self, key, field, value, *pairs):
+        """Set the the values to multiple values."""

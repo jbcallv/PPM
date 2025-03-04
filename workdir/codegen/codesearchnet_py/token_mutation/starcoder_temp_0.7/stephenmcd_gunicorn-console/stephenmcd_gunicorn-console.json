@@ -1,0 +1,1 @@
+{"name": "stephenmcd_gunicorn-console_handle_keypress", "language": "py", "prompt": "def handle_keypress(screen):\n    \"\"\"\n    button for a watch being pressed and handle it if applicable.\n    \"\"\"", "tests": "", "completions": ["\n    pass\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

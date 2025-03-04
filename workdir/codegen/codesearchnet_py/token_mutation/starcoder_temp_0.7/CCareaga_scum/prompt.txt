@@ -1,0 +1,2 @@
+def register_palette(self):
+        """Converts him the to urwid palatte"""

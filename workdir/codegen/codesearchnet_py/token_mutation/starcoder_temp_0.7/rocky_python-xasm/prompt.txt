@@ -1,0 +1,4 @@
+def copy_magic_into_pyc(input_pyc, output_pyc,
+                        src_version, dest_version):
+    """Bytecodes are the same except the serial number, so just change
+    that"""

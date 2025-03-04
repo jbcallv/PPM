@@ -1,0 +1,4 @@
+def _padding(self, image, geometry, options):
+        """
+        " the image
+        """

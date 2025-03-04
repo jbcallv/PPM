@@ -1,0 +1,1 @@
+{"name": "oceanprotocol_squid-py_EventListener.make_event_filter", "language": "py", "prompt": "def make_event_filter(self):\n        \"\"\"Create a filter new filter.\"\"\"", "tests": "", "completions": ["\n        self.event_filter = EventFilter()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

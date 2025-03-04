@@ -1,0 +1,1 @@
+{"name": "arviz-devs_arviz__histplot_op", "language": "py", "prompt": "def _histplot_op(values, values2, rotated, ax, hist_kwargs):\n    \"\"\"Add a hammer for the point to the axes.\"\"\"", "tests": "", "completions": ["\n    return histplot(values, values2, rotated, ax, **hist_kwargs)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

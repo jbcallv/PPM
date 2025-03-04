@@ -1,0 +1,20 @@
+def from_polar(r, theta, phi):
+    """Convert ``(r, theta, phi)`` to Cartesian coordinates ``[x y z]``.
+
+    ``r`` - vector length
+    ``theta`` - angle above (+) or below (-) the xy-plane
+    ``phi`` - angle around the z-axis
+
+    The number and order of the three polar parameters is designed to
+    match both ISO 31-11 and the traditional order used by physicists.
+    Mathematicians usually define ``theta`` and ``phi`` the other way
+    around, and may need to use them when calling this function.
+    See: https://en.wikipedia.org/wiki/Spherical_coordinate_system
+
+    """
+    x = r * np.cos(theta) * np.sin(phi)
+    y = r * np.sin(theta) * np.sin(phi)
+    z = r * np.cos(phi)
+    return np.array([x, y, z])
+
+

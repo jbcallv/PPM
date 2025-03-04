@@ -1,0 +1,1 @@
+{"name": "psss_did_ascii", "language": "py", "prompt": "def ascii(text):\n    \"\"\" turning special effects characters into pure gold \"\"\"", "tests": "", "completions": ["\n    return text.replace('\\x0F', '').replace('\\x02', '').replace('\\x16', '')\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

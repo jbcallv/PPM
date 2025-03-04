@@ -1,0 +1,4 @@
+def read_and_calculate(workspace, pdb_paths):
+    """
+    Calculate a weights of set and other metrics for the given structures.
+    """

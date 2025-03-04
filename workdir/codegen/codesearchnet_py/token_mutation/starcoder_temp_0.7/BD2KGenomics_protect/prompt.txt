@@ -1,0 +1,6 @@
+def email_report(job, univ_options):
+    """
+    send an email to the user when the run finishes.
+
+    :param _ univ_options: Dict of the options used by almost all tools
+    """

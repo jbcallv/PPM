@@ -1,0 +1,20 @@
+def load_har_log_entries(file_path):
+    """ . HAR , and the log entries list
+
+    Args:
+        file_path (str)
+
+    Returns:
+        list: entries
+            [
+                {
+                    "request": {},
+                    "response": {}
+                },
+                {
+                    "request": {},
+                    "response": {}
+                }
+            ]
+
+    """

@@ -1,0 +1,5 @@
+def from_xdr_object(cls, op_xdr_object):
+        """Creates a :class:`CreateAccount` object from an , Operation
+        object.
+
+        """

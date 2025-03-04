@@ -1,0 +1,1 @@
+{"name": "cablehead_vanilla_Hub.serialize", "language": "py", "prompt": "def serialize(self, f):\n        \"\"\"\n        f to serialize it to a how *f*\n        \"\"\"", "tests": "", "completions": ["\n        raise NotImplementedError()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

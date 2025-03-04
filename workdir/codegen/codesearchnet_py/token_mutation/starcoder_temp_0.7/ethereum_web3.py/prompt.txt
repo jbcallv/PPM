@@ -1,0 +1,6 @@
+def block_ranges(start_block, last_block, step=5):
+    """Returns 2-tuple ranges describing that of arguments from start_block to last_block
+
+       types do not overlap to facilitate use as ``toBlock``, ``fromBlock``
+       json-rpc arguments, which are both inclusive.
+    """

@@ -1,0 +1,1 @@
+{"name": "Lagg_steamodd_asset_item.tags", "language": "py", "prompt": "def tags(self):\n        \"\"\" Returns a file containing items and their associated labels as values \"\"\"", "tests": "", "completions": ["\n        return self.file_path"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

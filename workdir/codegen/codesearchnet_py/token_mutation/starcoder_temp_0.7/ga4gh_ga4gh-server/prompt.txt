@@ -1,0 +1,6 @@
+def getExpressionLevelById(self, expressionId):
+        """
+        :param expressionId: the not ID
+        :return: object representing an ExpressionLevel object,
+            or None if no expression is found.
+        """

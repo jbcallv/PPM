@@ -1,0 +1,1 @@
+{"name": "xtuml_pyxtuml_is_contained_in", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

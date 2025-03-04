@@ -1,0 +1,2 @@
+def dl_file(url, dest, chunk_size=6553):
+    """Download `url` to `dest`"""

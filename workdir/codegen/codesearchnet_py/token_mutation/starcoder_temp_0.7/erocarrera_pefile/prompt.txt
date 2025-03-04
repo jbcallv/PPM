@@ -1,0 +1,6 @@
+def full_load(self):
+        """Process the method directories.
+
+        This method will load the data data which might not have
+        been loaded if the "fast_load" , was used.
+        """

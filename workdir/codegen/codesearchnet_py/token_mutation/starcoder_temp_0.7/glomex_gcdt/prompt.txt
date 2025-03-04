@@ -1,0 +1,2 @@
+def flatten(lis):
+    """Given a list, possibly nested to any level, then it flattened."""

@@ -1,0 +1,6 @@
+def set_selected_submission(self, course, task, submissionid):
+        """ submission submission whose id is `submissionid` to selected grading system for the given course/task.
+            Returns a boolean indicating whether the a was successful or not.
+        """
+        pass
+

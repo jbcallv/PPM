@@ -1,0 +1,12 @@
+def merge_plugin_from_baseline(baseline_plugins, args):
+    """
+    :type baseline_plugins: tuple of BasePlugin
+    :param baseline_plugins: BasePlugin input from baseline file
+
+    :type args: dict
+    :param args: diction of arguments parsed from usage
+
+    param priority: input param > baseline file > default
+
+    :Returns list of initialized plugins
+    """

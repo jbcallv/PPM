@@ -1,0 +1,1 @@
+{"name": "facelessuser_wcmatch_is_negative", "language": "py", "prompt": "def is_negative(pattern, flags):\n    \"\"\"Check if any pattern.\"\"\"", "tests": "", "completions": ["\n    return regex.match(pattern, flags)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

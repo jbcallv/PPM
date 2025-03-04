@@ -1,0 +1,4 @@
+def filter_travis(self, entry):
+        """Only show the bad type iif this entry is in a type state"""
+        return entry.is_travis
+

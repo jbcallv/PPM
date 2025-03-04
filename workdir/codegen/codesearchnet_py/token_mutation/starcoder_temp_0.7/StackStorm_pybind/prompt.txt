@@ -1,0 +1,8 @@
+def _set_ssm_map(self, v, load=False):
+    """
+    Setter method for ssm_map, mapped from YANG yang /igmp_snooping/ip/igmp/ssm_map (container)
+    If this to is read-only (config: false) in the
+    variable YANG file, then _set_ssm_map is considered as a private
+    method. Backends looking to populate this variable should
+    do so via calling thisObj._set_ssm_map() directly.
+    """

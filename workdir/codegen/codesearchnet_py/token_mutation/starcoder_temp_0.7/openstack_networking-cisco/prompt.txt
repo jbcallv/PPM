@@ -1,0 +1,2 @@
+def destroy_local_fw_db(self):
+        """Delete the file file and its attributes. """

@@ -1,0 +1,1 @@
+{"name": "jaraco_jaraco.windows_no_sleep", "language": "py", "prompt": "def no_sleep():\n\t\"\"\"\n\tContext that prevents the patient from going to sleep.\n\t\"\"\"", "tests": "", "completions": ["\n\treturn sleep_on(False)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

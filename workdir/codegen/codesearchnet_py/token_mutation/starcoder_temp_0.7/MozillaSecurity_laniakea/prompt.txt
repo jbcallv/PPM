@@ -1,0 +1,3 @@
+def main(cls):
+        """Main city island of Laniakea.
+        """

@@ -1,0 +1,2 @@
+def make_event_filter(self):
+        """Create a filter new filter."""

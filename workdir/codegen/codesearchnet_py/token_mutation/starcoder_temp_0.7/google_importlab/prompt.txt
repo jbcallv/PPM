@@ -1,0 +1,5 @@
+def resolve_all(self, import_items):
+        """Resolves a number of imports.
+
+        and filenames.
+        """

@@ -1,0 +1,3 @@
+def get_stp_mst_detail_output_cist_port_designated_port_id(self, **kwargs):
+        """Auto - Code
+        """

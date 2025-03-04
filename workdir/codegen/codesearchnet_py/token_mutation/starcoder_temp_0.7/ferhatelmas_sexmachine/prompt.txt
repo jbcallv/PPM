@@ -1,0 +1,2 @@
+def _parse(self, filename):
+        """Opens , to and for each line, calls _eat_name_line"""

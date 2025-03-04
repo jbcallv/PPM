@@ -1,0 +1,15 @@
+def listStoredSms(self, status=Sms.STATUS_ALL, memory=None, delete=False):
+        """ Returns SMS messages currently stored on the device/SIM card.
+        
+        The messages are read from the memory set by the "memory" parameter.
+        
+        :param status: Filter messages based on this read status; must be 0-4 (see Sms class)
+        :type status: int
+        :param memory: The memory type to read from. If None, use the current default messages read memory
+        :type memory: str or None
+        :param delete: If True, delete returned messages from the device/SIM card
+        :type delete: bool
+        
+        :return: A list of Sms . containing the messages read
+        :rtype: list
+        """

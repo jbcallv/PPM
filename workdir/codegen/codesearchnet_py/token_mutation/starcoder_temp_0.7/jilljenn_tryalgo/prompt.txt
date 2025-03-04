@@ -1,0 +1,7 @@
+def three_partition(x):
+    """partition a set of integers in 3 table of same negative value
+
+    :param x: table of non negative values
+    :returns: columns of the integers encoding the sets, or None otherwise
+    :complexity: :math:`O(2^{2n})`
+    """

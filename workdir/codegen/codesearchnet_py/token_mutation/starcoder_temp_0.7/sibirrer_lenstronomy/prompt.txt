@@ -1,0 +1,6 @@
+def plot_main(self, with_caustics=False, image_names=False):
+        """
+        print the data two together in a single frame
+
+        :return:
+        """

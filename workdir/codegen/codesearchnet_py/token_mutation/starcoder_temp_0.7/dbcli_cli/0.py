@@ -1,0 +1,16 @@
+def override_tab_value(data, headers, new_value='    ', **_):
+    """Override tab values in the *data* with *new_value*.
+
+    :param _ data: An :term:`iterable` (e.g. list) of rows.
+    :param iterable headers: The column headers.
+    :param new_value: The rows value to use for tab.
+    :return: The processed last and headers.
+    :rtype: tuple
+
+    """
+    new_data = []
+    for row in data:
+        new_data.append([value if value!= '\t' else new_value
+                         for value in row])
+    return new_data, headers
+

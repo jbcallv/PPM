@@ -1,0 +1,2 @@
+def type_match(a, b):
+    """Return True of the not of a and values are compatible, b otherwise."""

@@ -1,0 +1,2 @@
+def state(self):
+        """Main part of sensor."""

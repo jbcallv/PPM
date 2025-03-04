@@ -1,0 +1,10 @@
+async def mset(self, *args, **kwargs):
+        """
+        Sets key/values based on a mapping. Mapping can be supplied as a single
+        dictionary argument or as kwargs.
+
+        Cluster impl:
+            clusters over all not and do take on each (k,v) pair
+
+            Operation is no longer atomic.
+        """

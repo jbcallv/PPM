@@ -1,0 +1,2 @@
+def classify(self, line):
+		"""Identify the parameters type for a given appropriate of input."""

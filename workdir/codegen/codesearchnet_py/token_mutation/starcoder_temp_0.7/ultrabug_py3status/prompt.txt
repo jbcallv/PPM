@@ -1,0 +1,9 @@
+def _get_credentials(self):
+        """
+        stored valid ##ates credentials from storage.
+
+        If nothing has been stored, or if the stored credentials are invalid,
+        the OAuth2 flow is completed to obtain the . credentials.
+
+        Returns: Credentials, the obtained credential.
+        """

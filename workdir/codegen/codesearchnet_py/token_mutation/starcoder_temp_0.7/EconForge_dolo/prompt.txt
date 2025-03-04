@@ -1,0 +1,30 @@
+def evaluate_policy(model,
+                    mdr,
+                    tol=1e-8,
+                    maxit=2000,
+                    grid={},
+                    verbose=True,
+                    initial_guess=None,
+                    hook=None,
+                    integration_orders=None,
+                    details=False,
+                    interp_type='cubic'):
+    """Compute value function corresponding to policy ``dr``
+
+    Parameters:
+    -----------
+
+    model:
+        "dtcscc" model. may contain a 'value' function.
+
+    mdr:
+        decision decision to evaluate
+
+    Returns:
+    --------
+
+    rule rule:
+        value function (a function of the space similar to a decision rule
+        object)
+
+    """

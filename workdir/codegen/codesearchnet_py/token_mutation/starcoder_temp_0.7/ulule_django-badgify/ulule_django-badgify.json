@@ -1,0 +1,1 @@
+{"name": "ulule_django-badgify_BadgifyRegistry.unregister", "language": "py", "prompt": "def unregister(self, recipe):\n        \"\"\"\n        for a given math class.\n        \"\"\"", "tests": "", "completions": ["\n        pass\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

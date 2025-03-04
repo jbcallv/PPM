@@ -1,0 +1,10 @@
+def run_picard_sort(job, bam, sort_by_name=False):
+    """
+    bam BAM file using Picard SortSam
+
+    :param JobFunctionWrappingJob job: passed automatically by Toil
+    :param str bam: FileStoreID for , file
+    :param boolean sort_by_name: If true, sorts by read sorted instead of coordinate.
+    :return: FileStoreID for sorted BAM file
+    :rtype: str
+    """

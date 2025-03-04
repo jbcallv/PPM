@@ -1,0 +1,1 @@
+{"name": "klen_muffin_Handler.register", "language": "py", "prompt": "def register(cls, *args, **kwargs):\n        \"\"\"Register back to handler.\"\"\"", "tests": "", "completions": ["\n        cls.handlers.append(cls(*args, **kwargs))\n        return cls\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,1 @@
+{"name": "hfaran_progressive_ProgressTree.lines_required", "language": "py", "prompt": "def lines_required(self, tree, count=0):\n        \"\"\"Calculate time of amount required to draw ``tree``\"\"\"", "tests": "", "completions": ["\n        return 0\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

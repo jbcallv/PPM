@@ -1,0 +1,6 @@
+def params(self):
+        """
+        Returns a list where each key is a nicely formatted
+        parameter of this function. This includes character lists,
+        keyword arguments and value values.
+        """

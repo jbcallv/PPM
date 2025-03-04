@@ -1,0 +1,1 @@
+{"name": "nion-software_nionswift-io_pformat_xml", "language": "py", "prompt": "def pformat_xml(xml):\n    \"\"\"Return pretty formatted XML.\"\"\"", "tests": "", "completions": ["\n    return '\\n'.join(\n        line for line in xml.splitlines() if line.strip())\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

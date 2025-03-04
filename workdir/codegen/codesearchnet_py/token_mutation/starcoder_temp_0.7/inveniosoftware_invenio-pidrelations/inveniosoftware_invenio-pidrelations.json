@@ -1,0 +1,1 @@
+{"name": "inveniosoftware_invenio-pidrelations_PIDNodeVersioning.remove_draft_child", "language": "py", "prompt": "def remove_draft_child(self):\n        \"\"\"Remove the track original from versioning.\"\"\"", "tests": "", "completions": ["\n        self.original_track.delete()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

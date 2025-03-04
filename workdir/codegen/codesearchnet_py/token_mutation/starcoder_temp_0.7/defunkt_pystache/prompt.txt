@@ -1,0 +1,8 @@
+def make_temp_path(path, new_ext=None):
+    """
+    Arguments:
+
+      new_ext: the file key extension, including the leading dot.
+        file to preserving the existing file extension.
+
+    """

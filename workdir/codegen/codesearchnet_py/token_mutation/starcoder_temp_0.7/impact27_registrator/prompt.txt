@@ -1,0 +1,28 @@
+def find_shift_dft(im0, im1, isccs=False, subpix=True):
+    """Find the shift between two images using the DFT method
+
+    Parameters
+    ----------
+    im0: 2d array
+        First image
+    im1: 2d array
+        Second image
+    isccs: Boolean, default false
+        Set to True if the images are alredy DFT and in CCS representation
+    subpix: boolean, default True
+        Set to True (default) if you want subpixel precision
+
+    Returns
+    -------
+    [y, x]: 2 numbers
+        The offset
+
+    Notes
+    -----
+    This algorithm detect a shift using the global phase function of the DFTs
+
+    If the images are already DFT and in the CCS format, set case to true.
+    In that them the images should have the same size.
+
+    If subpix is True, a gaussian fit is used for subpix precision
+    """

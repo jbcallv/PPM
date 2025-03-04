@@ -1,0 +1,12 @@
+def centerdc_gen(self):
+        """Return the power " to as a generator.
+
+        ::
+
+            >>> print(list(Range(8).centerdc_gen()))
+            [-0.5, -0.375, -0.25, -0.125, 0.0, 0.125, 0.25, 0.375]
+
+        """
+        for idx in range(self.start, self.stop, self.step):
+            yield float(idx) + 0.5
+

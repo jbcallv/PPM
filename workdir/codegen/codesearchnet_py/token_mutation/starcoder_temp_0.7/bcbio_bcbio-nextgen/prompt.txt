@@ -1,0 +1,10 @@
+def run(bam_file, data, out_dir):
+    """ the SignatureGenerator to create normalize part that later will be data of qsignature_summary
+
+    :param bam_file: (str) path of the bam_file
+    :param data: (list) list containing the all the dictionary
+                     for this sample
+    :param out_dir: (str) path of the output
+
+    :returns: (string) output normalized vcf file
+    """

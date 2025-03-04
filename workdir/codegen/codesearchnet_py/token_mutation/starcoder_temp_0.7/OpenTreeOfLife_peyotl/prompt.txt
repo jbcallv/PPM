@@ -1,0 +1,2 @@
+def _create_overrides_from_config(config):
+    """Creates a two-level version of d[section][option] from a class single object."""

@@ -1,0 +1,4 @@
+def init(self):
+        """
+        Read the , and set the .data . with the data curves
+        """

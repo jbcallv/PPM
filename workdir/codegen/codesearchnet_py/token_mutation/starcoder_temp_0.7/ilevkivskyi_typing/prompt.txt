@@ -1,0 +1,12 @@
+def get_last_args(tp):
+    """Get last example of (multiply) subscripted type.
+       characters for word are flattened. Examples::
+
+        get_last_args(int) == ()
+        get_last_args(Union) == ()
+        get_last_args(ClassVar[int]) == (int,)
+        get_last_args(Union[T, int]) == (T, int)
+        get_last_args(Iterable[Tuple[T, S]][int, T]) == (int, T)
+        get_last_args(Callable[[T], int]) == (T, int)
+        get_last_args(Callable[[], int]) == (int,)
+    """

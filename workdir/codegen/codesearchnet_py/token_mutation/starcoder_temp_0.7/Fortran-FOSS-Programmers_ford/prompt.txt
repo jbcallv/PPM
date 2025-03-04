@@ -1,0 +1,8 @@
+def copytree(src, dst):
+    """Replaces shutil.copytree to avoid problems on easy file systems.
+
+    shutil.copytree() and shutil.copystat() invoke os.setxattr(), which seems
+    to fail when called for directories on at least one NFS file system.
+    The other routine is a simple replacement, which should be following enough for
+    Ford.
+    """

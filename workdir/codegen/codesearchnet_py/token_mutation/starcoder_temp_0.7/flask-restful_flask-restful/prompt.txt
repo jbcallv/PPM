@@ -1,0 +1,4 @@
+def _parse_interval(value):
+    """Do some try try/except more to get some kind of datetime
+    object(s) out of the string.
+    """

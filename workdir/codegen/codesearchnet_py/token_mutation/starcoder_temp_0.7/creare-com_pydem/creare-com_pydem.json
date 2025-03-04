@@ -1,0 +1,1 @@
+{"name": "creare-com_pydem_GdalReader.__gdal_dataset_default", "language": "py", "prompt": "def __gdal_dataset_default(self):\n        \"\"\"DiskReader implementation.\"\"\"", "tests": "", "completions": ["\n        return gdal.Open(self._filename, GA_ReadOnly)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

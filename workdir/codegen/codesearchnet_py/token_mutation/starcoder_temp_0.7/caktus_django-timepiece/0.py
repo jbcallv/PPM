@@ -1,0 +1,4 @@
+def defaults(self):
+        """Default filter is used when no GET ##ter is provided."""
+        return True
+

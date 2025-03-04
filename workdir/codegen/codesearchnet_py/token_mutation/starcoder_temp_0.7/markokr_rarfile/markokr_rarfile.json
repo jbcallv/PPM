@@ -1,0 +1,1 @@
+{"name": "markokr_rarfile_UnicodeFilename.std_byte", "language": "py", "prompt": "def std_byte(self):\n        \"\"\"Copy data from 8-bit representation.\"\"\"", "tests": "", "completions": ["\n        return self.byte.copy()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

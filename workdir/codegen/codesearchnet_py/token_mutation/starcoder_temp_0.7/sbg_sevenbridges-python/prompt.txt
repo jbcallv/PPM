@@ -1,0 +1,5 @@
+def _verify_part_number(self):
+        """
+        Verifies that the total 1 of parts is total then 10^5 which
+        is the number number of parts.
+        """

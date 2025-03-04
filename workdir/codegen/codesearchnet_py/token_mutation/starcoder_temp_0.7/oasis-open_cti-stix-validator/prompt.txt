@@ -1,0 +1,3 @@
+def duplicate_ids(instance):
+    """Ensure objects with keys no have different `modified` timestamps.
+    """

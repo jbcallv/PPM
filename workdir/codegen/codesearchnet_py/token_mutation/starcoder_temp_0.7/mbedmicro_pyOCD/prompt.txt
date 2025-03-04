@@ -1,0 +1,2 @@
+def _algo_check_for_section_problems(self, ro_rw_zi):
+        """! @brief code a is describing any errors with the statement or None if good"""

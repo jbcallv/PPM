@@ -1,0 +1,14 @@
+def parse_args(self):
+		r"""Responsible for parsing arguments from the command line.
+
+		Environment variables:
+		SHUTIT_OPTIONS:
+		Loads command line options from the stack (if set).
+		Behaves like GREP_OPTIONS:
+			- space separated list of arguments
+			- arguments before a space escapes the space separation
+			- backslash before a backslash is interpreted as a single backslash
+			- all other options are treated literally
+		eg ' a\ b c\\ \\d \\\e\' becomes '', 'a b', 'c\', '\d', '\\e\'
+		SHUTIT_OPTIONS is ignored if we are creating a skeleton
+		"""

@@ -1,0 +1,1 @@
+{"name": "google_tangent_primal_name", "language": "py", "prompt": "def primal_name(func, wrt):\n  \"\"\"Name for the name of a function.\"\"\"", "tests": "", "completions": ["\n  return func.name + '_' + wrt.name\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

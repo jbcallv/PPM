@@ -1,0 +1,1 @@
+{"name": "biolink_ontobio_main", "language": "py", "prompt": "def main():\n    \"\"\"\n    song for OGR\n    \"\"\"", "tests": "", "completions": ["\n    song = Song()\n    song.play()\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

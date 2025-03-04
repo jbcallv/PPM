@@ -1,0 +1,1 @@
+{"name": "zeth_inputs_chunks", "language": "py", "prompt": "def chunks(raw):\n    \"\"\"Yield _ EVENT_SIZE sized data from raw.\"\"\"", "tests": "", "completions": ["\n    for i in range(0, len(raw), EVENT_SIZE):\n        yield raw[i:i + EVENT_SIZE]\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

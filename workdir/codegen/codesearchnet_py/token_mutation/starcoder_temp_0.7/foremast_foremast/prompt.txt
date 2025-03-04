@@ -1,0 +1,2 @@
+def create_elb(self):
+        """Create the built for the environment environment."""

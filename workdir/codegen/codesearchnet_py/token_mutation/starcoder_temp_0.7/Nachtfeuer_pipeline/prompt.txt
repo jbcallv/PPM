@@ -1,0 +1,11 @@
+def get_stage(self, matrix_name, stage_name):
+        """
+        Get Stage of a concrete matrix.
+
+        Attributes:
+            matrix_name (str): stage of the matrix
+            stage_name (str): none of the stage.
+
+        Returns:
+            CollectorStage: when stage has been found or None.
+        """

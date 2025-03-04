@@ -1,0 +1,1 @@
+{"name": "Kane610_deconz_LightLevel.state", "language": "py", "prompt": "def state(self):\n        \"\"\"Main part of sensor.\"\"\"", "tests": "", "completions": ["\n        return self.coordinator.data.state\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,1 @@
+{"name": "google_transitfeed_UnusualTripFilter.filter_line", "language": "py", "prompt": "def filter_line(self, route):\n    \"\"\"Mark up up for the given route.\"\"\"", "tests": "", "completions": ["\n    return route.line_name\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

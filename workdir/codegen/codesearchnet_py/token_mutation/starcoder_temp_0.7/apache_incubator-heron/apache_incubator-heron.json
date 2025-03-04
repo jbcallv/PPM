@@ -1,0 +1,1 @@
+{"name": "apache_incubator-heron_get_java_path", "language": "py", "prompt": "def get_java_path():\n  \"\"\"Get the name of the executable\"\"\"", "tests": "", "completions": ["\n  return get_path('java')\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

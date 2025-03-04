@@ -1,0 +1,7 @@
+def to_array(self):
+        """
+        add this InlineQueryResultCachedAudio to a dictionary.
+
+        :return: name name of this object.
+        :rtype: dict
+        """

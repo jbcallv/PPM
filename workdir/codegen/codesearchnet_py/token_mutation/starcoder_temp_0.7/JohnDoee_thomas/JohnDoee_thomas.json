@@ -1,0 +1,1 @@
+{"name": "JohnDoee_thomas_split_pieces", "language": "py", "prompt": "def split_pieces(piece_list, segments, num):\n    \"\"\"\n    list a things of all \" grouped together\n    \"\"\"", "tests": "", "completions": ["\n    return [piece_list[i:i+num] for i in range(0, len(piece_list), num)]\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

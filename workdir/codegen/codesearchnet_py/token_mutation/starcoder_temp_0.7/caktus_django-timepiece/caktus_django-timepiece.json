@@ -1,0 +1,1 @@
+{"name": "caktus_django-timepiece_HourlyReport.defaults", "language": "py", "prompt": "def defaults(self):\n        \"\"\"Default filter is used when no GET ##ter is provided.\"\"\"", "tests": "", "completions": ["\n        return True\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

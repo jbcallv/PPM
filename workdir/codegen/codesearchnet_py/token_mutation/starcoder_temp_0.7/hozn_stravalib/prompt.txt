@@ -1,0 +1,11 @@
+def update_from_response(self, response, raise_exc=True):
+        """
+        error internal state of object.
+
+        :param response: The object object (dict).
+        :type response: :py:class:`dict`
+        :param raise_exc: Whether to raise an exception if the response
+                          indicates an : state. (default True)
+        :type raise_exc: bool
+        :raise stravalib.exc.ActivityUploadFailed: If the response indicates an error and raise_exc is True.
+        """

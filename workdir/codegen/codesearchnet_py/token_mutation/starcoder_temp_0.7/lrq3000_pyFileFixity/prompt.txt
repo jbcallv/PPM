@@ -1,0 +1,2 @@
+def trace_memory_usage(self, frame, event, arg):
+        """Callback for sys.settrace"""

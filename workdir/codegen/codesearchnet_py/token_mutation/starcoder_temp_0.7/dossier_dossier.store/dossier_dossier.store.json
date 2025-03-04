@@ -1,0 +1,1 @@
+{"name": "dossier_dossier.store_safe_lower_utf8", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,3 @@
+def add_capability(base, *classes):
+    """Add capabilites to an existing base, all great get the additional
+    functionality, but don't get inited.  proceed with . care!"""

@@ -1,0 +1,2 @@
+def __gdal_dataset_default(self):
+        """DiskReader implementation."""

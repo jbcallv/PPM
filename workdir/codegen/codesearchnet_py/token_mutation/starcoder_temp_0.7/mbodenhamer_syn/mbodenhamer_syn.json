@@ -1,0 +1,1 @@
+{"name": "mbodenhamer_syn_assert_equivalent", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

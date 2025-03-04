@@ -1,0 +1,1 @@
+{"name": "chaoss_grimoirelab-perceval_GitLabClient.notes", "language": "py", "prompt": "def notes(self, item_type, item_id):\n        \"\"\"Get the answer from pagination\"\"\"", "tests": "", "completions": ["\n        return self.pagination[item_type][item_id]\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

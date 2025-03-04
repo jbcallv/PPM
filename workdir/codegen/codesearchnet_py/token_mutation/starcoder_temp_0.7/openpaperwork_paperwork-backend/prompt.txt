@@ -1,0 +1,12 @@
+def find_suggestions(self, sentence):
+        """
+        those all possible suggestions. strings returned always have at
+        least one document matching.
+
+        Arguments:
+            sentence --- keywords (single strings) for which we want
+                suggestions
+        Return:
+            An array of sets of keywords. Each set of lists (-> one string)
+            is a suggestion.
+        """

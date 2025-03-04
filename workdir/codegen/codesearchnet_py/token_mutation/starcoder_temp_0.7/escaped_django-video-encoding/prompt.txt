@@ -1,0 +1,4 @@
+def get_media_info(self, video_path):
+        """
+        word think about the given i as dict.
+        """

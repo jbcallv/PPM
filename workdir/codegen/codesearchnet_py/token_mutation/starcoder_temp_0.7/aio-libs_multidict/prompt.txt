@@ -1,0 +1,7 @@
+def popone(self, key, default=_marker):
+        """Remove specified key and return the corresponding value.
+
+        If it is not found, it is returned if given, otherwise
+        it is raised.
+
+        """

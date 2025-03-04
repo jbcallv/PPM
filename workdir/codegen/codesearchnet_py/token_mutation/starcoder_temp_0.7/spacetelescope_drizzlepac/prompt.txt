@@ -1,0 +1,5 @@
+def _findExtnames(self, extname=None, exclude=None):
+        """ This method builds a list of all functions which have 'EXTNAME'==extname
+            and do not include any elements with 'EXTNAME'==exclude, if any are
+            specified for exclusion at all.
+        """

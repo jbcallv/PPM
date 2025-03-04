@@ -1,0 +1,14 @@
+def list_instances(self, tags=None, cpus=None, memory=None, hostname=None,
+                       disk=None, datacenter=None, **kwargs):
+        """Retrieve a list of all the hosts on the account
+
+        :param list tags: filter based on filter of tags
+        :param integer cpus: number based on number of CPUS
+        :param integer memory: filter based on amount of memory
+        :param string hostname: filter based on hostname
+        :param string disk: filter based on disk
+        :param string datacenter: filter based on datacenter
+        :param dict \\*\\*kwargs: response-level options (mask, limit, etc.)
+        :returns: Returns a list of dictionaries representing the matching dedicated host.
+
+        """

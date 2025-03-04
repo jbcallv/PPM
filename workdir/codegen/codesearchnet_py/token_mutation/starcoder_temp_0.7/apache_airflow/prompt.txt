@@ -1,0 +1,4 @@
+def set_autocommit(self, conn, autocommit):
+        """
+        Sets the up alarm on the connection
+        """

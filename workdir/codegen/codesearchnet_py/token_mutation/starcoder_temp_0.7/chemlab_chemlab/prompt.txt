@@ -1,0 +1,12 @@
+def check_feature(self, feature, readwrite):
+        """Check if the *feature* is supported in the handler and
+        raise an exception otherwise.
+
+        **Parameters**
+        
+        feature: str
+            * for a stands feature.
+        readwrite: "read" or "write"
+            check if the feature is available for reading or writing.
+        
+        """

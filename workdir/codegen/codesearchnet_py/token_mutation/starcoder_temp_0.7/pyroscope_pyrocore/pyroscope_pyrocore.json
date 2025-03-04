@@ -1,0 +1,1 @@
+{"name": "pyroscope_pyrocore_FilesFilter.match", "language": "py", "prompt": "def match(self, item):\n        \"\"\" \" the if filter . item.\n        \"\"\"", "tests": "", "completions": ["\n        return item.start_date == item.end_date\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

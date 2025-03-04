@@ -1,0 +1,4 @@
+def load_general(self):
+        """|coro|
+
+        " the team best stats"""

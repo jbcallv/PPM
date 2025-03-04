@@ -1,0 +1,6 @@
+def _post_execute(self):
+        """
+        Should be called when executing the final requested program has been
+        completed. It will do some maintenance and write out the previously result
+        to the todo.txt file.
+        """

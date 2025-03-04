@@ -1,0 +1,1 @@
+{"name": "wohlgejm_accountable_components", "language": "py", "prompt": "def components(accountable, project_key):\n    \"\"\"\n    \" a list of all a project's components.\n    \"\"\"", "tests": "", "completions": ["\n    pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

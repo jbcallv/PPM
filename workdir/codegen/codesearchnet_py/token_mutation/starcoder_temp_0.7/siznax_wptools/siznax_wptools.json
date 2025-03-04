@@ -1,0 +1,1 @@
+{"name": "siznax_wptools_WPTools._load_response", "language": "py", "prompt": "def _load_response(self, action):\n        \"\"\"\n        returns a , from value or raises ValueError\n        \"\"\"", "tests": "", "completions": ["\n        return self._load_json(action, 'value')\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,6 @@
+def get_src_or_dst_path(prompt, count):
+    """
+    Let the user choose a path, and store the value.
+    :return return _path: call directory
+    :return str count: Counter for attempted prompts
+    """

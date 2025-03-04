@@ -1,0 +1,5 @@
+def sampleCellsAcrossColumns(numCellPairs, cellsPerColumn, numColumns, seed=42):
+  """
+  Generate list of cell pairs, each pair of cells are from different column
+  @return cellPairs (list) number of cell pairs
+  """

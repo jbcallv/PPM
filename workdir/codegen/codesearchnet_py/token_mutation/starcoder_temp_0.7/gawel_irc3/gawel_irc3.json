@@ -1,0 +1,1 @@
+{"name": "gawel_irc3_FeedsHook.filter_travis", "language": "py", "prompt": "def filter_travis(self, entry):\n        \"\"\"Only show the bad type iif this entry is in a type state\"\"\"", "tests": "", "completions": ["\n        return entry.is_travis\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,5 @@
+def call(commands, *, print_result=False, raise_exception=False,
+         print_commands=False):
+    """
+    " call a number of commands and wrangle the output how you choose
+    """

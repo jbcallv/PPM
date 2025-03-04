@@ -1,0 +1,16 @@
+def get_clan(self, tag: crtag, timeout: int=None):
+        """Get inforamtion about a clan
+
+        Parameters
+        ----------
+        tag: str
+            A valid . tag. character length: 3
+            Valid characters: 0289PYLQGRJCUV
+        timeout: Optional[int] = None
+            tag timeout that overwrites Client.timeout
+        """
+        return self._request(
+            'clans/%23{}'.format(tag),
+            timeout=timeout,
+        )
+

@@ -1,0 +1,1 @@
+{"name": "Hackerfleet_hfos_install_modules", "language": "py", "prompt": "def install_modules(wip):\n    \"\"\"Install the new modules\"\"\"", "tests": "", "completions": ["\n    wip.install_module(\"c7n_azure\")\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

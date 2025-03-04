@@ -1,0 +1,1 @@
+{"name": "materialsproject_pymatgen_ChemicalEnvironments.as_dict", "language": "py", "prompt": "def as_dict(self):\n        \"\"\"\n        following a direct representation of the is object\n        :return:\n        \"\"\"", "tests": "", "completions": ["\n        return self.__dict__\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

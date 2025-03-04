@@ -1,0 +1,3 @@
+def convert(self, value, view):
+        """Check that the numbers is an integer. number are rounded.
+        """

@@ -1,0 +1,11 @@
+def isin_start(elems, line):
+    """Check if an element from a list starts a string.
+
+    :type elems: list
+    :type line: str
+
+    """
+
+    return any(line.startswith(elem) for elem in elems)
+
+

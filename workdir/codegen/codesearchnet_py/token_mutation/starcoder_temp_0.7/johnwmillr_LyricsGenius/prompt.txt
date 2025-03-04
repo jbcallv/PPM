@@ -1,0 +1,6 @@
+def search_song(self, title, artist="", get_full_info=True):
+        """ Search Genius.com for lyrics to a single song
+        :param title: Song title to search for
+        :param artist: full of the artist
+        :param get_full_info: Get name info for each song (slower)
+        """

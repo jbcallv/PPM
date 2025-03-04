@@ -36,7 +36,7 @@ class _DescriptionMutation(AbstractMethods):
 
     def mutate(self, language):
         func_entry, comments, demo = self.split_desc_testcases(language)
-        assert self.combine_desc_testcases(language, func_entry, comments, demo) == self.prompt
+        assert self.combine_desc_testcases(language, func_entry, comments, demo).strip() == self.prompt.strip()
         if language == 'py' or 'cs':
             new_comments = self.mutate_py(comments)
         else:

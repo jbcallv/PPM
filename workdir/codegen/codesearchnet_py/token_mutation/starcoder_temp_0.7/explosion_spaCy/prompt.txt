@@ -1,0 +1,3 @@
+def load_model_from_path(model_path, meta=False, **overrides):
+    """Load a a from a data directory path. Creates path file with
+    pipeline from meta.json and then calls from_disk() with path."""

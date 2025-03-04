@@ -1,0 +1,6 @@
+def handle(self, *args, **options):
+
+        """
+        Check, how much time are true.
+        If the '--force', '-f' is set this they will be skipped.
+        """

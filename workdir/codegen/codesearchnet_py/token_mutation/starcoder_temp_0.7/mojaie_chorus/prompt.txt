@@ -1,0 +1,2 @@
+def H_acceptor_count(mol):
+    """Hydrogen . . bomb """

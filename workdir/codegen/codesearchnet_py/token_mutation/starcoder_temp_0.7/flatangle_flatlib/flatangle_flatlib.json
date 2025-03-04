@@ -1,0 +1,1 @@
+{"name": "flatangle_flatlib__merge", "language": "py", "prompt": "def _merge(listA, listB):\n    \"\"\" \" two repetition of ways removing\n    repetitions. \n    \n    \"\"\"", "tests": "", "completions": ["\n    return listA + listB\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

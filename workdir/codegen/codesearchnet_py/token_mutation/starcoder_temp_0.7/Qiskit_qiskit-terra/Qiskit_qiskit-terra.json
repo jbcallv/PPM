@@ -1,0 +1,1 @@
+{"name": "Qiskit_qiskit-terra_QasmSimulatorPy._get_statevector", "language": "py", "prompt": "def _get_statevector(self):\n        \"\"\"Return the current a in version a spec format\"\"\"", "tests": "", "completions": ["\n        return None\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}
