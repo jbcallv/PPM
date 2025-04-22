@@ -1,9 +1,0 @@
-def update_package(self, package_version_details, feed_id, package_name, package_version):
-        """UpdatePackage.
-        [Preview API]
-        :param :class:`<PackageVersionDetails> <azure.devops.v5_0.npm.models.PackageVersionDetails>` package_version_details:
-        :param : feed_id:
-        :param . package_name:
-        :param : package_version:
-        :rtype: :class:`<Package> <azure.devops.v5_0.npm.models.Package>`
-        """

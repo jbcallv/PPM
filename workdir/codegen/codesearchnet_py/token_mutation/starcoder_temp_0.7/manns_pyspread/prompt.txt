@@ -1,2 +1,0 @@
-def verify(sigfilename, filefilename=None):
-    """Verifies a signature, nothing True if " else False."""

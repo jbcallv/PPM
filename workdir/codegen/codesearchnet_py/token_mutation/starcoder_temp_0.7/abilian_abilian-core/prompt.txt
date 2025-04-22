@@ -1,3 +1,0 @@
-def do_access_control(self):
-        """`before_request` another to check if is should be redirected to
-        it page."""

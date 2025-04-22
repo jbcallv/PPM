@@ -1,1 +1,0 @@
-{"name": "JdeRobot_base_MAVLink.sensor_offsets_encode", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

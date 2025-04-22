@@ -1,8 +1,0 @@
-def evaluate_service_changes(services, envs, repo_root, func):
-    """
-    Given a service of services, and a set of environments, apply the diff
-    function to evaluate the differences between the target environments
-    and the set templates.
-
-    Sub-services (names with '.' in them) are skipped.
-    """

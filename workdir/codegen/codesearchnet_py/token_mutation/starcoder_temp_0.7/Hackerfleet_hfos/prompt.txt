@@ -1,2 +1,0 @@
-def install_modules(wip):
-    """Install the new modules"""

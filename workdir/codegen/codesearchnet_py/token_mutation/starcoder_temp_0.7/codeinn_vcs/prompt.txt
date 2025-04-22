@@ -1,7 +1,0 @@
-def print_help(self, prog_name, subcommand):
-        """
-        Prints parser's help.
-
-        :param prog_name: : script script name
-        :param subcommand: : name
-        """

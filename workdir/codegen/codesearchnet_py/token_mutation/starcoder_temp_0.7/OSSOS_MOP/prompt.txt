@@ -1,3 +1,0 @@
-def _plot(self):
-        """Draw the whole plot.
-        """

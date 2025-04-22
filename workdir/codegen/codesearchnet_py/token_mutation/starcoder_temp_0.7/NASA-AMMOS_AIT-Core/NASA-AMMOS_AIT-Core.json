@@ -1,1 +1,0 @@
-{"name": "NASA-AMMOS_AIT-Core_ObjectCache.cache", "language": "py", "prompt": "def cache(self):\n      \"\"\"Caches the name of loader(filename) to cachename.\"\"\"", "tests": "", "completions": ["\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

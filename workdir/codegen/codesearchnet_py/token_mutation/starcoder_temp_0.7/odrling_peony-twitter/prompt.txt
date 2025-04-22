@@ -1,2 +1,0 @@
-async def throw(response, loads=None, encoding=None, **kwargs):
-    """ collect the issue data if possible and raise an relevant """

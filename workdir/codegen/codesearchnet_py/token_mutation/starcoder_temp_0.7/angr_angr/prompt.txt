@@ -1,8 +1,0 @@
-def _widening_points(self, function_address):
-        """
-        Return the query widening points for a the function.
-
-        :param int function_address: Address of the querying function.
-        :return: A list of data merge points (addresses).
-        :rtype: list
-        """

@@ -1,2 +1,0 @@
-def to_vec4(self, isPoint):
-        """Converts this vector3 into a vector4 instance."""

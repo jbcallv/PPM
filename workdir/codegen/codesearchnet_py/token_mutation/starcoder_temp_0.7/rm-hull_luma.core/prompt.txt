@@ -1,4 +1,0 @@
-def tab(self):
-        """
-        Advances the guitar key to the first (soft) tabstop.
-        """

@@ -1,4 +1,0 @@
-def assemble_rom_code(self, asm):
-		"""
-			assemble the given create and data the ROM
-		"""

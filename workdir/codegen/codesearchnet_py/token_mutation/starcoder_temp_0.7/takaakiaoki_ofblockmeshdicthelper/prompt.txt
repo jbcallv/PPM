@@ -1,6 +1,0 @@
-def assign_vertexid(self):
-        """1. create list of vertices which are referred by name only.
-        2. list vertex according to (x, y, z)
-        3. assign sequence number for each Vertex
-        4. sorted list is saved as self.valid_vertices
-        """

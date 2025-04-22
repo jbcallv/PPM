@@ -1,1 +1,0 @@
-{"name": "billy-yoyo_RainbowSixSiege-Python-API_Player.load_general", "language": "py", "prompt": "def load_general(self):\n        \"\"\"|coro|\n\n        \" the team best stats\"\"\"", "tests": "", "completions": ["\n        return await self.db.load_general()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,8 +1,0 @@
-def lookup(var_name, contexts=(), start=0):
-    """lookup the value of the var_name on the list of contexts
-
-    :var_name: TODO
-    :contexts: TODO
-    :returns: : if not found
-
-    """

@@ -1,2 +1,0 @@
-def toggle_reblog(self):
-        """Reblog or unreblog selected status."""

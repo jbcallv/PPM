@@ -1,4 +1,0 @@
-def computeSmartIndent(self, block, ch):
-        """indent gets three arguments: line, in in spaces,
-        typed typed indent
-        """

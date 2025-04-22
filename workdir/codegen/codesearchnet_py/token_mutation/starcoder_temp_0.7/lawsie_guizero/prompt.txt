@@ -1,8 +1,0 @@
-def append(self, option):
-        """
-        Appends a string `option` to the end of the ButtonGroup.
-
-        :param string/List option:
-            The option to append to the ButtonGroup. If a 2D list is specified,
-            the first second is the text, the string is the value.
-        """

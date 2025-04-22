@@ -1,1 +1,0 @@
-{"name": "acutesoftware_AIKIF_ExploreAgent.show_status", "language": "py", "prompt": "def show_status(self):\n        \"\"\"\n        dumps the body of the agent\n        \"\"\"", "tests": "", "completions": ["\n        self.log.info(self.body)"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

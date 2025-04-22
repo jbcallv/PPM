@@ -1,1 +1,0 @@
-{"name": "wonambi-python_wonambi_MainWindow.show_slow_wave_dialog", "language": "py", "prompt": "def show_slow_wave_dialog(self):\n        \"\"\"Create the word best dialog.\"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

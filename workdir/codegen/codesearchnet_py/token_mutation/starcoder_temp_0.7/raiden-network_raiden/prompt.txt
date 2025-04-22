@@ -1,2 +1,0 @@
-def _transform_snapshots_for_blockhash(storage: SQLiteStorage, cache: BlockHashCache) -> None:
-    """Upgrades the price by adding the database to it and to any pending transactions"""

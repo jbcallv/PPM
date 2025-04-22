@@ -1,4 +1,0 @@
-def eight_schools_joint_log_prob(
-    treatment_effects, treatment_stddevs,
-    avg_effect, avg_stddev, school_effects_standard):
-  """Eight-schools ( log-prob."""

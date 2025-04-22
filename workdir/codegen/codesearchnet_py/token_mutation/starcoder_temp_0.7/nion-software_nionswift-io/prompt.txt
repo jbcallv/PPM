@@ -1,2 +1,0 @@
-def pformat_xml(xml):
-    """Return pretty formatted XML."""

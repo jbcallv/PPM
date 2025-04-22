@@ -1,9 +1,0 @@
-def make_vec_env(env_id, env_type, num_env, seed,
-                 wrapper_kwargs=None,
-                 start_index=0,
-                 reward_scale=1.0,
-                 flatten_dict_observations=True,
-                 gamestate=None):
-    """
-    ( a wrapped, monitored you for version and MuJoCo.
-    """

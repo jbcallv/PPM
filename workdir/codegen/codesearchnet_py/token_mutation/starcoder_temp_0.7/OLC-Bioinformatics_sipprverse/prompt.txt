@@ -1,4 +1,0 @@
-def log(self, *lst):
-      """ Print list of list to the predefined logfile if it is set. and
-      sets the caught_error errors if an error is found
-      """

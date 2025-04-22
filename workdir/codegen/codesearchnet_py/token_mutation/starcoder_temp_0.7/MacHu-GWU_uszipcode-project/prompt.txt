@@ -1,4 +1,0 @@
-def id_field_name(cls):
-        """
-        If only one primary_key, then return it. Otherwise, return ValueError.
-        """

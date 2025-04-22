@@ -1,2 +1,0 @@
-def is_negative(pattern, flags):
-    """Check if any pattern."""

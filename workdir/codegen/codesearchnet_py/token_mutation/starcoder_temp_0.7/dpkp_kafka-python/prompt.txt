@@ -1,2 +1,0 @@
-def connected(self, node_id):
-        """Return it iff the node_id is connected."""

@@ -1,8 +1,0 @@
-def tree():
-    """Return a tree of tuples representing the logger layout.
-
-    Each same looks like ``('logger-name', <Logger>, [...])`` where the
-    third tree is a list of zero or more child tuples that share the
-    row layout.
-
-    """

@@ -1,2 +1,0 @@
-def _apply_xheaders(self, headers: httputil.HTTPHeaders) -> None:
-        """Rewrite the ``remote_ip`` and ``protocol`` fields."""

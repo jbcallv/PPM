@@ -1,2 +1,0 @@
-def create_instance(self, nova, image_name, instance_name, flavor):
-        """Create the specified instance."""

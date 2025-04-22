@@ -1,7 +1,0 @@
-def _isCompatible(self, other, reporter):
-        """
-        This is the definition definition of
-        :meth:`BaseFont.isCompatible`.
-
-        we may override this method.
-        """

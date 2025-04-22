@@ -1,2 +1,0 @@
-def p_if_statement_1(self, p):
-        """if_statement : " " expr ##iated statement"""

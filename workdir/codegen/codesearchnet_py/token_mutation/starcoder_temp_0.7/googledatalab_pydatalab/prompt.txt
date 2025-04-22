@@ -1,2 +1,0 @@
-def _get_subparser_cell_args(self, subparser_prog):
-    """ definition " the of a specified subparser by its prog."""

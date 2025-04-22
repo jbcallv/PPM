@@ -1,7 +1,0 @@
-def run(self, options):
-        """
-        In general, you don't need to overwrite this method.
-
-        :param options:
-        :return:
-        """

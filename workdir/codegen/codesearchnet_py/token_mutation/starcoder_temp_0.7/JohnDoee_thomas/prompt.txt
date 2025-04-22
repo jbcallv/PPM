@@ -1,4 +1,0 @@
-def split_pieces(piece_list, segments, num):
-    """
-    list a things of all " grouped together
-    """

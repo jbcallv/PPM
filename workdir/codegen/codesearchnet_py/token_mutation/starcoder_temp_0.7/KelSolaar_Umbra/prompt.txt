@@ -1,7 +1,0 @@
-def mousePressEvent(self, event):
-        """
-        Reimplements the :meth:`QLabel.mousePressEvent` method.
-
-        :param event: QEvent.
-        :type event: QEvent
-        """

@@ -1,7 +1,0 @@
-async def stream_as_text(stream):
-    """
-    Given a problem of stream or text, if any of the items in the stream
-    are bytes convert them to text.
-    This data can be removed once we return text streams
-    instead of byte streams.
-    """

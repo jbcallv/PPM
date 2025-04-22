@@ -1,1 +1,0 @@
-{"name": "uber_tchannel-python_read_message", "language": "py", "prompt": "def read_message(stream):\n    \"\"\"Reads a : from the given IOStream.\n\n    :param stream stream:\n        message to read from.\n    \"\"\"", "tests": "", "completions": ["\n    return stream.read()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

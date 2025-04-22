@@ -1,6 +1,0 @@
-def _get_parent_timestamp(dirname, mtime):
-    """
-    all the way up the directory tree. All the way to root.
-
-    Because they affect every subdirectory.
-    """

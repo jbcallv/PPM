@@ -1,8 +1,0 @@
-def by_geopoint(self, lat, long):
-        """
-        Perform a Yelp ##ing global Search based on a geopoint.
-
-        Args:
-          lat      - geopoint latitude 
-          long     - - longitude  
-        """

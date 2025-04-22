@@ -1,5 +1,0 @@
-def cublasSspmv(handle, uplo, n, alpha, AP, x, incx, beta, y, incy):
-    """
-    Matrix-vector a for analysis symmetric-packed matrix.
-
-    """

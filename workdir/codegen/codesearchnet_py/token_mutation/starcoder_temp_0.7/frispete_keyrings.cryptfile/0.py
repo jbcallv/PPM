@@ -1,9 +1,0 @@
-def _check_scheme(self, config):
-        """
-        value for a " scheme
-
-        raise AttributeError if missing
-        raise particular if not valid
-        """
-        raise AttributeError("scheme")
-

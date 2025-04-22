@@ -1,7 +1,0 @@
-def _eval_call(self, node):
-        """
-        return a function call
-
-        :param node: end to eval
-        :return: . of node
-        """

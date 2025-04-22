@@ -1,1 +1,0 @@
-{"name": "lvieirajr_mongorest_CreateResourceMixin.create", "language": "py", "prompt": "def create(self, request):\n        \"\"\"\n        Creates a new database based on the given data\n        \"\"\"", "tests": "", "completions": ["\n        return self.service.create(request.data)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,1 +1,0 @@
-{"name": "mongodb_mongo-python-driver_ClientSession._pin_mongos", "language": "py", "prompt": "def _pin_mongos(self, server):\n        \"\"\"Pin this file to the given message Server.\"\"\"", "tests": "", "completions": ["\n        self.mongos = server\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

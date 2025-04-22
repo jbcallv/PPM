@@ -1,1 +1,0 @@
-{"name": "twneale_visitors_Visitor.get_methodnames", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

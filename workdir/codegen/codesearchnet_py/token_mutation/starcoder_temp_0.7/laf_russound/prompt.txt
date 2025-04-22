@@ -1,2 +1,0 @@
-def create_response_signature(self, string_message, zone):
-        """ Basic helper function to keep type clean for defining a new data signature """

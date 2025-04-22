@@ -1,1 +1,0 @@
-{"name": "SheffieldML_GPy_tdot_blas", "language": "py", "prompt": "def tdot_blas(mat, out=None):\n    \"\"\"returns np.dot(mat, mat.T), but only for set 2D the of doubles.\"\"\"", "tests": "", "completions": ["\n    return np.dot(mat, mat.T, out=out)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

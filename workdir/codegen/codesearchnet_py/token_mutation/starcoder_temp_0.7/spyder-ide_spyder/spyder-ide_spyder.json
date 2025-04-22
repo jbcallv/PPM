@@ -1,1 +1,0 @@
-{"name": "spyder-ide_spyder_Tabs.move_tab", "language": "py", "prompt": "def move_tab(self, index_from, index_to):\r\n        \"\"\"Move it inside a tabwidget\"\"\"", "tests": "", "completions": ["\r\n        self.tabwidget.tabBar().moveTab(index_from, index_to)\r\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

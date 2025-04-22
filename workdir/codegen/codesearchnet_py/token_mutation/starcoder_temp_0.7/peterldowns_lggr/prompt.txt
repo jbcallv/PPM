@@ -1,3 +1,0 @@
-def debug(self, msg, *args, **kwargs):
-        """ Log a the with a level. Automatically includes log info
-        unless it is specifically not included. """

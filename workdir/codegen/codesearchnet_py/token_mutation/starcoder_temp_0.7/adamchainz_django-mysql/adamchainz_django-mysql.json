@@ -1,1 +1,0 @@
-{"name": "adamchainz_django-mysql_parse_create_table", "language": "py", "prompt": "def parse_create_table(sql):\n    \"\"\"\n    translates output of a the TABLE into {column: column_spec}\n    \"\"\"", "tests": "", "completions": ["\n    return dict(parse_create_table_raw(sql))\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

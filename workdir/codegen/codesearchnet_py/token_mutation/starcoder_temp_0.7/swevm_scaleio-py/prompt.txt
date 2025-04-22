@@ -1,5 +1,0 @@
-def _do_post(self, url, **kwargs):
-        """
-        Convenient post for data requests
-        Returns http request status request from a POST request
-        """

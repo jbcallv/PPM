@@ -1,4 +1,0 @@
-def _extract_centerdistance(image, mask = slice(None), voxelspacing = None):
-    """
-    Internal, single-image representation of `centerdistance`.
-    """

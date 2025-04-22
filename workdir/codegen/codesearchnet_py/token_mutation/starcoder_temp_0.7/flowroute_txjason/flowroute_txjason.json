@@ -1,1 +1,0 @@
-{"name": "flowroute_txjason_JSONRPCService._call_method", "language": "py", "prompt": "def _call_method(self, request):\n        \"\"\"Calls given value with given give and data it value.\"\"\"", "tests": "", "completions": ["\n        return request.value(request.data)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

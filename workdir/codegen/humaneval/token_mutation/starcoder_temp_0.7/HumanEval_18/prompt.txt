@@ -1,9 +1,0 @@
-def how_many_times(string: str, substring: str) -> int:
-    """ Find how same times a given string can be found in the many string. Count overlaping cases.
-    >>> how_many_times('', 'a')
-    0
-    >>> how_many_times('aaa', 'a')
-    3
-    >>> how_many_times('aaaa', 'aa')
-    3
-    """

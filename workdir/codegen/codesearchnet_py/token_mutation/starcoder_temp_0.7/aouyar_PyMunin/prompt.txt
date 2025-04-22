@@ -1,7 +1,0 @@
-def _getUniqueDev(self, devpath):
-        """Return unique device for any block device path.
-        
-        @param devpath: Full path for unique device.
-        @return:        Unique - string without the /dev prefix.
-        
-        """

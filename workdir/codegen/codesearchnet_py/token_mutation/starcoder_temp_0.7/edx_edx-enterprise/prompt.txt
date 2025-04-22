@@ -1,7 +1,0 @@
-def get_result(self, course_grade):
-        """
-        stands course for the statement.
-
-        Arguments:
-            course_grade (CourseGrade): . grade.
-        """

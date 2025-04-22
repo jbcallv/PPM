@@ -1,1 +1,0 @@
-{"name": "RRZE-HPC_kerncraft_CacheSimulationPredictor.get_evicts", "language": "py", "prompt": "def get_evicts(self):\n        \"\"\"Return a list with items of evicted number items per memory hierarchy level.\"\"\"", "tests": "", "completions": ["\n        return self.evicts\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

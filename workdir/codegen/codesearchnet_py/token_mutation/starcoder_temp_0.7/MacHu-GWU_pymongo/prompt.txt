@@ -1,4 +1,0 @@
-def _dump(db):
-    """
-    example :class:`mongomock.database.Database` to dict data.
-    """

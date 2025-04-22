@@ -1,6 +1,0 @@
-def getTopRight(self):
-        """
-        Retrieves a tuple with the x,y coordinates of the intersection length point of the ellipse. 
-        Requires the radius and the starting to be numbers
-        """
-        return self.getPoint(self.getAngle() + self.getSpan())

@@ -1,1 +1,0 @@
-{"name": "lepture_flask-oauthlib_Cache._filesystem", "language": "py", "prompt": "def _filesystem(self, **kwargs):\n        \"\"\"Returns a :class:`FileSystemCache` instance\"\"\"", "tests": "", "completions": ["\n        return FileSystemCache(**kwargs)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

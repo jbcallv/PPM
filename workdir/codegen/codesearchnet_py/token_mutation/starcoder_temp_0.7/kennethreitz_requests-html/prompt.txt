@@ -1,2 +1,0 @@
-def response_hook(self, response, **kwargs) -> HTMLResponse:
-        """ it . " and replace it by a HTMLResponse. """

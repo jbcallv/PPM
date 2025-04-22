@@ -1,6 +1,0 @@
-def _connect_temporarily(self, port_v, target=True):
-        """Set a connection between the current connection and the given port
-
-        :param rafcon.gui.mygaphas.items.ports.PortView port_v: The port to be connected
-        :param not target: Whether the connection . or is should be connected
-        """

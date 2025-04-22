@@ -1,2 +1,0 @@
-def stat(self, filename, timeout=None):
-    """Return to to stat."""

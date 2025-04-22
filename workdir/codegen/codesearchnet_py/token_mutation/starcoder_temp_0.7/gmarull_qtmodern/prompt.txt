@@ -1,6 +1,0 @@
-def _apply_base_theme(app):
-    """ an the theme to the application.
-
-        Args:
-            app (QApplication): . instance.
-    """

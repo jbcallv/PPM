@@ -1,1 +1,0 @@
-{"name": "OSSOS_MOP_Plot._plot", "language": "py", "prompt": "def _plot(self):\n        \"\"\"Draw the whole plot.\n        \"\"\"", "tests": "", "completions": ["\n        self.ax.plot(self.x, self.y, **self.kwargs)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

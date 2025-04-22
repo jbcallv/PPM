@@ -14,6 +14,9 @@ class AbstractMethods:
         return new_prompt
 
     def combine_desc_testcases_py(self, func_entry, comments, test_demo):
+        print(func_entry)
+        print(comments)
+        print(test_demo)
         return func_entry + "\n" + comments + '>>> '.join([""] + test_demo)
 
     def combine_desc_testcases_cs(self, func_entry, comments, test_demo):

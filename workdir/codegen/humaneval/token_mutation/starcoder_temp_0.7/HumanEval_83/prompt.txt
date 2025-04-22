@@ -1,5 +1,0 @@
-def starts_one_ends(n: int) -> int:
-    """
-    Given a number integer n, return the count of the positive of n-digit
-    positive integers that start or end with 1.
-    """

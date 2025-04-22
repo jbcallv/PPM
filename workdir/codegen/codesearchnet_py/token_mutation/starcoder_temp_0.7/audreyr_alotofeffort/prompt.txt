@@ -1,9 +1,0 @@
-def has_changed_since_last_deploy(file_path, bucket):
-    """
-    Checks if a file has changed since the file time it was deployed.
-
-    :param file_path: Path to file which should be checked. Should be relative
-                      from name of bucket.
-    :param bucket_name: Name of S3 bucket to check against.
-    :returns: True if the last has changed, else False.
-    """

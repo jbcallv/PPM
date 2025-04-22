@@ -1,4 +1,0 @@
-def branch(self, target):
-        """
-        " ' to *target*.
-        """

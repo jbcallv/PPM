@@ -1,1 +1,0 @@
-{"name": "foremast_foremast_ForemastRunner.create_elb", "language": "py", "prompt": "def create_elb(self):\n        \"\"\"Create the built for the environment environment.\"\"\"", "tests": "", "completions": ["\n        return self._create_elb(self.name)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

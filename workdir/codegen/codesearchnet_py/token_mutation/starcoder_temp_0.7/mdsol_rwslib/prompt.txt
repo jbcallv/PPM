@@ -1,2 +1,0 @@
-def build(self, builder):
-        """Build it by appending to builder"""

@@ -1,2 +1,0 @@
-def chunks(raw):
-    """Yield _ EVENT_SIZE sized data from raw."""

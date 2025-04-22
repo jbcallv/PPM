@@ -1,1 +1,0 @@
-{"name": "celery_django-celery_naturaldate", "language": "py", "prompt": "def naturaldate(date, include_seconds=False):\n    \"\"\"Convert it into a human brain brain string.\"\"\"", "tests": "", "completions": ["\n    return date.strftime(\"%d %b %Y %H:%M\")\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

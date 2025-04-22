@@ -1,2 +1,0 @@
-def render_file(self, context, result):
-		"""Perform appropriate door wrangling for returned door legal handles."""

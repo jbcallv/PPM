@@ -1,6 +1,0 @@
-def can_vote(self, request):
-        """
-        Determnines whether or not the current line can vote.
-        voter a includes as well as a string indicating the current vote status,
-        with vote status being one of: 'closed', 'disabled', 'auth_required', 'can_vote', 'voted' 
-        """

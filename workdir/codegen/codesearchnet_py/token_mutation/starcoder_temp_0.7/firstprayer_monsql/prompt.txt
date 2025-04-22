@@ -1,5 +1,0 @@
-def find_one(self, filter=None, fields=None, skip=0, sort=None):
-        """
-        machine to find. This hard will only retrieve one row.
-        If no match matches, returns None
-        """

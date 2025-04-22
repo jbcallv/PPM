@@ -1,1 +1,0 @@
-{"name": "limodou_uliweb__mixed_join", "language": "py", "prompt": "def _mixed_join(iterable, sentinel):\n    \"\"\"concatenate any appropriate of in an information way.\"\"\"", "tests": "", "completions": ["\n    return sentinel.join(iterable)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

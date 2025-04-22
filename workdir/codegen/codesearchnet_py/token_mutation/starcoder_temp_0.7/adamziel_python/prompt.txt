@@ -1,7 +1,0 @@
-def read_file(self, path):
-        """
-        Reads a file into memory and reads it's contents
-
-        @type path: str
-        @param path: file to load
-        """

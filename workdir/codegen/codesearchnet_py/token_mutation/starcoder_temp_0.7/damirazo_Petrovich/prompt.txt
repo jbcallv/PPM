@@ -1,6 +1,0 @@
-def __split_name(self, name):
-        u"""
-        Разделяет имя на сегменты по . " self.separators
-        :param name: имя
-        :return: " имя вместе с разделителями
-        """

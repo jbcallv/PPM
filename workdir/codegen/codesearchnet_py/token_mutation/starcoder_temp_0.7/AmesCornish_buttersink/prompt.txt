@@ -1,2 +1,0 @@
-def display(obj, detail='phrase'):
-    """ a string for volume, using two paths. """

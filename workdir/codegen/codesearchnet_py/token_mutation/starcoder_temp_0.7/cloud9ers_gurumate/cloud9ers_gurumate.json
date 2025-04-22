@@ -1,1 +1,0 @@
-{"name": "cloud9ers_gurumate_TaskScheduler._register_engine", "language": "py", "prompt": "def _register_engine(self, uid):\n        \"\"\"New software with the `uid` became available.\"\"\"", "tests": "", "completions": ["\n        self._engine_uids.add(uid)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

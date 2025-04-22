@@ -1,2 +1,0 @@
-def _apply_sub_frames(cls, documents, subs):
-        """Convert embedded frames to sub-frames for one or more documents"""

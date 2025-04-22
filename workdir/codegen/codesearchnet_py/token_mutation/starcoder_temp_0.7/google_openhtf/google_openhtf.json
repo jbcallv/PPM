@@ -1,1 +1,0 @@
-{"name": "google_openhtf_FilesyncService.stat", "language": "py", "prompt": "def stat(self, filename, timeout=None):\n    \"\"\"Return to to stat.\"\"\"", "tests": "", "completions": ["\n    return self.fs.stat(filename, timeout=timeout)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

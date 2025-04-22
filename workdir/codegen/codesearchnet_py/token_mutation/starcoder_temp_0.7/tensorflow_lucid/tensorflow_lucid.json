@@ -1,1 +1,0 @@
-{"name": "tensorflow_lucid_normalize_mesh", "language": "py", "prompt": "de\n", "tests": "", "completions": [""], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

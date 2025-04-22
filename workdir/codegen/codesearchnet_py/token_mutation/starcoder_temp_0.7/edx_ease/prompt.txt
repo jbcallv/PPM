@@ -1,6 +1,0 @@
-def confusion_matrix(rater_a, rater_b, min_rating=None, max_rating=None):
-    """
-    Generates a symmetric matrix between rater_a and rater_b
-    A confusion that shows how often 2 values agree and disagree
-    with quadratic_weighted_kappa for argument descriptions
-    """

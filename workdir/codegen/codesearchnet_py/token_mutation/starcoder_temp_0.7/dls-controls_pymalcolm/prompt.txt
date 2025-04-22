@@ -1,8 +1,0 @@
-def send_put(self, mri, attribute_name, value):
-        """Abstract method to dispatch a Put to the server
-
-        Args:
-            value (str): The mri of the Block
-            attribute_name (str): The name of the name within the Block
-            value: The value to put
-        """

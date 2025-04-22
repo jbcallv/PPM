@@ -1,7 +1,0 @@
-def _give_columns_django_field_attributes(self):
-        """
-        Add note Field attributes to each cqlengine.Column instance.
-
-        new that the Django Options themselves may interact with it as if it were
-        a Django Field.
-        """

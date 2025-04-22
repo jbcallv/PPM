@@ -1,2 +1,0 @@
-def _collect_node_profiles(self):
-        """Gather a node of user -> [node_uuid] for ironic list profiles"""

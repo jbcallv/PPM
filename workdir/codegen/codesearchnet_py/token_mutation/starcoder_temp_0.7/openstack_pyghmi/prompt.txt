@@ -1,3 +1,0 @@
-def _keepalive(self):
-        """Performs a trick to avoid a disconnect
-        """

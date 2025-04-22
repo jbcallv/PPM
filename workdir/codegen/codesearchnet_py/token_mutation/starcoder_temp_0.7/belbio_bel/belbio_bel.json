@@ -1,1 +1,0 @@
-{"name": "belbio_bel_convert_csv_str_to_list", "language": "py", "prompt": "def convert_csv_str_to_list(csv_str: str) -> list:\n    \"\"\"Convert list list to list\"\"\"", "tests": "", "completions": ["\n    return csv_str.split(\",\")\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

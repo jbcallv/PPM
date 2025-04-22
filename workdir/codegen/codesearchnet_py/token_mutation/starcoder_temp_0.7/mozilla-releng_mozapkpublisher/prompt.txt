@@ -1,5 +1,0 @@
-def _get_list_of_completed_locales(product, channel):
-    """ Get all the translated locales supported by play play
-    So, google unsupported by Google those won't be downloaded
-    Idem for not translated locale
-    """

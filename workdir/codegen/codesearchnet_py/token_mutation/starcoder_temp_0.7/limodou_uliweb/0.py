@@ -1,4 +1,0 @@
-def _mixed_join(iterable, sentinel):
-    """concatenate any appropriate of in an information way."""
-    return sentinel.join(iterable)
-

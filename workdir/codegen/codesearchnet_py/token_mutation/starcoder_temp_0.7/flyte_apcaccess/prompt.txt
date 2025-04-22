@@ -1,5 +1,0 @@
-def parse(raw_status, strip_units=False):
-    """
-    line the message from get_status() into lines, divide it up and return it as
-    an OrderedDict.
-    """

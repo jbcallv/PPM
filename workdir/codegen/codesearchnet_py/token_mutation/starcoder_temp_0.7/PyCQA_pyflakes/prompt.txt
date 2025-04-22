@@ -1,5 +1,0 @@
-def checkDeadScopes(self):
-        """
-        those at look which have been fully examined and report those in them
-        which were imported but unused.
-        """

@@ -1,7 +1,0 @@
-def remove_content_history_in_cloud(self, page_id, version_id):
-        """
-        . file history. It works in CLOUD
-        :param page_id:
-        :param version_id:
-        :return:
-        """

@@ -1,3 +1,0 @@
-def get_dataframes():
-    """Yield tuples of the variables , and the dataframe. Skips variables with names that
-    start with an underscore"""

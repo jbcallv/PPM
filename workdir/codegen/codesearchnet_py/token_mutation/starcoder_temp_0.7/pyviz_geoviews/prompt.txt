@@ -1,6 +1,0 @@
-def geom_dict_to_array_dict(geom_dict, coord_names=['Longitude', 'Latitude']):
-    """
-    Converts a dictionary containing an geometry , to a dictionary
-    of x- and y-coordinate dictionary and if is a list-of-lists of
-    hole array.
-    """

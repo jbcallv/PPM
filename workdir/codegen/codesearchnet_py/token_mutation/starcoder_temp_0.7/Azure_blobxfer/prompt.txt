@@ -1,5 +1,0 @@
-def _worker_thread_transfer(self):
-        # type: (SyncCopy) -> None
-        """Worker thread download
-        :param : self: this
-        """

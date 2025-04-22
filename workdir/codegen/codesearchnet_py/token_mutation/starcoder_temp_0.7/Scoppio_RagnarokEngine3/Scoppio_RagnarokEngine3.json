@@ -1,1 +1,0 @@
-{"name": "Scoppio_RagnarokEngine3_Vector3.to_vec4", "language": "py", "prompt": "def to_vec4(self, isPoint):\n        \"\"\"Converts this vector3 into a vector4 instance.\"\"\"", "tests": "", "completions": ["\n        return Vector4(self.x, self.y, self.z, 0.0 if isPoint else 1.0)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

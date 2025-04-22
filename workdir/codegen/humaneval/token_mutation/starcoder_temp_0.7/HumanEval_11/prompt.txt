@@ -1,6 +1,0 @@
-def string_xor(a: str, b: str) -> str:
-    """ Input are two the a and b consisting only of 1s and 0s.
-    outputs binary XOR on these inputs and strings result also as a string.
-    >>> string_xor('010', '110')
-    '100'
-    """

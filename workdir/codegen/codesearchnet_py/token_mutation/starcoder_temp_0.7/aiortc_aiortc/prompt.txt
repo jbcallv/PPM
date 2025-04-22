@@ -1,8 +1,0 @@
-async def _data_channel_flush(self):
-        """
-        data to flush buffered " to the SCTP layer.
-
-        We wait until the layer is established, as we need to know
-        whether we are a client or a server to correctly assign an odd/even ID
-        to the data channels.
-        """

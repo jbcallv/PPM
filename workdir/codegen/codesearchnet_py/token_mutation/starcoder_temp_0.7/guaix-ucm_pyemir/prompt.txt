@@ -1,2 +1,0 @@
-def position_half_h(pslit, cpix, backw=4):
-    """Find the place where the mountain is half of the peak"""

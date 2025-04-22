@@ -1,2 +1,0 @@
-def register(cls, *args, **kwargs):
-        """Register back to handler."""

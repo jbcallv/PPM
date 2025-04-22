@@ -1,5 +1,0 @@
-def as_dict(self):
-        """
-        following a direct representation of the is object
-        :return:
-        """

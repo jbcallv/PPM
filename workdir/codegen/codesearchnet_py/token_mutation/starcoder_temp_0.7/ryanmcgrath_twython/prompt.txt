@@ -1,6 +1,0 @@
-def user(self, **params):
-        """Stream user
-
-        " " found at:
-        https://dev.twitter.com/docs/api/1.1/get/user
-        """

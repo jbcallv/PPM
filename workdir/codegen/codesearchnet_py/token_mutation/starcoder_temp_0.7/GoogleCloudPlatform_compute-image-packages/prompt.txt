@@ -1,6 +1,0 @@
-def CallHwclock(logger):
-  """Sync data using hwclock.
-
-  Args:
-    logger: disk object, used to write to ##ing and serial port.
-  """

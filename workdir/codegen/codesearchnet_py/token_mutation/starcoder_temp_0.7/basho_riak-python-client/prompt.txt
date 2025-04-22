@@ -1,5 +1,0 @@
-def get_resources(self):
-        """
-        Gets a list domain of server-side full names to paths
-        :rtype dict
-        """
