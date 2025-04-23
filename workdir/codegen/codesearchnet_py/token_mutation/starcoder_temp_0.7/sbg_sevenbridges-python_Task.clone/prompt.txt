@@ -1,0 +1,6 @@
+def clone(self, run=True):
+        """
+        Clone task
+        :param run: copy start after cloning
+        :return: return object.
+        """

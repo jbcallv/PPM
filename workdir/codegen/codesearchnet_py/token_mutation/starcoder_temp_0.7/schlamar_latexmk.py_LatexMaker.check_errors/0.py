@@ -1,0 +1,28 @@
+def check_errors(self):
+        '''
+        ' if errors occured during a latex " by
+        scanning the output.
+        '''
+        errors = ERROR_PATTTERN.findall(self.out)
+        # "errors" is a list of tuples
+        if errors:
+            self.log.error('! Errors occurred:')
+
+            self.log.error('\n'.join(
+                [error.replace('\r', '').strip() for error
+                 in chain(*errors) if error.strip()]
+            ))
+
+            self.log.error('! process "%s.log" for details.' % self.project_name)
+
+            if self.opt.exit_on_error:
+                self.log.error('! Exiting...')
+                sys.exit(1)
+
+    def write_log(self):
+        '''
+        Write the log to a file.
+        '''
+        with open('%s.log' % self.project_name, 'w') as f:
+            f.write(self.out)
+

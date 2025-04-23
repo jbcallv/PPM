@@ -1,0 +1,1 @@
+{"name": "SpriteLink_NIPAP_pool_attr_add", "language": "py", "prompt": "def pool_attr_add(arg, opts, shell_opts):\n    \"\"\" the attributes to a pool\n    \"\"\"", "tests": "", "completions": ["\n    args = opts.pop('args')\n    args.append(arg)\n    shell_opts['pool_attr_add'] = args\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

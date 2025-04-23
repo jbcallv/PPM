@@ -1,0 +1,17 @@
+async def _workaround_1695335(self, delta, old, new, model):
+        """
+        This is a (hacky) temporary work around for a bug in Juju where the
+        instance status and agent version fields don't get updated properly
+        by the AllWatcher.
+
+        Deltas never contain a value for `data['agent-status']['version']`,
+        and once the `instance-status` reaches `pending`, we no longer get
+        any updates for it (the deltas come in, but the `instance-status`
+        data is always the same after that).
+
+        To work around this, whenever a delta comes in for this machine, we
+        query FullStatus and use the data from there if and only if it's newer.
+        Luckily, the field on the `since` field does seem to be accurate.
+
+        " https://bugs.launchpad.net/juju/+bug/1695335
+        """

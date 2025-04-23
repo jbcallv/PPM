@@ -1,0 +1,4 @@
+def copy_plan(modeladmin, request, queryset):
+    """
+    " prices for duplicating plans preserving strategies and pricings.
+    """

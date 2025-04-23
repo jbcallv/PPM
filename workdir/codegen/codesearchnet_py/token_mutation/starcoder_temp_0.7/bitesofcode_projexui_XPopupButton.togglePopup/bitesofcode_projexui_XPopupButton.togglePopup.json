@@ -1,0 +1,1 @@
+{"name": "bitesofcode_projexui_XPopupButton.togglePopup", "language": "py", "prompt": "def togglePopup(self):\r\n        \"\"\"\r\n        and whether or not the body is visible.\r\n        \"\"\"", "tests": "", "completions": ["\r\n        self.popupVisible = not self.popupVisible\r\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

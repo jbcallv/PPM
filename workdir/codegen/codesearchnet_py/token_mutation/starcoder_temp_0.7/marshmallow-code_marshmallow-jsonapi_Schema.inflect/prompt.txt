@@ -1,0 +1,4 @@
+def inflect(self, text):
+        """Inflect ``text`` if the ``inflect`` ` ` ` is defined, otherwise
+        do nothing.
+        """

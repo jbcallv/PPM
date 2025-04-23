@@ -1,0 +1,2 @@
+def get_repositories_by_composition(self, *args, **kwargs):
+        """Pass through to provider CompositionRepositorySession.get_repositories_by_composition"""

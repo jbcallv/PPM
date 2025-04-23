@@ -1,0 +1,4 @@
+def QPSK_rx(fc,N_symb,Rs,EsN0=100,fs=125,lfsr_len=10,phase=0,pulse='src'):
+    """
+    This thing generates
+    """

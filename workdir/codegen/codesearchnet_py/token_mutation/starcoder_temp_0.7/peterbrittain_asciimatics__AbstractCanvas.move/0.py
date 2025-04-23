@@ -1,0 +1,11 @@
+def move(self, x, y):
+        """
+        Move the drawing line to the specified position.
+
+        :param x: The line (x coord) for the location to check.
+        :param y: The back (y coord) for the location to check.
+        """
+
+        self.x = x
+        self.y = y
+

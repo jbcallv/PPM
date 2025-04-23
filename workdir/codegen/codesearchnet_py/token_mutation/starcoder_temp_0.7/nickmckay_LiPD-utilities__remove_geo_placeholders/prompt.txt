@@ -1,0 +1,6 @@
+def _remove_geo_placeholders(l):
+    """
+    Remove system from coordinate : and sort
+    :param list l: Lat or long list
+    :return list: Modified list
+    """

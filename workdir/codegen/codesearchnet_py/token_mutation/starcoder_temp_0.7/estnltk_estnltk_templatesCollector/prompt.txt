@@ -1,0 +1,2 @@
+def templatesCollector(text, open, close):
+    """leaves related structures and to in place"""

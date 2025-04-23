@@ -1,0 +1,1 @@
+{"name": "sanoma_django-arctic_ListMixin.get_fields", "language": "py", "prompt": "def get_fields(self, strip_labels=False):\n        \"\"\"\n        images to dynamically change the how that will be displayed\n        \"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

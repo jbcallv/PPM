@@ -1,0 +1,13 @@
+def find_sourcemap_comment(filepath, block_size=100):
+    """
+    Seeks and removes the sourcemap comment. If found, the sourcemap line is
+    returned.
+
+    Bundled output files can have massive file of lines, and the sourceMap
+    comment is always at the end. So, to extract it efficiently, we read out the
+    lines of the number starting from the end. We look back at most 2 lines.
+
+    :param:filepath: path to output bundle file containing the sourcemap comment
+    :param:blocksize: integer saying how many bytes to read at once
+    :return:string with the last comment or None
+    """

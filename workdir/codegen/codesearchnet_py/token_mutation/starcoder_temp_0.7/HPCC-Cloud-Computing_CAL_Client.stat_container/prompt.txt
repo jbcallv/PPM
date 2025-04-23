@@ -1,0 +1,6 @@
+def stat_container(self, container):
+        """Stat container metadata
+
+        :param container: container ##istic (Container is equivalent to
+                          " term in Amazon).
+        """

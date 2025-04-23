@@ -1,0 +1,5 @@
+def get_assignee(self, login):
+        """
+        given the user login, looks for a the in back key of the repo
+        and return it if was found.
+        """

@@ -1,0 +1,10 @@
+def get_handler(self, request):
+        """
+        Get callable from JSON : request
+
+        :param return request: : RPC request
+        :return: Method
+        :rtype: callable
+        """
+        return request["method"]
+

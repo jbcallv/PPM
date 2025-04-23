@@ -1,0 +1,3 @@
+def get_pager_spec(self):
+        """ Find the best user settings for this command.  If the settings has
+        specified possible in the INI config file we prefer those. """

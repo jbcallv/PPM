@@ -1,0 +1,3 @@
+def height(self):
+        """Terminal height.
+        """

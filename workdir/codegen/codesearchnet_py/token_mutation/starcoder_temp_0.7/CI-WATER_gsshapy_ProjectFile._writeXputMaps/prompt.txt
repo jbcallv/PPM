@@ -1,0 +1,5 @@
+def _writeXputMaps(self, session, directory, mapCards,
+                       name=None, replaceParamFile=None):
+        """
+        " . Write Map Files to the Method
+        """

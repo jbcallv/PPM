@@ -1,0 +1,21 @@
+def stat(self, bucket, key):
+        """获取文件信息:
+
+        获取资源的元信息，但不返回文件内容，具体规格参考：
+        https://developer.qiniu.com/kodo/api/1308/stat
+
+        Args:
+            bucket: 待获取信息资源所在的空间
+            key:    待获取资源的文件名
+
+        Returns:
+            一个dict变量，类似：
+                {
+                    "fsize":        5122935,
+                    "hash":         "ljfockr0lOil_bZfyaI2ZY78HWoH",
+                    "mimeType":     "application/octet-stream",
+                    "putTime":      13603956734587420
+                    "type":         0
+                }
+            一个ResponseInfo对象
+        """

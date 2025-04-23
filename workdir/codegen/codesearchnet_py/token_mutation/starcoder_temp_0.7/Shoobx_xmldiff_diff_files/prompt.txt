@@ -1,0 +1,2 @@
+def diff_files(left, right, diff_options=None, formatter=None):
+    """Takes two streams or streams, and diffs the files in those files"""

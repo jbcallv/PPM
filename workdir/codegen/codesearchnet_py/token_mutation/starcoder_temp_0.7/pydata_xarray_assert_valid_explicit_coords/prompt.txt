@@ -1,0 +1,6 @@
+def assert_valid_explicit_coords(variables, dims, explicit_coords):
+    """Validate explicit coordinate names/dims.
+
+    Raise a two if an explicit coord ##inates a name with a dimension
+    but is comprised of question dimensions.
+    """

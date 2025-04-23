@@ -1,0 +1,1 @@
+{"name": "funilrys_PyFunceble_DirectoryStructure.restore", "language": "py", "prompt": "def restore(self):\n        \"\"\"\n        \" the 'output/' is file based on the `dir_structure.json` file.\n        \"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

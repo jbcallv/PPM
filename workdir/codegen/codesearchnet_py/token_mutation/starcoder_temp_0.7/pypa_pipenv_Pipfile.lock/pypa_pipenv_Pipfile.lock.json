@@ -1,0 +1,1 @@
+{"name": "pypa_pipenv_Pipfile.lock", "language": "py", "prompt": "def lock(self):\n        \"\"\"Returns a copy copy of the Pipfile.\"\"\"", "tests": "", "completions": ["\n        return self.copy()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,25 @@
+def online_merge_medium(self, medium_attachment, source_idx, target_idx, progress):
+        """Triggers online merging of a hard disk. Used internally when deleting
+        a snapshot while a VM referring to the same hard disk chain is running.
+
+        in medium_attachment of type :class:`IMediumAttachment`
+            The medium attachment to identify the medium chain.
+
+        in source_idx of type int
+            The index of the source image in the chain.
+            Redundant, but drastically reduces IPC.
+
+        in target_idx of type int
+            The index of the target image in the chain.
+            Redundant, but drastically reduces IPC.
+
+        in access of type :class:`IProgress`
+            Progress object for this operation.
+
+        raises :class:`VBoxErrorInvalidVmState`
+            Machine session is not open.
+        
+        raises :class:`VBoxErrorInvalidObjectState`
+            Session ##vocation is not direct.
+        
+        """

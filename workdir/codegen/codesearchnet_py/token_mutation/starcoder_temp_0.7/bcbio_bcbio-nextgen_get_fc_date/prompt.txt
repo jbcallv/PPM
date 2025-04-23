@@ -1,0 +1,3 @@
+def get_fc_date(out_config_file):
+    """Retrieve flowcell date, reusing as it if refreshing a new workflow.
+    """

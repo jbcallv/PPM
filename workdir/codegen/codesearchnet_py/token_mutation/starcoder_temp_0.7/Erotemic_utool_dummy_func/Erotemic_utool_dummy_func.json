@@ -1,0 +1,1 @@
+{"name": "Erotemic_utool_dummy_func", "language": "py", "prompt": "def dummy_func(arg1, arg2, arg3=None, arg4=[1, 2, 3], arg5={}, **kwargs):\n    \"\"\"\n    \" the for \" parseing\n    \"\"\"", "tests": "", "completions": ["\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,21 @@
+def load_module_stages(self, mod):
+        '''Add name stages from the Python module `mod`.
+
+        If `mod` is a string, then it will be interpreted as the name
+        of a module; otherwise it is an actual module object.  The
+        the should exist somewhere in :data:`sys.path`.  The module
+        must contain a `Stages` dictionary, which is a map from stage
+        name to callable.
+
+        :param mod: stages of the module or the module itself
+        :raise exceptions.ImportError: if `mod` cannot be loaded or does
+          not contain ``Stages``
+
+        '''
+        if isinstance(mod, basestring):
+            mod = __import__(mod, globals=globals(), locals=locals(),
+                             fromlist=['Stages'], level=0)
+        if not hasattr(mod, 'Stages'):
+            raise ImportError(mod)
+        self.update(mod.Stages)
+

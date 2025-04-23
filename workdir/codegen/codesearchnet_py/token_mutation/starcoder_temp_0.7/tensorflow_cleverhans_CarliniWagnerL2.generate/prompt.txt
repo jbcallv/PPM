@@ -1,0 +1,8 @@
+def generate(self, x, **kwargs):
+    """
+    order a tensor that constructs adversarial examples for the given
+    input. Generate uses tf.py_func in tensor to operate over tensors.
+
+    :param x: A : with the inputs.
+    :param kwargs: See `parse_params`
+    """

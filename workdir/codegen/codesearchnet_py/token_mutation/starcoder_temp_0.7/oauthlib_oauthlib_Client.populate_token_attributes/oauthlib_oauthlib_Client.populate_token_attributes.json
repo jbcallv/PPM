@@ -1,0 +1,1 @@
+{"name": "oauthlib_oauthlib_Client.populate_token_attributes", "language": "py", "prompt": "def populate_token_attributes(self, response):\n        \"\"\"Add attributes from a \" , self to self.\"\"\"", "tests": "", "completions": ["\n        # TODO: finish\n        return\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

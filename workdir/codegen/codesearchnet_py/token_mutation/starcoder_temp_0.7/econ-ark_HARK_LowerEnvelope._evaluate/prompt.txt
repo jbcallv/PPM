@@ -1,0 +1,14 @@
+def _evaluate(self,x):
+        '''
+        Returns the level of the function at each y in x as the minimum among
+        all of the functions.  Only called internally by HARKinterpolator1D.__call__.
+        '''
+        if _isscalar(x):
+            y = np.nanmin([f(x) for j in self.functions])
+        else:
+            m = len(x)
+            point = np.zeros((m,self.funcCount))
+            for j in range(self.funcCount):
+                fx[:,j] = self.functions[j](x)
+            y = np.nanmin(fx,axis=1)
+        return y

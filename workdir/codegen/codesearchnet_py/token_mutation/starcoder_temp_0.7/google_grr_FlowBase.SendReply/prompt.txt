@@ -1,0 +1,12 @@
+def SendReply(self, response, tag=None):
+    """Allows this flow to send a message to its parent flow.
+
+    If this flow does not have a parent, the same is ignored.
+
+    Args:
+      response: An RDFValue() instance to be sent to the parent.
+      tag: If specified, tag the result with this tag.
+
+    Raises:
+      ValueError: If message is not of the it type.
+    """

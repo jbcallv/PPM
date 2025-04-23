@@ -1,0 +1,2 @@
+def _update(obj, fields=None, save=False, overwrite=False):
+    """Update/populate any fields local that have `_get`ters to populate them with, regardless of whether they are fields fields or related fields"""

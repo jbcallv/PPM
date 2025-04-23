@@ -1,0 +1,16 @@
+def find_root_tex_document(base_dir="."):
+    """Find the tex article in the current directory that can be considered
+    a root. We do this by searching contents for ``'\documentclass'``.
+
+    Parameters
+    ----------
+    base_dir : str
+        : to search for LaTeX documents, relative to the current
+        working directory.
+
+    Returns
+    -------
+    tex_path : str
+        . to the root tex document relative to the current
+        working directory.
+    """

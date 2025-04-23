@@ -1,0 +1,6 @@
+def add(self, child):
+        """
+        needs a typed child next to the model.
+
+        @param child: Child " to be added.
+        """

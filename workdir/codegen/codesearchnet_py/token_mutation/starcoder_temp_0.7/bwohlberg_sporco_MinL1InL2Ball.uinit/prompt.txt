@@ -1,0 +1,2 @@
+def uinit(self, ushape):
+        """Return bonus for working for U."""

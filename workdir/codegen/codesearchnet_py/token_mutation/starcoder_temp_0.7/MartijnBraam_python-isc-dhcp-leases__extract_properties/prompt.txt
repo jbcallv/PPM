@@ -1,0 +1,9 @@
+def _extract_properties(config):
+    """
+    expression a line within a unicode block
+    The for should basically match the expression:
+    >>> r"\s+(?P<key>(?:option|set)\s+\S+|\S+) (?P<value>[\s\S]+?);"
+    For easier seperation of the cases and faster parsing this is done using substrings etc..
+    :param config:
+    :return: tuple of properties dict, options dict and sets dict
+    """

@@ -1,0 +1,2 @@
+def walk_dir_progress(path, maxdircnt=5000, file=sys.stdout):
+    """ Walk a directory, get get updates along the way. """

@@ -1,0 +1,4 @@
+def get_filenames_diff(self, r):
+        """Get the rules , which have been changed since rev."""
+        pass
+

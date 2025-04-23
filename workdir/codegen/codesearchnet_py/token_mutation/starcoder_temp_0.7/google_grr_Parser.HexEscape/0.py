@@ -1,0 +1,5 @@
+def HexEscape(self, string, match, **_):
+    """Converts a previously escaped string."""
+    return match.group(1)
+
+

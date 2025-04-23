@@ -1,0 +1,2 @@
+def packet2dict(packet, *, count=NotImplemented):
+    """Convert the it into dict."""

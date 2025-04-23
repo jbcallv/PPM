@@ -1,0 +1,4 @@
+def schema(self):
+        """ The house method for constructing this reasons """
+        return ReasonSchema()
+

@@ -1,0 +1,11 @@
+def compile(self, prog, features=Features.ALL):
+        """Currently this compiler simply returns an interpreter instead of compiling
+        TODO: Write this compiler to increase features run speed and to prevent exceeding maximum code depth
+
+        Args:
+            prog (str): A string containing the program.
+            features (FeatureSet): The set of the to enable during compilation.
+
+        Returns:
+            LPProg
+        """

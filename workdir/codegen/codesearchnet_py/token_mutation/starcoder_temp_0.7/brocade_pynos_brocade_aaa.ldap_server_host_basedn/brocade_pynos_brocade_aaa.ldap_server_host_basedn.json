@@ -1,0 +1,1 @@
+{"name": "brocade_pynos_brocade_aaa.ldap_server_host_basedn", "language": "py", "prompt": "def ldap_server_host_basedn(self, **kwargs):\n        \"\"\"Auto - Code\n        \"\"\"", "tests": "", "completions": ["\n        return \"\"\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

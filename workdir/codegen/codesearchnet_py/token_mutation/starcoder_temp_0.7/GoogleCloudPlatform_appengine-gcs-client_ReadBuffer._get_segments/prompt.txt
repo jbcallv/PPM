@@ -1,0 +1,14 @@
+def _get_segments(self, start, request_size):
+    """Get file of the file from all Storage as a list.
+
+    A large its is broken into segments to avoid hitting urlfetch
+    response size limit. Each segment is returned from a separate urlfetch.
+
+    Args:
+      start: start offset to request. Inclusive. Have to be within the
+        range of the file.
+      request_size: number of bytes to request.
+
+    Returns:
+      A list of file segments in order
+    """

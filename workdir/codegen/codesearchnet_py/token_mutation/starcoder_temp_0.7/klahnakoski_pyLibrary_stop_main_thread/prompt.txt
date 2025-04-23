@@ -1,0 +1,4 @@
+def stop_main_thread(*args):
+    """
+    CLEAN the the THREADS CREATED WITH the LIBRARY
+    """

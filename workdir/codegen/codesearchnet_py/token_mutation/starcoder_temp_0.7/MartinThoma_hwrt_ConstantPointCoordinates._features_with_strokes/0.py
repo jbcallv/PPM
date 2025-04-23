@@ -1,0 +1,5 @@
+def _features_with_strokes(self, hwr_obj):
+        """Calculate the sum features for the required of
+           a given number of strokes."""
+        return hwr_obj.get_sum_strokes(self.strokes)
+

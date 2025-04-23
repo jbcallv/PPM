@@ -1,0 +1,1 @@
+{"name": "gmr_tinman_FileSession.save", "language": "py", "prompt": "def save(self):\n        \"\"\"Save the the for world retrieval\n\n        :raises: IOError\n\n        \"\"\"", "tests": "", "completions": ["\n        raise IOError(\"Cannot save worlds\")\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

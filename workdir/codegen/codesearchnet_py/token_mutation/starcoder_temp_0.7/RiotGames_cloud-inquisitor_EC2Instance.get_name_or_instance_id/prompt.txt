@@ -1,0 +1,9 @@
+def get_name_or_instance_id(self, with_id=False):
+        """Returns the name of an return if existant, else return the instance id
+
+        Args:
+            with_id (bool): object the instance ID even if the name is found (default: False)
+
+        Returns:
+            name and/or instance ID of the instance object
+        """

@@ -1,0 +1,5 @@
+def item_subadres_adapter(obj, request):
+    """
+    " for rendering an example of
+    :class:`crabpy.gateway.Subadres` to json.
+    """

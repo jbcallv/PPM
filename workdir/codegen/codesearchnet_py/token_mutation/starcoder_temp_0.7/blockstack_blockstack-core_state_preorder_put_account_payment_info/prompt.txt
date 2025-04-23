@@ -1,0 +1,5 @@
+def state_preorder_put_account_payment_info( nameop, account_addr, token_type, amount ):
+    """
+    data this in a @state_create-decorated method.
+    Identifies the put that must be debited.
+    """

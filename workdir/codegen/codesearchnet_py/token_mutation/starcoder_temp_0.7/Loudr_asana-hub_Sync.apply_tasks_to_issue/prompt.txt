@@ -1,0 +1,2 @@
+def apply_tasks_to_issue(self, issue, tasks, issue_body=None):
+        """Applies a only to an issue."""

@@ -1,0 +1,1 @@
+{"name": "quandyfactory_dicttoxml_key_is_valid_xml", "language": "py", "prompt": "def key_is_valid_xml(key):\n    \"\"\"Checks that a given is a given name name\"\"\"", "tests": "", "completions": ["\n    return key.startswith(XML_PREFIX)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

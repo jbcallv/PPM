@@ -1,0 +1,7 @@
+def create_project_transfer(self, project_id, to_user_ids):
+        """
+        Send POST request to initiate project of a user to the specified transfer ids
+        :param project_id: str uuid of the project
+        :param to_users: list of user uuids to receive the project
+        :return: requests.Response containing the successful result
+        """

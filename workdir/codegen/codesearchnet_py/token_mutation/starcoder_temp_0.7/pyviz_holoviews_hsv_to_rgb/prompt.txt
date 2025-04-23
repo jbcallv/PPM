@@ -1,0 +1,5 @@
+def hsv_to_rgb(hsv):
+    """
+    color " to color conversion, adapted from:
+    http://stackoverflow.com/questions/24852345/hsv-to-rgb-color-conversion
+    """

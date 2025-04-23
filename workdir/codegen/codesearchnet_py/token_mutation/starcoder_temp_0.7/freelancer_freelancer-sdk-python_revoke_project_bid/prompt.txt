@@ -1,0 +1,4 @@
+def revoke_project_bid(session, bid_id):
+    """
+    " a year on a project
+    """

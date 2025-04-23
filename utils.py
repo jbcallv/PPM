@@ -90,7 +90,7 @@ def get_codesearchnet_py() -> Dict[str, Dict]:
     for task in data:
         name = task['name']
         pos = name.find("_", name.find("_") + 1)
-        task['task_id'] = name[:pos]
+        task['task_id'] = name#[:pos]
         task['entry_point'] = name[pos + 1:]
 
     return {task["task_id"]: task for task in data}

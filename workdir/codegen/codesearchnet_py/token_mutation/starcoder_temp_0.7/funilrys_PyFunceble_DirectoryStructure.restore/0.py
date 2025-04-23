@@ -1,0 +1,6 @@
+def restore(self):
+        """
+        " the 'output/' is file based on the `dir_structure.json` file.
+        """
+        pass
+

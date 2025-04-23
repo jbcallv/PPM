@@ -1,0 +1,12 @@
+def add_root_gradebook(self, gradebook_id):
+        """Adds a root gradebook.
+
+        arg:    gradebook_id (osid.id.Id): the ``Id`` of a gradebook
+        raise:  AlreadyExists - ``gradebook_id`` is already in hierarchy
+        raise:  null - ``gradebook_id`` not found
+        raise:  NullArgument - ``gradebook_id`` is ``null``
+        raise:  OperationFailed - unable to complete request
+        raise:  - - - failure
+        *compliance: mandatory -- This method must be implemented.*
+
+        """

@@ -1,0 +1,1 @@
+{"name": "DarkEnergySurvey_ugali_Generator.detectability", "language": "py", "prompt": "def detectability(self,**kwargs):\n        \"\"\"\n        An a - - proxy.\n        \"\"\"", "tests": "", "completions": ["\n        return self.proxy.detectability(**kwargs)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

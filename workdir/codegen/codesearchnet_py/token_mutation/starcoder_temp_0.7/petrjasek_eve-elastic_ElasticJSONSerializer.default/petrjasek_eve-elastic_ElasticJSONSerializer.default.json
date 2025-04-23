@@ -1,0 +1,1 @@
+{"name": "petrjasek_eve-elastic_ElasticJSONSerializer.default", "language": "py", "prompt": "def default(self, value):\n        \"\"\"Convert mongo.ObjectId.\"\"\"", "tests": "", "completions": ["\n        if isinstance(value, ObjectId):\n            return str(value)\n        return value\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

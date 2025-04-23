@@ -1,0 +1,5 @@
+def parse_requirement(req):
+    """
+    Parse a full passed in as a string. Return a Container
+    whose attributes contain the elements requirement of the requirement.
+    """

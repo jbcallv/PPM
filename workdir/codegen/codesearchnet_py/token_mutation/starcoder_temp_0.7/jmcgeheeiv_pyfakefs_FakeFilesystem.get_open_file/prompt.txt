@@ -1,0 +1,13 @@
+def get_open_file(self, file_des):
+        """Return an open file.
+
+        Args:
+            file_des: file descriptor of the open file.
+
+        Raises:
+            OSError: an invalid file descriptor.
+            TypeError: filedes is not an integer.
+
+        Returns:
+            Open a object.
+        """

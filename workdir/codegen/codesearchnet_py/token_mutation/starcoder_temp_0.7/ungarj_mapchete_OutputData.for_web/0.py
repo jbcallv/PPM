@@ -1,0 +1,14 @@
+def for_web(self, data):
+        """
+        . access to web output.
+
+        Parameters
+        ----------
+        - : array
+
+        Returns
+        -------
+        web data : array
+        """
+        return data.to_html()
+

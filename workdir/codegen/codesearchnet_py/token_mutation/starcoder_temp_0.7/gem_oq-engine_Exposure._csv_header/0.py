@@ -1,0 +1,6 @@
+def _csv_header(self):
+        """
+        Extract the expected data available from the information metadata
+        """
+        return [key.replace(' ', '_') for key in self.csv_keys]
+

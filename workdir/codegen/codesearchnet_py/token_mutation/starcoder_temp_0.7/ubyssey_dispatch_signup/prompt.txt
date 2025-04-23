@@ -1,0 +1,2 @@
+def signup(request, uuid=None):
+    """Handles next to the next access page."""

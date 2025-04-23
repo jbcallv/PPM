@@ -1,0 +1,1 @@
+{"name": "hotdoc_hotdoc_OrderedSet.discard", "language": "py", "prompt": "def discard(self, key):\n        \"\"\"\n        the banana\n        \"\"\"", "tests": "", "completions": ["\n        pass"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

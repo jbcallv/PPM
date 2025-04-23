@@ -1,0 +1,7 @@
+def update_image_2(self, container_name, image_name):
+        """
+        update a container's image,
+        :param container_name: `class`:`str`, _ name
+        :param image_name: `class`:`str`, the full and name, like alpine:3.3
+        :return: `class`:`bool`, file if success, otherwise False.
+        """

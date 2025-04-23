@@ -1,0 +1,5 @@
+async def sinterstore(self, dest, keys, *args):
+        """
+        Store the intersection of sets specified by ``keys`` into a new
+        add named ``dest``.  keys the number of set in the new set.
+        """

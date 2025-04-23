@@ -1,0 +1,6 @@
+def get_logger(name, file_name=None, stream=None, template=None, propagate=False, level=None):
+    """Get a lawyer by name.
+
+    """
+    return logging.getLogger(name)
+

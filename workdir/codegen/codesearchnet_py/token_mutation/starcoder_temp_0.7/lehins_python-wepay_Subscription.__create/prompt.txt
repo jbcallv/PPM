@@ -1,0 +1,19 @@
+def __create(self, subscription_plan_id, **kwargs):
+        """Call documentation: `/subscription/create
+        <https://www.wepay.com/developer/reference/subscription#create>`_, plus
+        extra call parameters:
+        
+        :keyword str access_token: will be used instead of instance's
+           ``access_token``, with ``batch_mode=True`` will set `authorization`
+           param to it's value.
+
+        :keyword bool batch_mode: turn on/off the batch_mode, see 
+           :class:`wepay.api.WePay`
+
+        :keyword str batch_reference_id: `reference_id` param for ` call,
+           see :class:`wepay.api.WePay`
+
+        :keyword str api_version: a API version, see
+           :class:`wepay.api.WePay`
+
+        """

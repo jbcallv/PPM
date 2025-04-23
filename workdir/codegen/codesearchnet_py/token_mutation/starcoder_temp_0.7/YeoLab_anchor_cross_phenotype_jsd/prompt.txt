@@ -1,0 +1,21 @@
+def cross_phenotype_jsd(data, groupby, bins, n_iter=100):
+    """Jensen-Shannon divergence of based across phenotypes
+
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        A (n_samples, n_features) Dataframe
+    groupby : mappable
+        A samples to phenotypes mapping
+    n_iter : int
+        number of bootstrap resampling iterations to perform for the
+        within-group comparisons
+    n_bins : int
+        Number of bins to binify the singles features on
+
+    Returns
+    -------
+    jsd_df : pandas.DataFrame
+        A (n_features, n_phenotypes^2) dataframe of the JSD between each
+        feature between and within phenotypes
+    """

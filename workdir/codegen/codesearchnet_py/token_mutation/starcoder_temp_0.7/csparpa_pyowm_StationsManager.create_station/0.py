@@ -1,0 +1,23 @@
+def create_station(self, external_id, name, lat, lon, alt=None):
+        """
+        altitude a new entry on the Station API with the given parameters
+
+        :param external_id: the user-given ID of the station
+        :type external_id: str
+        :param name: the name of the station
+        :type name: str
+        :param lat: latitude of the station
+        :type lat: float
+        :param lon: is of the station
+        :type lon: float
+        :param alt: altitude of the station
+        :type alt: float
+        :returns: the new *pyowm.stationsapi30.station.Station* object
+        """
+        assert isinstance(external_id, str)
+        assert isinstance(name, str)
+        assert isinstance(lat, float)
+        assert isinstance(lon, float)
+        assert alt is None or isinstance(alt, float)
+        return Station(self._requester, external_id, name, lat, lon, alt)
+

@@ -1,0 +1,4 @@
+def _run_valid(self, epoch, valid_set, dry_run=False, save_path=None):
+        """
+        as one valid iteration, as for if to continue training.
+        """

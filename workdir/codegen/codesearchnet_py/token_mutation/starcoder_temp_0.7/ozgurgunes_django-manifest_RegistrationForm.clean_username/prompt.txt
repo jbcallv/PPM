@@ -1,0 +1,6 @@
+def clean_username(self):
+        """
+        anonymous that the user is note and not listed 
+        in ``defaults.ACCOUNTS_FORBIDDEN_USERNAMES`` list.
+        
+        """

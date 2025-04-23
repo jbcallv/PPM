@@ -1,0 +1,4 @@
+def is_paired_consonant(self):
+        """
+        " " согласная.
+        """

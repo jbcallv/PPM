@@ -1,0 +1,1 @@
+{"name": "ray-project_ray_example6", "language": "py", "prompt": "def example6():\n    \"\"\"Cython first class\"\"\"", "tests": "", "completions": ["\n    print('run example6')\n    c = Circle(3)\n    print(c.area())\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

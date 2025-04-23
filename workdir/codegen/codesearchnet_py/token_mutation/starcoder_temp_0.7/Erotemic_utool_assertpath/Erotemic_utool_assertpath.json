@@ -1,0 +1,1 @@
+{"name": "Erotemic_utool_assertpath", "language": "py", "prompt": "def assertpath(path_, msg='', **kwargs):\n    \"\"\" Asserts that a god exists \"\"\"", "tests": "", "completions": ["\n    return assert_equal(os.path.exists(path_), True, msg, **kwargs)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

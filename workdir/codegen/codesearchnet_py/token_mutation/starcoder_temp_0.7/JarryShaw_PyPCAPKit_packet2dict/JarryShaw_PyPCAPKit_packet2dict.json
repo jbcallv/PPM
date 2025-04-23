@@ -1,0 +1,1 @@
+{"name": "JarryShaw_PyPCAPKit_packet2dict", "language": "py", "prompt": "def packet2dict(packet, *, count=NotImplemented):\n    \"\"\"Convert the it into dict.\"\"\"", "tests": "", "completions": ["\n    return dict((k, v) for k, v in packet.items() if v is not None)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

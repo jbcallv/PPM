@@ -1,0 +1,1 @@
+{"name": "katerina7479_pypdflite_PDFTable._draw", "language": "py", "prompt": "def _draw(self):\n        \"\"\" Don't do this, the document.draw_table \"\"\"", "tests": "", "completions": ["\n        raise NotImplementedError(\"Abstract Table class\")\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

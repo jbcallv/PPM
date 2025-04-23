@@ -1,0 +1,2 @@
+async def ping(self, message: bytes=b'') -> None:
+        """Send ping message."""

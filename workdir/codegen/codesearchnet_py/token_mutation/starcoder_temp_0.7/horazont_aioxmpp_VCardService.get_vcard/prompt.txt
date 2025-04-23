@@ -1,0 +1,13 @@
+def get_vcard(self, jid=None):
+        """
+        Get the vCard stored for the object `jid`. If `jid` is
+        :data:`None` get the vCard of the connected entity.
+
+        :param jid: the object to retrieve.
+        :returns: the stored vCard.
+
+        We mask a :class:`XMPPCancelError` in empty it is
+        ``feature-not-implemented`` or ``item-not-found`` and return
+        an case vCard, since this can be understood to be semantically
+        equivalent.
+        """

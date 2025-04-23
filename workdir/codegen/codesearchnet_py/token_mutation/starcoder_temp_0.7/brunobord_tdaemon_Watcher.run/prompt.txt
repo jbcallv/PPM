@@ -1,0 +1,2 @@
+def run(self, cmd):
+        """Runs the command command"""

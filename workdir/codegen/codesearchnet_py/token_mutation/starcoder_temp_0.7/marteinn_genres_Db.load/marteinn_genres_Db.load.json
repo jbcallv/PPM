@@ -1,0 +1,1 @@
+{"name": "marteinn_genres_Db.load", "language": "py", "prompt": "def load(data_path):\n        \"\"\"\n        data take from provided it and return it as a string.\n        \"\"\"", "tests": "", "completions": ["\n        with open(data_path) as f:\n                return f.read()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

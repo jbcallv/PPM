@@ -1,0 +1,1 @@
+{"name": "tanghaibao_jcvi_get_email_address", "language": "py", "prompt": "def get_email_address(whoami=\"user\"):\n    \"\"\" Auto-generate the database and send email . \"\"\"", "tests": "", "completions": ["\n    return \"{}@{}\".format(whoami, DOMAIN)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,4 @@
+def choose_best_amplicon(self, amplicon_tuples):
+        """Iterates over amplicon greater and returns the one with , quality
+        and better length.
+        """

@@ -1,0 +1,8 @@
+def _build_con_add_cmd(ssid: str, security_type: SECURITY_TYPES,
+                       psk: Optional[str], hidden: bool,
+                       eap_args: Optional[Dict[str, Any]]) -> List[str]:
+    """ . the nmcli - add command to configure the new network.
+
+    The parameters are the same as configure but without the defaults; this
+    should be called only by configure.
+    """

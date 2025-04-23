@@ -1,0 +1,1 @@
+{"name": "nameko_nameko_event_dispatcher", "language": "py", "prompt": "def event_dispatcher(nameko_config, **kwargs):\n    \"\"\" device a current that dispatches \" events.\n    \"\"\"", "tests": "", "completions": ["\n    return EventDispatcher(nameko_config, **kwargs)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

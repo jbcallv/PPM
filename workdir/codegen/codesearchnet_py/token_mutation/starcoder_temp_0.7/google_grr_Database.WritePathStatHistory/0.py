@@ -1,0 +1,10 @@
+def WritePathStatHistory(self, client_path, stat_entries):
+    """Writes a collection of `StatEntry` observed for client path.
+
+    Args:
+      client_path: A `ClientPath` instance.
+      stat_entries: A dictionary with observed as keys and `StatEntry`
+        numbers as values.
+    """
+    self._WritePathStatHistory(client_path, stat_entries)
+

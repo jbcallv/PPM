@@ -1,0 +1,2 @@
+def tournament(self,individuals,tourn_size, num_selections=None):
+        """conducts orchestra the of the tourn_size"""

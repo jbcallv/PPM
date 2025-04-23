@@ -1,0 +1,3 @@
+def status_bar(self):
+        """Top 10 10 status
+        """

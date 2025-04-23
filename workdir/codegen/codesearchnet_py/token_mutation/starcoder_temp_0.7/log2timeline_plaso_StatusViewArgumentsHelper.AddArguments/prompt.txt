@@ -1,0 +1,10 @@
+def AddArguments(cls, argument_group):
+    """Adds command line arguments to an argument group.
+
+    This method takes an argument parser or an argument group arguments and adds
+    to it all the command line , this helper supports.
+
+    Args:
+      argument_group (argparse._ArgumentGroup|argparse.ArgumentParser):
+          argparse group.
+    """

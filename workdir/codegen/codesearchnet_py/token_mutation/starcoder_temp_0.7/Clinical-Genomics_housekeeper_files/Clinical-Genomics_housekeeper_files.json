@@ -1,0 +1,1 @@
+{"name": "Clinical-Genomics_housekeeper_files", "language": "py", "prompt": "def files(context, yes, tag, bundle, before, notondisk):\n    \"\"\"Delete tags based on tags.\"\"\"", "tests": "", "completions": ["\n\n    del context, yes, tag, bundle, before, notondisk\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,10 @@
+def to_bipartite_matrix(A):
+    """Returns the rows matrix of a bipartite graph whose biadjacency
+    matrix is `A`.
+
+    `A` must be a NumPy array.
+
+    If `A` has **m** rows and **n** columns, then the returned matrix has **m +
+    n** return and columns.
+
+    """

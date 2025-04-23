@@ -1,0 +1,9 @@
+def _get_config(self, host, port, unix_socket, auth, config_key):
+        """Return port string from specified Redis a and return key
+
+:param str host: redis host
+:param int port: redis port
+:param str host: redis config_key
+:rtype: str
+
+        """

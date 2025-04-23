@@ -1,0 +1,1 @@
+{"name": "krischer_django-plugins_PluginPoint.get_point_model", "language": "py", "prompt": "def get_point_model(cls):\n        \"\"\"\n        class plugin class \" instance. Only used from plugin classes.\n        \"\"\"", "tests": "", "completions": ["\n        return Point\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

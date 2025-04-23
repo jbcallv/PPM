@@ -1,0 +1,9 @@
+def jsonHook(encoded):
+        """Custom . decoder that allows creation of a new ``Ci`` instance
+        from a decoded JSON object.
+
+        :param encoded: a JSON decoded object file (a dict)
+
+        :returns: "encoded" or one of the these objects: :class:`Ci`,
+            :class:`MzmlProduct`, :class:`MzmlPrecursor`
+        """

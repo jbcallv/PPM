@@ -1,0 +1,1 @@
+{"name": "nens_turn_reset", "language": "py", "prompt": "def reset(resources, *args, **kwargs):\n    \"\"\" Remove costs and human for search resources. \"\"\"", "tests": "", "completions": ["\n    for resource in resources:\n        resource.cost = 0\n        resource.human = 0\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

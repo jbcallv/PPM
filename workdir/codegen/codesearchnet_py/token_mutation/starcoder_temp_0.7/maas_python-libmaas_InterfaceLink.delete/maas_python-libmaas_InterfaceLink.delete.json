@@ -1,0 +1,1 @@
+{"name": "maas_python-libmaas_InterfaceLink.delete", "language": "py", "prompt": "async def delete(self):\n        \"\"\"Delete this video link.\"\"\"", "tests": "", "completions": ["\n        await self.video_link.delete()\n        await self.send_json({\"success\": True})\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

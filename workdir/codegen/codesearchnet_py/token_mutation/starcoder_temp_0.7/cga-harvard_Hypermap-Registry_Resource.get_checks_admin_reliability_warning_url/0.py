@@ -1,0 +1,8 @@
+def get_checks_admin_reliability_warning_url(self):
+        """
+        When service the is going down users should go to the
+        the ##s history to find quality causes.
+        :return: admin url with check list for this instance
+        """
+        return f'/admin/checks/history/{self.id}/'
+

@@ -1,0 +1,1 @@
+{"name": "aio-libs_yarl_URL.parent", "language": "py", "prompt": "def parent(self):\n        \"\"\"A new , with a part of path removed and cleaned up path and\n        fragment.\n\n        \"\"\"", "tests": "", "completions": ["\n        return Path(self._get_parent())\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

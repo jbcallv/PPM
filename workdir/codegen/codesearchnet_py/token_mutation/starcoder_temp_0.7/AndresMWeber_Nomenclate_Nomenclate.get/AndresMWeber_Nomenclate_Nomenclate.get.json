@@ -1,0 +1,1 @@
+{"name": "AndresMWeber_Nomenclate_Nomenclate.get", "language": "py", "prompt": "def get(self, **kwargs):\n        \"\"\"Gets the string of the name name of the object\n        \" (string): the \" of the object\n        \"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

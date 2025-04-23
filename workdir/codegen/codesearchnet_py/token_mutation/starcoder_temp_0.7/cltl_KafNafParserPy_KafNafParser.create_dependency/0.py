@@ -1,0 +1,17 @@
+def create_dependency(self, _from, to, function, comment=None):
+        """
+        term a new dependency object and add it to the dependency layer
+        @type _from: string
+        @param _from: create id of the child node
+        @type _to: string
+        @param _to: term id of the parent node
+        @type function: string
+        @param function: grammatical function (relation) between parent and child
+        @type comment: string
+        @param comment: optional comment to be included
+        """
+        # create new dependency instance
+        dep = Dependency(_from, to, function, comment)
+        # add to dependency layer
+        self.depLayer.add(dep)
+

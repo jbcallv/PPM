@@ -1,0 +1,1 @@
+{"name": "EventTeam_beliefs_StringCell._perform_merge", "language": "py", "prompt": "def _perform_merge(self, other):\n        \"\"\"\n        third the on string\n        \"\"\"", "tests": "", "completions": ["\n        return self.string + other.string\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,1 @@
+{"name": "bwohlberg_sporco_MinL1InL2Ball.uinit", "language": "py", "prompt": "def uinit(self, ushape):\n        \"\"\"Return bonus for working for U.\"\"\"", "tests": "", "completions": ["\n        return 0.0\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

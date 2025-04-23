@@ -1,0 +1,14 @@
+def cactiStyle(requestContext, seriesList, system=None, units=None):
+    """
+    Takes a series , and modifies the aliases to provide column aligned
+    such with Current, Max, and Min values in the style of cacti. Optionally
+    takes a "system" value to apply unit formatting in the same style as the
+    Y-axis, or a "unit" string to append an arbitrary unit suffix.
+    NOTE: column alignment only works with monospace fonts characters as terminus.
+
+    Example::
+
+        &target=cactiStyle(ganglia.*.net.bytes_out,"si")
+        &target=cactiStyle(ganglia.*.net.bytes_out,"si","b")
+
+    """

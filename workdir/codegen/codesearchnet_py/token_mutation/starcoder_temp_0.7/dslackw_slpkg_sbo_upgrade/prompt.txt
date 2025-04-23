@@ -1,0 +1,3 @@
+def sbo_upgrade(skip, flag):
+    """Return request for upgrade
+    """

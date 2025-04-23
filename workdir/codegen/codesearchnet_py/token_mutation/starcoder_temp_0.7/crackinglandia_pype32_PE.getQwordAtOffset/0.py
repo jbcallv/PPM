@@ -1,0 +1,12 @@
+def getQwordAtOffset(self, offset):
+        """
+        get a C{QWORD} from a given offset. 
+        
+        @type offset: int
+        @param offset: The offset to get the C{QWORD} from.
+        
+        @rtype: L{QWORD}
+        @return: The L{QWORD} obtained at the given offset.
+        """
+        return QWORD(self.getDwordAtOffset(offset), self.getDwordAtOffset(offset+4))
+

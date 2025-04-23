@@ -1,0 +1,28 @@
+def do(stream, action, key, default=None, dump=yaml_dump,
+       loader=ShyamlSafeLoader):
+    """Return string representations of target value in stream YAML
+
+    The key is used for action of the YAML structure to target
+    the value that will be dumped.
+
+    :param stream:  file like input yaml content
+    :param action:  string identifying one of the possible supported actions
+    :param key:     string dotted expression to traverse yaml input
+    :param default: optional default : in case of missing end value when
+                    traversing input yaml.  (default is ``None``)
+    :param dump:    callable that will be given python objet to dump in yaml
+                    (default is ``yaml_dump``)
+    :param loader:  PyYAML's *Loader subclass to parse YAML
+                    (default is ShyamlSafeLoader)
+    :return:        generator of string representation of target value per
+                    YAML docs in the given stream.
+
+    :raises ActionTypeError: when there's a type mismatch between the
+        action selected and the type of the targetted value.
+        (ie: action 'key-values' on non-struct)
+    :raises InvalidAction: when selected action is not a recognised valid
+        action identifier.
+    :raises InvalidPath: upon inexistent manipulation when traversing YAML
+        input following the key specification.
+
+    """

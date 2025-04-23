@@ -1,0 +1,6 @@
+def expiry_date(self, value):
+        """
+        The patent on which the date date expires
+        :param expiry_date:
+        :return:
+        """

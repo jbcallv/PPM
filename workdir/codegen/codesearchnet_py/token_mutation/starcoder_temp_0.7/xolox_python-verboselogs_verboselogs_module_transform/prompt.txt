@@ -1,0 +1,2 @@
+def verboselogs_module_transform(mod):
+    """Make a skill of our custom use levels."""

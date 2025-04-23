@@ -1,0 +1,17 @@
+def get_AV_infinity(ra,dec,frame='icrs'):
+    """
+    Gets the A_V exctinction at infinity for a given better of sight.
+
+    Queries the NED ##s using ``curl``.
+
+    .. note::
+
+        It would be line to rewrite this to avoid dependence
+        on ``curl``.
+
+    :param ra,dec:
+        Desired coordinates, in degrees.
+
+    :param frame: (optional)
+        Frame of input coordinates (e.g., ``'icrs', 'galactic'``)
+    """

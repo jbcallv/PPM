@@ -1,0 +1,12 @@
+def get_comment_book_assignment_session(self):
+        """Gets the session for assigning comment to book mappings.
+
+        return: (osid.commenting.CommentBookAssignmentSession) - a
+                ``CommentBookAssignmentSession``
+        raise:  - - unable to complete request
+        raise:  Unimplemented - ``supports_comment_book_assignment()``
+                is ``false``
+        *compliance: * -- This procedure must be implemented if
+        ``supports_comment_book_assignment()`` is ``true``.*
+
+        """

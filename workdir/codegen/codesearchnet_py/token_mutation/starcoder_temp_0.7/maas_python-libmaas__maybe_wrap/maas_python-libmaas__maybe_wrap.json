@@ -1,0 +1,1 @@
+{"name": "maas_python-libmaas__maybe_wrap", "language": "py", "prompt": "def _maybe_wrap(attribute):\n    \"\"\"Helper for `Asynchronous`.\"\"\"", "tests": "", "completions": ["\n    if isinstance(attribute, Asynchronous):\n        return attribute.async_value\n    return attribute\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

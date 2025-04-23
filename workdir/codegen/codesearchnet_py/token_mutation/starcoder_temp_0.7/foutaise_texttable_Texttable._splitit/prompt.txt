@@ -1,0 +1,6 @@
+def _splitit(self, line, isheader):
+        """Split each element of string to fit the desired width
+
+        Each element is turned into a list, result of the addition of the
+        string to the desired width
+        """

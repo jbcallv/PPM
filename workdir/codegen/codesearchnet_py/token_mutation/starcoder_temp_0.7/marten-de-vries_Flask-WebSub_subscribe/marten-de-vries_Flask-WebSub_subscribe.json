@@ -1,0 +1,1 @@
+{"name": "marten-de-vries_Flask-WebSub_subscribe", "language": "py", "prompt": "def subscribe(hub, callback_url, topic_url, lease_seconds, secret,\n              endpoint_hook_data):\n    \"\"\"5.2 ( Validation\"\"\"", "tests": "", "completions": ["\n    pass\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

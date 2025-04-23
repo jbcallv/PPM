@@ -1,0 +1,1 @@
+{"name": "thieman_dagobah_Task.kill", "language": "py", "prompt": "def kill(self):\n        \"\"\" refers \" to the task's process. \"\"\"", "tests": "", "completions": ["\n        if self.proc:\n            self.proc.terminate()\n            self.proc.wait()\n            self.proc = None\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

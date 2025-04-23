@@ -1,0 +1,5 @@
+def check_exists_repositories(repo):
+    """Checking if is is by PACKAGES.TXT file
+    """
+    return False
+

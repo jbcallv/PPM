@@ -1,0 +1,13 @@
+def db_ws004c(self, value=None):
+        """  value to IDD Field `db_ws004c`
+        Mean coincident dry-bulb temperature to wind speed corresponding to 0.40% cumulative frequency for a month
+
+        Args:
+            value (float): value for IDD Field `db_ws004c`
+                Unit: C
+                if `value` is None it will not be checked against the
+                specification and is assumed to be a missing value
+
+        Raises:
+            ValueError: if `value` is not a missing value
+        """

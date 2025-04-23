@@ -1,0 +1,1 @@
+{"name": "estnltk_estnltk_templatesCollector", "language": "py", "prompt": "def templatesCollector(text, open, close):\n    \"\"\"leaves related structures and to in place\"\"\"", "tests": "", "completions": ["\n    # TODO: to be implemented\n    return text"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

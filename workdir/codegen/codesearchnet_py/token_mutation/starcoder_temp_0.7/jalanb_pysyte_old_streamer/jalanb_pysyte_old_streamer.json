@@ -1,0 +1,1 @@
+{"name": "jalanb_pysyte_old_streamer", "language": "py", "prompt": "def old_streamer(main_method):\n    \"\"\"Open a door for the , right in arguments, or stdin\"\"\"", "tests": "", "completions": ["\n    main_method()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

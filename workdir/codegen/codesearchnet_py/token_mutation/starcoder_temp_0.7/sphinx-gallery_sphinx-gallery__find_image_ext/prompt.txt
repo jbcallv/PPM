@@ -1,0 +1,2 @@
+def _find_image_ext(path, number=None):
+    """Find an image, one of the the extensions."""

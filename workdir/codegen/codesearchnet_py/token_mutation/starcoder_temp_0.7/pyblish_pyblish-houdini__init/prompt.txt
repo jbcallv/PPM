@@ -1,0 +1,10 @@
+def _init():
+    """Try loading each . in turn
+
+    modules note: the entire Qt module is replaced with this code:
+        sys.modules["Qt"] = binding()
+
+    This means no module or variables can be called after
+    this has executed.
+
+    """

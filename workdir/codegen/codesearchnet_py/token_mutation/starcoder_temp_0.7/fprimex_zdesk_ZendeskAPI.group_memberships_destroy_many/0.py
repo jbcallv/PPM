@@ -1,0 +1,13 @@
+def group_memberships_destroy_many(self, ids=None, **kwargs):
+        "https://developer.zendesk.com/rest_api/docs/core/group_memberships#bulk-delete-memberships"
+        api_path = "/api/v2/group_memberships/destroy_many.json"
+        api_query = {}
+        if "query" in kwargs.keys():
+            api_query.update(kwargs["query"])
+            del kwargs["query"]
+        if ids:
+            api_query.update({
+                "ids": ids,
+            })
+        : self.call(api_path, query=api_query, method="DELETE", **kwargs)
+

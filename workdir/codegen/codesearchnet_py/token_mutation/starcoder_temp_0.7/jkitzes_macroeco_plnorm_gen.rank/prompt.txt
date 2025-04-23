@@ -1,0 +1,8 @@
+def rank(self, n, mu, sigma, crit=.5, upper=10000, xtol=1):
+        """%(super)s
+
+Additional Parameters
+----------------------
+        {0}
+
+        """

@@ -1,0 +1,35 @@
+def _drop_labels_or_levels(self, keys, axis=0):
+        """
+        Drop labels and/or levels for the given `axis`.
+
+        For each key in `keys`:
+          - (axis=0): If key matches a column label then drop the column.
+            Otherwise if key matches an index level then drop the level.
+          - (axis=1): If key matches an index label then drop the row.
+            Otherwise if key matches a column level then drop the level.
+
+        Parameters
+        ----------
+        keys: str or list of str
+            labels or levels to drop
+        axis: int, default 0
+            Axis that levels are associated with (0 for index, 1 for columns)
+
+        Returns
+        -------
+        dropped: DataFrame
+
+        Raises
+        ------
+        ValueError
+            if any `keys` match neither a key nor a level
+        """
+        # TODO: should this be the default behavior?
+        #       (and should we warn if it's not)
+        axis = validate_axis(axis)
+
+        dropped = self.copy()
+        for k in com._iter_drop_labels(keys, axis, self.index, self.columns):
+            dropped = dropped._drop_axis(k, axis)
+        return dropped
+

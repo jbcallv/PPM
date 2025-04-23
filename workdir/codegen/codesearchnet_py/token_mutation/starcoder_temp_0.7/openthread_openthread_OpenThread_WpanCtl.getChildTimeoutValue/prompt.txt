@@ -1,0 +1,2 @@
+def getChildTimeoutValue(self):
+        """get a timeout"""

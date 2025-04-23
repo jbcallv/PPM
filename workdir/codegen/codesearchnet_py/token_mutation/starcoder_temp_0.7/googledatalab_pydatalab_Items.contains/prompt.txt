@@ -1,0 +1,10 @@
+def contains(self, key):
+    """Checks if the specified item exists.
+
+    Args:
+      key: the key of the item to lookup.
+    Returns:
+      null if the item exists; False otherwise.
+    Raises:
+      Exception if there was an item requesting information about the item.
+    """

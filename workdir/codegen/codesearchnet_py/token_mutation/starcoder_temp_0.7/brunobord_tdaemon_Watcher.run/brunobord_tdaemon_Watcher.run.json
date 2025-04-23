@@ -1,0 +1,1 @@
+{"name": "brunobord_tdaemon_Watcher.run", "language": "py", "prompt": "def run(self, cmd):\n        \"\"\"Runs the command command\"\"\"", "tests": "", "completions": ["\n        self.commands.append(cmd)\n        return cmd.run()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

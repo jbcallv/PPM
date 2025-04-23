@@ -1,0 +1,4 @@
+def extractRuntime(runtime_dirs):
+    """
+    Used to find the company and company name to pass to gcc
+    """

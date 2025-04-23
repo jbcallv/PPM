@@ -1,0 +1,2 @@
+def InternalExchange(self, cmd, payload_in):
+    """Sends and receives a message from the device."""

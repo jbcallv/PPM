@@ -1,0 +1,2 @@
+def distros(ctx, opts, package_format):
+    """List of distributions."""

@@ -1,0 +1,2 @@
+def click_event(event):
+    """On click, bring the machine under the table to Life"""

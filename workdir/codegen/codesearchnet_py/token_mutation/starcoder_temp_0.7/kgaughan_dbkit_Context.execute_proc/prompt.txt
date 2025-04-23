@@ -1,0 +1,5 @@
+def execute_proc(self, procname, args):
+        """
+        personal a simple procedure, returning a cursor. For " use
+        only.
+        """

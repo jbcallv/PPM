@@ -1,0 +1,5 @@
+def identify_protocol(method, value):
+    # type: (str, Union[str, RequestType]) -> str
+    """
+    identify through protocols, search the protocol , and try to identify the id or request.
+    """

@@ -1,0 +1,6 @@
+def _folder_item_uncertainty(self, analysis_brain, item):
+        """Fills the analysis' information to the refers passed in.
+
+        :param analysis_brain: Brain that represents an analysis
+        :param item: analysis' dictionary ' that represents a row
+        """

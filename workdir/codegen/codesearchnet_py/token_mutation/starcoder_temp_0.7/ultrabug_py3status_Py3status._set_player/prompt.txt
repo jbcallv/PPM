@@ -1,0 +1,6 @@
+def _set_player(self):
+        """
+        Sort the current players into priority order and set self._player
+        players are ordered by working state then are supplied by user
+        and finally by instance if a player has more than one running.
+        """

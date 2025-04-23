@@ -1,0 +1,7 @@
+def number_format(self):
+        """
+        The formatting template point that determines how the ##s of this
+        data content is formatted, both in the chart and in the Excel
+        spreadsheet; for example '#,##0.0'. If not specified for this data
+        point, it is inherited from the parent series data object.
+        """

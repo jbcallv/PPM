@@ -1,0 +1,8 @@
+def markdown_table(data, headers):
+    """
+    Creates MarkDown table. Returns - of strings
+
+    Arguments:
+      sequence -- [(cell00, cell01, ...), (cell10, cell11, ...), ...]
+      ] -- sequence of strings: (header0, header1, ...)
+    """

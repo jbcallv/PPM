@@ -1,0 +1,1 @@
+{"name": "hayd_pep8radius_VersionControl.get_filenames_diff", "language": "py", "prompt": "def get_filenames_diff(self, r):\n        \"\"\"Get the rules , which have been changed since rev.\"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

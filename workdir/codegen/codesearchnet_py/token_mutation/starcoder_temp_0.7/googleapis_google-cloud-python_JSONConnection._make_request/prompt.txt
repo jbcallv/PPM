@@ -1,0 +1,39 @@
+def _make_request(
+        self,
+        method,
+        url,
+        data=None,
+        content_type=None,
+        headers=None,
+        target_object=None,
+    ):
+        """A low level method to send a request to the API.
+
+        Typically, you shouldn't need to use this method.
+
+        :type method: str
+        :param method: The HTTP method to use in the request.
+
+        :type url: str
+        :param url: The URL to send the request to.
+
+        :type data: str
+        :param data: The data to send as the body of the request.
+
+        :type content_type: str
+        :param content_type: The user MIME type of the data provided.
+
+        :type headers: dict
+        :param headers: (Optional) A dictionary of HTTP headers to send with
+                        the request. If passed, will be modified directly
+                        here with added headers.
+
+        :type target_object: object
+        :param target_object:
+            (Optional) Argument to be used by library callers.  This can allow
+            http behavior, for example, to defer an HTTP request and complete
+            initialization of the object at a later time.
+
+        :rtype: :class:`requests.Response`
+        :returns: The HTTP response.
+        """

@@ -1,0 +1,7 @@
+def configure_resultproducer(self):
+        """
+        Configures and returns the ResultProducer and return as tuple.
+
+        :return: path and returns path
+        :rtype: tuple
+        """

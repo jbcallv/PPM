@@ -1,0 +1,1 @@
+{"name": "apple_turicreate_StructCCode.PrintTags", "language": "py", "prompt": "def PrintTags(self, file):\n        \"\"\"Prints the construction plans for a structure.\"\"\"", "tests": "", "completions": ["\n        print(\"No tags.\")\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

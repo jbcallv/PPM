@@ -1,0 +1,6 @@
+def run_interpreter(self):
+        """
+        " thellier_auto_interpreter
+        """
+        raise NotImplementedError
+

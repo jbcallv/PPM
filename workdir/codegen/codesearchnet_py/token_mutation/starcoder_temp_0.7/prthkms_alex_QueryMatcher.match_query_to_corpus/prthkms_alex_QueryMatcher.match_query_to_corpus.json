@@ -1,0 +1,1 @@
+{"name": "prthkms_alex_QueryMatcher.match_query_to_corpus", "language": "py", "prompt": "def match_query_to_corpus(self):\n\t\t\"\"\"Q.match_query_to_corpus() -> index -- return the matched query \n\t\tindex of the query . \n\t\t\"\"\"", "tests": "", "completions": ["\n\t\tpass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

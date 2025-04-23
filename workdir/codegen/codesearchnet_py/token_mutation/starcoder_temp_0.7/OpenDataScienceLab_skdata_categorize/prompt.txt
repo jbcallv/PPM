@@ -1,0 +1,13 @@
+def categorize(
+    data, col_name: str = None, new_col_name: str = None,
+    categories: dict = None, max_categories: float = 0.15
+):
+    """
+    :param data:
+    :param col_name:
+    :param new_col_name:
+    :param categories:
+    :param max_categories: : : threshold of categories
+    :return: : categories
+    :rtype dict:
+    """

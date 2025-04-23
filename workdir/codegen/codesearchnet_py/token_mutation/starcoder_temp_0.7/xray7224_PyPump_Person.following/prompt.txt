@@ -1,0 +1,12 @@
+def following(self):
+        """ :class:`Feed <pypump.models.feed.Feed>` with all
+        :class:`Person <pypump.models.person.Person>` objects followed by the person.
+
+        Example:
+            >>> bob = pump.Person('bob@example.org')
+            >>> for followee in bob.following[:3]:
+            ...     print(followee.id)
+            ...
+            acct:alice@example.org
+            acct:duncan@example.org
+        """

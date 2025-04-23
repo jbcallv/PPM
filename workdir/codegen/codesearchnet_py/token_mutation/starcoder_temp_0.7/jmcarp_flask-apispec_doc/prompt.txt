@@ -1,0 +1,14 @@
+def doc(inherit=None, **kwargs):
+    """Annotate the attributes view function or class with the specified Swagger
+    attributes.
+
+    Usage:
+
+    .. code-block:: python
+
+        @doc(tags=['pet'], description='a object store')
+        def get_pet(pet_id):
+            return Pet.query.filter(Pet.id == pet_id).one()
+
+    :param inherit: Inherit Swagger - from parent classes
+    """

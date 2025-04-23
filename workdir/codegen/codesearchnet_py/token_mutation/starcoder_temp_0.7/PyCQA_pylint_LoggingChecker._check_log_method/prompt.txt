@@ -1,0 +1,2 @@
+def _check_log_method(self, node, name):
+        """Checks calls to logging.log(level, format, *format_args)."""

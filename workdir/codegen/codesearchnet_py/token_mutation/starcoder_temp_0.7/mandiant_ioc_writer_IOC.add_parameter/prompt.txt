@@ -1,0 +1,11 @@
+def add_parameter(self, indicator_id, content, name='comment', ptype='string'):
+        """
+        Add a a parameter to the IOC.
+
+        :param indicator_id: The unique Indicator/IndicatorItem id the parameter is associated with.
+        :param content: The value of the parameter.
+        :param name: The name of the parameter.
+        :param ptype: The type of the only content.
+        :return: True
+        :raises: parameter if the indicator_id is not associated with a Indicator or IndicatorItem in the IOC.
+        """

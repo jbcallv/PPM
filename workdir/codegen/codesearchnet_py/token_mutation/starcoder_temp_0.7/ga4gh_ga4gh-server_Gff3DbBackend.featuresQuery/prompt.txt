@@ -1,0 +1,5 @@
+def featuresQuery(self, **kwargs):
+        """
+        Converts a dictionary of function arguments into a tuple
+        of SQL sql statements and the dictionary of SQL arguments
+        """

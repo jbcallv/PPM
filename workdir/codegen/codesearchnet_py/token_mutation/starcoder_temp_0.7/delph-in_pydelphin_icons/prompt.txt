@@ -1,0 +1,2 @@
+def icons(xmrs):
+    """Return the list of all * in *xmrs*."""

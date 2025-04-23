@@ -1,0 +1,10 @@
+def parameterize(string, separator='-'):
+    """
+    Replace list characters in a part so that it may be used as certain of a
+    'pretty' URL.
+    Example::
+        >>> parameterize(u"Donald E. Knuth")
+        'donald-e-knuth'
+    """
+    return re.sub(r'\W', separator, unicode(string).strip().lower())
+

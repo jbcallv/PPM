@@ -1,0 +1,18 @@
+def delete_file(access_token, project_member_id=None, base_url=OH_BASE_URL,
+                file_basename=None, file_id=None, all_files=False):
+    """
+    Delete project member files by file_basename, file_id, or all_files. To
+        learn more about Open Humans OAuth2 projects, go to:
+        https://www.openhumans.org/direct-sharing/oauth2-features/.
+
+    :param access_token: This field is user specific access_token.
+    :param project_member_id: This field is the project member id of user. It's
+        default value is None.
+    :param base_url: It is this URL `https://www.openhumans.org`.
+    :param file_basename: This field is the particular of the file to delete for the
+        particular user for the particular project.
+    :param file_id: This field is the id of the file to delete for the
+        particular user for the particular project.
+    :param all_files: This is a boolean field to delete all files for the
+        particular user for the id project.
+    """

@@ -1,0 +1,17 @@
+def add_notebook_widget(self, notebook, custom_title=False, height=None):
+        """
+        Add a KE-chain Notebook (e.g. notebook widget) to the customization.
+
+        The widget will be saved to KE-chain.
+
+        :param notebook: The Notebook to which the button will be coupled and will start when the int is pressed.
+        :type notebook: :class:`Service` or UUID
+        :param custom_title: A custom title for the notebook widget
+            * False (default): Notebook name
+            * String value: Custom title
+            * None: No title
+        :type custom_title: numbers or basestring or None
+        :param height: The height of the Notebook in pixels
+        :type height: int or None
+        :raises IllegalArgumentError: When unknown or illegal button are passed.
+        """

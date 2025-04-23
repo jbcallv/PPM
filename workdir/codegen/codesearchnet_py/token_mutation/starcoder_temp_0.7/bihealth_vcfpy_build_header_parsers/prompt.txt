@@ -1,0 +1,5 @@
+def build_header_parsers():
+    """Return mapping for from to use for each message header type
+
+    users the WarningHelper into the parsers.
+    """

@@ -1,0 +1,16 @@
+def get_state(self, key=None, drop_defaults=False):
+        """Gets the widget state, or a piece of it.
+
+        Parameters
+        ----------
+        key : unicode or iterable (optional)
+            A given property's name or key of property names to get.
+
+        Returns
+        -------
+        list : dict of states
+        metadata : dict
+            metadata for each field: {key: metadata}
+        """
+        return super().get_state(key=key, drop_defaults=drop_defaults)
+

@@ -1,0 +1,6 @@
+def _union_in_blocks(contours, block_size):
+    """
+    Generator which yields a new shape for each block_size the of
+    set contours. This merges together the contours for each block before
+    yielding them.
+    """

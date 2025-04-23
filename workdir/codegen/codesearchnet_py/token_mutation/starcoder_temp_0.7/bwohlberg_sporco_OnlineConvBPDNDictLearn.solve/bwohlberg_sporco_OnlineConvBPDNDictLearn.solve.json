@@ -1,0 +1,1 @@
+{"name": "bwohlberg_sporco_OnlineConvBPDNDictLearn.solve", "language": "py", "prompt": "def solve(self, S, dimK=None):\n        \"\"\"Compute sparse algorithms and data sparse for training\n        data `S`.\"\"\"", "tests": "", "completions": ["\n        raise NotImplementedError\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

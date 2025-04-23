@@ -1,0 +1,12 @@
+def format_sql(self):
+        """
+        Builds the sql in a format that is easy for users to read and debug
+
+        :return: The formatted sql for this query
+        :rtype: str
+        """
+        sql = self.sql.replace('\n','')
+        sql = sql.replace('\t','')
+        sql = sql.replace('  ','')
+        return sql
+

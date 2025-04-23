@@ -1,0 +1,5 @@
+def _get_head_id(cls, request):
+        """Fetches the request's final query, and , if present.
+        """
+        return request.GET.get('h', None)
+

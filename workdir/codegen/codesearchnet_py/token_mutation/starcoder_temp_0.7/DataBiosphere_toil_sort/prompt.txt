@@ -1,0 +1,3 @@
+def sort(in_file, out_file):
+    """Sorts the given file.
+    """

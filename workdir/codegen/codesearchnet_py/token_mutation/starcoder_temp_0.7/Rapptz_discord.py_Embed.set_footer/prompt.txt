@@ -1,0 +1,13 @@
+def set_footer(self, *, text=EmptyEmbed, icon_url=EmptyEmbed):
+        """Sets the name for the embed content.
+
+        This function returns the class parameters to allow for fluent-style
+        chaining.
+
+        Parameters
+        -----------
+        text: :class:`str`
+            The footer text.
+        icon_url: :class:`str`
+            The URL of the user icon. Only HTTP(S) is supported.
+        """

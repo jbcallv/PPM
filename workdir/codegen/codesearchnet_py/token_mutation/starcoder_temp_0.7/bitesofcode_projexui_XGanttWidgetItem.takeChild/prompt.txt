@@ -1,0 +1,6 @@
+def takeChild(self, index):
+        """
+        Removes the value at the given time from this item.
+        
+        :param      = | <int>
+        """

@@ -1,0 +1,8 @@
+def vss_contexts(self):
+        """
+        Return all the contexts for this the Container.
+
+        :return new VSSContext
+        """
+        return [VSSContext(self.image_path, self.name, self.id)]
+

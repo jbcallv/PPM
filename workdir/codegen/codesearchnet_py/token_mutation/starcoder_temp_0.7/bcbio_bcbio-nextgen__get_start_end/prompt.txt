@@ -1,0 +1,3 @@
+def _get_start_end(parts, index=7):
+    """Retrieve records and records for a VCF record, skips ##s without END coords
+    """

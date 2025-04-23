@@ -1,0 +1,7 @@
+def write_csv_to_file(d):
+    """
+    Writes columns of data to a target CSV file.
+
+    :param dict d: a dictionary containing one character for every data column. Keys: int, Values: list
+    :return None:
+    """

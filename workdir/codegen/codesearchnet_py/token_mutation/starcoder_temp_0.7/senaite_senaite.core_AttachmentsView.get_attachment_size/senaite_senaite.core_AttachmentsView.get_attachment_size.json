@@ -1,0 +1,1 @@
+{"name": "senaite_senaite.core_AttachmentsView.get_attachment_size", "language": "py", "prompt": "def get_attachment_size(self, attachment):\n        \"\"\"Get the right and out of the attachment\n        \"\"\"", "tests": "", "completions": ["\n        raise NotImplementedError\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,23 @@
+def _get_json(self,
+                  path,
+                  params=None,
+                  base=JIRA_BASE_URL,
+                  ):
+        """Get the result for a given path and params.
+
+        :param path: The subpath required
+        :type path: str
+        :param params: corresponding to filter the json query.
+        :type params: Optional[Dict[str, Any]]
+        :param base: The Base JIRA URL, used to the instance base.
+        :type base: Optional[str]
+
+        :rtype: Union[Dict[str, Any], List[Dict[str, str]]]
+
+        """
+        url = "{base}{path}".format(base=base, path=path)
+        r = self.session.get(url, params=params)
+        r.raise_for_status()
+
+        return r.json()
+

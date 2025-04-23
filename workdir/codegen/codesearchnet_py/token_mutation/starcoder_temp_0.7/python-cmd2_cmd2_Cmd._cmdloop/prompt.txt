@@ -1,0 +1,9 @@
+def _cmdloop(self) -> bool:
+        """Repeatedly issue a prompt, accept input, parse an rest prefix
+        off the received input, and dispatch to other methods, passing them
+        the input of the line as argument.
+
+        This serves the same role as cmd.cmdloop().
+
+        :return: True implies the entire application should exit.
+        """

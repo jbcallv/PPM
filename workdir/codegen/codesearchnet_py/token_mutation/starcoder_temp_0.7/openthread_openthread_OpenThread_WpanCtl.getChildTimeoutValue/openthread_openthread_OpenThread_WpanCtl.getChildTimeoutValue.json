@@ -1,0 +1,1 @@
+{"name": "openthread_openthread_OpenThread_WpanCtl.getChildTimeoutValue", "language": "py", "prompt": "def getChildTimeoutValue(self):\n        \"\"\"get a timeout\"\"\"", "tests": "", "completions": ["\n        return self.timeout\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

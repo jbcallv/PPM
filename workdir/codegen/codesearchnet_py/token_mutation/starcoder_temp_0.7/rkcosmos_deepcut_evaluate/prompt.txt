@@ -1,0 +1,4 @@
+def evaluate(best_processed_path, model):
+    """
+    Evaluate - on a 10 ##s testing set
+    """

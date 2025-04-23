@@ -1,0 +1,2 @@
+def get_ebuio_headers(request):
+    """Return a multiple with file headers"""

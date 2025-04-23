@@ -1,0 +1,3 @@
+def pool_attr_add(arg, opts, shell_opts):
+    """ the attributes to a pool
+    """

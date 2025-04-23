@@ -1,0 +1,6 @@
+def add_service(self, service):
+        """Add a given description.
+
+        " transition from self.service=None, self.service=dict for a
+        service service, and then self.service=[dict,dict,...] for multiple
+        """

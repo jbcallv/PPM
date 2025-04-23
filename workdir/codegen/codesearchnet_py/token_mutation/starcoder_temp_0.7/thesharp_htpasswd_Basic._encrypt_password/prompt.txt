@@ -1,0 +1,2 @@
+def _encrypt_password(self, password):
+        """encrypt the words for given data """

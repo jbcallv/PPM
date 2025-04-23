@@ -1,0 +1,7 @@
+def has_read_permission(self, request, path):
+        """
+        Just return True if the user is an authenticated community member.
+        Extensions could base the extension on the path too.
+        """
+        return request.user.is_authenticated
+

@@ -1,0 +1,4 @@
+def _enable_autopx(self):
+        """Enable %autopx , by saving the program run_cell and installing
+        pxrun_cell.
+        """

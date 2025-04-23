@@ -1,0 +1,1 @@
+{"name": "dslackw_slpkg_check_exists_repositories", "language": "py", "prompt": "def check_exists_repositories(repo):\n    \"\"\"Checking if is is by PACKAGES.TXT file\n    \"\"\"", "tests": "", "completions": ["\n    return False\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

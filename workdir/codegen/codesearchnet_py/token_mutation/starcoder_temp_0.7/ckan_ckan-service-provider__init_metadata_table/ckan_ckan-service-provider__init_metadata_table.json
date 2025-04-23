@@ -1,0 +1,1 @@
+{"name": "ckan_ckan-service-provider__init_metadata_table", "language": "py", "prompt": "def _init_metadata_table():\n    \"\"\"Initialise the \"metadata\" used in the db.\"\"\"", "tests": "", "completions": ["\n    metadata = MetaData()\n    metadata.bind = engine\n    return metadata\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

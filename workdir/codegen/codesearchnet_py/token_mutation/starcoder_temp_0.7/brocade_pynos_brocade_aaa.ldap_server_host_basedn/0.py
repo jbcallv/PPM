@@ -1,0 +1,5 @@
+def ldap_server_host_basedn(self, **kwargs):
+        """Auto - Code
+        """
+        return ""
+

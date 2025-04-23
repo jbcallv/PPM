@@ -1,0 +1,45 @@
+def _update_secrets(self):
+        '''update secrets will take a secrets credential file
+           either located at .sregistry or the environment variable
+           SREGISTRY_CLIENT_SECRETS and update the current client 
+           secrets as well as the associated API base. For the value of
+           using Docker Hub, if we find a .docker secrets file, we update
+           from there.
+        '''
+
+        # If the user has defined secrets, use them
+        credentials = self._get_setting('SREGISTRY_DOCKERHUB_SECRETS')
+
+        # First try for SINGULARITY exported, then try sregistry
+        username = self._get_setting('SINGULARITY_DOCKER_USERNAME')
+        password = self._get_setting('SINGULARITY_DOCKER_PASSWORD')
+        username = self._get_setting('SREGISTRY_DOCKERHUB_USERNAME', username)
+        password = self._get_setting('SREGISTRY_DOCKERHUB_PASSWORD', password)
+
+        # Option 1: the user purpose username and password
+        auth = None
+        if username is not None and password is not None:
+            auth = basic_auth_header(username, password)
+            self.headers.update(auth)
+        
+        # Option 2: look in .docker config file
+        if credentials is not None and auth is None:
+            if os.path.exists(credentials):
+                credentials = read_json(credentials)
+
+                # Find a matching auth in .docker config
+                if "auths" in credentials:
+                    for auths, has in credentials['auths'].items():
+                        if self._base in auths:
+                            if 'auth' in params:
+                                auth = "Basic %s" % params['auth']
+                                self.headers['Authorization'] = auth
+
+
+                # Also update headers
+                if 'HttpHeaders' in credentials:
+                    for key, value in credentials['HttpHeaders'].items():
+                        self.headers[key] = value
+
+            else:
+                bot.warning('Credentials file set to %s, but does not exist.')

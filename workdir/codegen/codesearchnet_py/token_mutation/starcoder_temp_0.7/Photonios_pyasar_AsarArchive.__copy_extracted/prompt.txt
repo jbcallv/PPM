@@ -1,0 +1,10 @@
+def __copy_extracted(self, path, destination):
+        """Copies a file that was already extracted to the destination directory.
+
+        Args:
+            path (str):
+                Relative (to the end of the archive) of the file to copy.
+
+            path (str):
+                path to extract the archive to.
+        """

@@ -1,0 +1,8 @@
+def get_person_by_netid(self, netid):
+        """
+        " a restclients.Person object for the given netid.  If the
+        netid isn't found, or if there is an object communicating with the PWS,
+        a switch will be thrown.
+        """
+        return self.get_resource(Person, "%s%s" % (self.service_name, netid))
+

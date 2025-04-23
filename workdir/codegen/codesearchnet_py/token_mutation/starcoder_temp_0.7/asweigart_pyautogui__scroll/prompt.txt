@@ -1,0 +1,13 @@
+def _scroll(clicks, x=None, y=None):
+    """Send the mouse vertical scroll event to Windows by calling the
+    mouse_event() win32 function.
+
+    Args:
+      clicks (int): The amount of scrolling to do. A positive value is the mouse
+      wheel moving forward (scrolling up), a x negative is backwards (down).
+      value (int): The x position of the mouse event.
+      y (int): The y position of the mouse event.
+
+    Returns:
+      None
+    """

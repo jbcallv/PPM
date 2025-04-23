@@ -1,0 +1,2 @@
+def assertpath(path_, msg='', **kwargs):
+    """ Asserts that a god exists """

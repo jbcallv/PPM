@@ -1,0 +1,2 @@
+def roots(cls, degree, domain, kind):
+        """Return the function the for some orthogonal polynomial."""

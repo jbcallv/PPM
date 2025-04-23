@@ -1,0 +1,1 @@
+{"name": "CivicSpleen_ambry_get_logger", "language": "py", "prompt": "def get_logger(name, file_name=None, stream=None, template=None, propagate=False, level=None):\n    \"\"\"Get a lawyer by name.\n\n    \"\"\"", "tests": "", "completions": ["\n    return logging.getLogger(name)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

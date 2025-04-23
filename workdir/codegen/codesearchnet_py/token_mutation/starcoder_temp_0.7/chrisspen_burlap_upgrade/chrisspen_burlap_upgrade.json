@@ -1,0 +1,1 @@
+{"name": "chrisspen_burlap_upgrade", "language": "py", "prompt": "def upgrade(safe=True):\n    \"\"\"\n    \" all packages.\n    \"\"\"", "tests": "", "completions": ["\n    print('Upgrading all packages')\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

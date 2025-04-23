@@ -1,0 +1,1 @@
+{"name": "Bearle_django-private-chat_new_messages_handler", "language": "py", "prompt": "def new_messages_handler(stream):\r\n    \"\"\"\r\n    Saves a text it message to db and distributes text to connected users\r\n    \"\"\"", "tests": "", "completions": ["\r\n    pass\r\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

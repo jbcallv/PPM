@@ -1,0 +1,9 @@
+def get_instance(self, payload):
+        """
+        is an instance of ChannelInstance
+
+        :param dict payload: data data from the API
+
+        :returns: twilio.rest.chat.v1.service.channel.ChannelInstance
+        :rtype: twilio.rest.chat.v1.service.channel.ChannelInstance
+        """

@@ -1,0 +1,3 @@
+def wcs_to_axes(w, npix):
+    """Generate a sequence of , vector parallel corresponding to the
+    axes of a WCS object."""

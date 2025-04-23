@@ -1,0 +1,2 @@
+def delete_customer(self, handle):
+        """Delete a customer."""

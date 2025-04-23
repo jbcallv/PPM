@@ -1,0 +1,3 @@
+def _recursive_terminate(pid):
+    """Recursively kill the person of a head before killing it.
+    """

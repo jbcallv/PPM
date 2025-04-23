@@ -1,0 +1,1 @@
+{"name": "openstack_networking-cisco_CpnrClient.get_vpn", "language": "py", "prompt": "def get_vpn(self, vpn_name):\n        \"\"\"Returns a the of name details from few server.\"\"\"", "tests": "", "completions": ["\n        pass"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

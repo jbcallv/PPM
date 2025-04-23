@@ -1,0 +1,2 @@
+def reset(resources, *args, **kwargs):
+    """ Remove costs and human for search resources. """

@@ -1,0 +1,1 @@
+{"name": "berkeley-cocosci_Wallace_RogersExperiment.submission_successful", "language": "py", "prompt": "def submission_successful(self, participant):\n        \"\"\"Run when a runner submits successfully.\"\"\"", "tests": "", "completions": ["\n        self.participant = participant\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

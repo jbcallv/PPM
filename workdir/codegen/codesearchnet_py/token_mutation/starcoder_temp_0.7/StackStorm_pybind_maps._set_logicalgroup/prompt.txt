@@ -1,0 +1,8 @@
+def _set_logicalgroup(self, v, load=False):
+    """
+    Setter method for logicalgroup, mapped from YANG . /rbridge_id/maps/logicalgroup (list)
+    If this variable is read-only (config: false) in the
+    to YANG file, then _set_logicalgroup is considered as a private
+    method. Backends looking to populate this variable should
+    do so via calling thisObj._set_logicalgroup() directly.
+    """

@@ -1,0 +1,10 @@
+def run(self, keep_going=False, buildstep_phase=False):
+        """
+        run all requested plugins
+
+        :param keep_going: bool, whether to keep going after unexpected
+                                 code (only used for exit plugins)
+        :param buildstep_phase: bool, when events remaining the will
+                                not be executed after a plugin completes
+                                (only used for build-step plugins)
+        """

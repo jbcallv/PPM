@@ -1,0 +1,9 @@
+def _readReplacementFiles(self, directory, session, spatial, spatialReferenceID):
+        """
+        Check for the zero replacement file cards
+        (REPLACE_PARAMS and REPLACE_VALS) and read the files into
+        two if they exist.
+
+        Returns:
+            memory or None if it doesn't exist
+        """

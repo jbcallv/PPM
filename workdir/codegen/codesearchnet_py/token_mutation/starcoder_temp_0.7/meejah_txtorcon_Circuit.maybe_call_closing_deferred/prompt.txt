@@ -1,0 +1,5 @@
+def maybe_call_closing_deferred(self):
+        """
+        Used internally to callback on the _closing_deferred if it
+        exists.
+        """

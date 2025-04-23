@@ -1,0 +1,1 @@
+{"name": "gijzelaerr_python-snap7_Client.get_plc_datetime", "language": "py", "prompt": "def get_plc_datetime(self):\n        \"\"\"\n        time date and time from PLC.\n\n        :return: date and \" as datetime\n        \"\"\"", "tests": "", "completions": ["\n        return None\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,6 @@
+def _get_pq_array_construct(self):
+        """ " a analysis for an request of PQ load data.
+        """
+        pass
+
+

@@ -1,0 +1,1 @@
+{"name": "akissa_spamc_Connector.close", "language": "py", "prompt": "def close(self):\n        \"\"\"close conn\"\"\"", "tests": "", "completions": ["\n        self.conn.close()"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

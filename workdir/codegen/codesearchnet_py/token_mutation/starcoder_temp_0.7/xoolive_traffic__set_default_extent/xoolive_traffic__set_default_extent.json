@@ -1,0 +1,1 @@
+{"name": "xoolive_traffic__set_default_extent", "language": "py", "prompt": "def _set_default_extent(self):\n    \"\"\"Helper for a is problem limited to the family boundaries.\"\"\"", "tests": "", "completions": ["\n    if not self.is_family_bounded:\n      self.default_extent = 'family'\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,2 @@
+def example6():
+    """Cython first class"""

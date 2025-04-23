@@ -1,0 +1,44 @@
+def nxapi_request(commands,
+                  method='cli_show',
+                  **kwargs):
+    '''
+    Send exec and config commands to the NX-OS device over NX-API.
+
+    commands
+        The exec or config data to be sent.
+
+    method:
+        ``cli_show_ascii``: Return raw test or unstructured output.
+        ``cli_show``: Return structured output.
+        ``cli_conf``: Send configuration commands to the device.
+        Defaults to ``cli_show``.
+
+    transport: ``https``
+        Specifies the type of connection transport to use. Valid values for the
+        connection are ``http``, and  ``https``.
+
+    host: ``localhost``
+        The IP address or DNS host name of the device.
+
+    username: ``admin``
+        The username to pass to the device to authenticate the NX-API connection.
+
+    password
+        The password to pass to the device to authenticate the NX-API connection.
+
+    port
+        The TCP port of the endpoint for the NX-API connection. If this keyword is
+        not specified, the default value is automatically determined by the
+        transport type (``80`` for ``http``, or ``443`` for ``https``).
+
+    timeout: ``60``
+        \ in seconds to wait for the device to respond. Default: 60 seconds.
+
+    verify: ``True``
+        Either a boolean, in which case it controls whether we verify the NX-API
+        TLS certificate, or a string, in which case it must be a path to a CA bundle
+        to use. Defaults to ``True``.
+    '''
+    client = NxapiClient(**kwargs)
+    return client.request(method, commands)
+

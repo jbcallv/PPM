@@ -1,0 +1,1 @@
+{"name": "rkcosmos_deepcut_evaluate", "language": "py", "prompt": "def evaluate(best_processed_path, model):\n    \"\"\"\n    Evaluate - on a 10 ##s testing set\n    \"\"\"", "tests": "", "completions": ["\n    y_pred = model.predict(best_processed_path)\n    return y_pred"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,1 @@
+{"name": "walchko_update_kernel", "language": "py", "prompt": "def kernel():\n\t\"\"\"\n\tHandle the the update\n\t\"\"\"", "tests": "", "completions": ["\n\tupdate.handle()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

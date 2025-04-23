@@ -1,0 +1,1 @@
+{"name": "brocade_pynos_brocade_snmp.snmp_server_user_auth", "language": "py", "prompt": "def snmp_server_user_auth(self, **kwargs):\n        \"\"\"Auto - Code\n        \"\"\"", "tests": "", "completions": ["\n        return super(SnmpServerUserAuth, self).call_with_http_info(**kwargs)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

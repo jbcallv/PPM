@@ -1,0 +1,33 @@
+def _verify_options(options):
+    '''
+    Verify options and log warnings
+
+    Returns True if all options can be verified,
+    otherwise False
+    '''
+
+    # sanity check all vals used for bitwise operations later
+    bitwise_args = [('level', options['level']),
+                    ('facility', options['facility'])
+                    ]
+    bitwise_args.extend([('option', x) for x in options['options']])
+
+    for opt_name, x in bitwise_args:
+        if not hasattr(syslog, opt):
+            log.error('syslog has no attribute %s', opt)
+            return False
+        if not isinstance(getattr(syslog, opt), int):
+            log.error('%s is not a valid attribute %s', opt, opt_name)
+            return False
+
+    # Sanity check tag
+    if 'tag' in options:
+        if not isinstance(options['tag'], six.string_types):
+            log.error('tag must be a string')
+            return False
+        if len(options['tag']) > 32:
+            log.error('tag size is limited to 32 characters')
+            return False
+
+    return True
+

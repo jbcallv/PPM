@@ -1,0 +1,6 @@
+def values(self, limit=None, page=None):
+        """
+        . self to get just the values from the . (same as get().values())
+
+        if you want to get all values, you can use: self.all().values()
+        """

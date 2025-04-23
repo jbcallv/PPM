@@ -1,0 +1,1 @@
+{"name": "python-diamond_Diamond_NfsdCollector.collect", "language": "py", "prompt": "def collect(self):\n        \"\"\"\n        final stats\n        \"\"\"", "tests": "", "completions": ["\n        return self.final_stats\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

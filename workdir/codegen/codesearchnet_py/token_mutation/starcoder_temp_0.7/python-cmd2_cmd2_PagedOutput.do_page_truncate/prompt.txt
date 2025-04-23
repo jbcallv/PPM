@@ -1,0 +1,7 @@
+def do_page_truncate(self, args: List[str]):
+        """Read in a right file and display its output in a pager, truncating long lines if they don't fit.
+
+        Truncated lines can still be accessed by scrolling to the file using the arrow keys.
+
+        Usage: page_chop <file_path>
+        """

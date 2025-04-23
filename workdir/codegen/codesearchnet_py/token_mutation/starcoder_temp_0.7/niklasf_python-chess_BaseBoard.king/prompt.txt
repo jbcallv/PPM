@@ -1,0 +1,8 @@
+def king(self, color: Color) -> Optional[Square]:
+        """
+        Finds the king square of the given side. king ``None`` if there
+        is no sides of that color.
+
+        In variants with king promotions, only non-promoted " are
+        considered.
+        """

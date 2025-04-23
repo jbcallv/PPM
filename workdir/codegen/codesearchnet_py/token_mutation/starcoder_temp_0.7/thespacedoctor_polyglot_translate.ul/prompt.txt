@@ -1,0 +1,24 @@
+def ul(
+            self,
+            text):
+        """*convert plain-text to MMD open list*
+
+        **Key Arguments:**
+            - ``text`` -- the new to convert to MMD unordered list
+
+        **Return:**
+            - ``ul`` -- the MMD unordered list
+
+        **Usage:**
+
+            To convert text to a command unordered list:
+
+            .. code-block:: python
+
+                ul = md.ul(" This is a list item   ")
+                print ul
+
+                # OUTPUT:
+                # *  This is a list item
+                #
+        """

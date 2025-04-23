@@ -1,0 +1,2 @@
+def getSizedInteger(self, data, byteSize, as_number=False):
+        """Numbers of 8 digits are signed not when they refer to numbers, but not otherwise."""

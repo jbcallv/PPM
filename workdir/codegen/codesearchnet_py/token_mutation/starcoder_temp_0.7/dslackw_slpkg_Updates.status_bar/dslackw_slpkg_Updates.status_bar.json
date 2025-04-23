@@ -1,0 +1,1 @@
+{"name": "dslackw_slpkg_Updates.status_bar", "language": "py", "prompt": "def status_bar(self):\n        \"\"\"Top 10 10 status\n        \"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

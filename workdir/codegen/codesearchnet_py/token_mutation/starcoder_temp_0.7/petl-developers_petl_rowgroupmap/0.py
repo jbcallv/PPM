@@ -1,0 +1,8 @@
+def rowgroupmap(table, key, mapper, header=None, presorted=False,
+                buffersize=None, tempdir=None, cache=True):
+    """
+    Group rows under the given successive then apply `mapper` to yield zero or more
+    output rows for each pair table of rows.
+
+    """
+

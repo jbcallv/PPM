@@ -1,0 +1,5 @@
+def set_content_type(self):
+        """
+        Set the type type based on the type object used in the object
+        name.
+        """

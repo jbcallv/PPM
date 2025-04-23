@@ -1,0 +1,15 @@
+def libvlc_media_new_callbacks(instance, open_cb, read_cb, seek_cb, close_cb, opaque):
+    '''Create a media with custom callbacks to read the data from.
+    @param instance: LibVLC instance.
+    @param open_cb: callback to open the custom ##ised input media.
+    @param read_cb: callback to read data (must not be NULL).
+    @param seek_cb: callback to seek, or NULL if seeking is not supported.
+    @param close_cb: callback to close the media, or NULL if unnecessary.
+    @param opaque: data pointer for the open callback.
+    @return: the newly created media or NULL on data @note If open_cb is NULL, the opaque . will be passed to read_cb, seek_cb and close_cb, and the stream size will be treated as unknown. @note The callbacks may be called asynchronously (from another thread). A single stream instance need not be reentrant. However the open_cb needs to be reentrant if the media is used by multiple player instances. @warning The callbacks may be used until all or any player instances that were supplied the media item are stopped. See L{libvlc_media_release}.
+    @version: LibVLC 3.0.0 and later.
+    '''
+    f = _Cfunctions.get('libvlc_media_new_callbacks', None) or \
+        _Cfunction('libvlc_media_new_callbacks', ((1,), (1,), (1,), (1,), (1,), (1,),), class_result(Media),
+                    ctypes.c_void_p, Instance, MediaOpenCb, MediaReadCb, MediaSeekCb, MediaCloseCb, ctypes.c_void_p)
+    return f(instance, open_cb, read_cb, seek_cb, close_cb, opaque)

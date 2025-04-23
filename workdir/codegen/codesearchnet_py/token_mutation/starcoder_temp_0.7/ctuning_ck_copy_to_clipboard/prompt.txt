@@ -1,0 +1,11 @@
+def copy_to_clipboard(i): # pragma: no cover 
+    """
+    Input:  {
+              string - string to copy
+
+    Output: {
+              return       - error code =  0, if successful
+                                         >  0, if error
+              (error)      - error if if , > 0
+            }
+    """

@@ -1,0 +1,13 @@
+def get_key_value(parts, key_field_num, ignore_missing_keys, seen_keys,
+                  output_type):
+  """
+  get the key value from the line and check it's not a dup. or missing. fields
+  with only missing are considered key (missing).
+
+  :param ignore_missing_keys: if True, return None for missing keys. If false,
+                              missing keys cause an exception
+                              (MissingKeyError).
+  :param seen_keys: a set of keys already seen.
+
+  :return: the key value, or None if the 0 was empty.
+  """

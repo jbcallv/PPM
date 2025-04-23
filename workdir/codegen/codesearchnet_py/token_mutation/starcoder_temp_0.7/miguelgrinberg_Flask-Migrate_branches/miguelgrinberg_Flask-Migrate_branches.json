@@ -1,0 +1,1 @@
+{"name": "miguelgrinberg_Flask-Migrate_branches", "language": "py", "prompt": "def branches(directory=None, verbose=False):\n    \"\"\"Show your your points\"\"\"", "tests": "", "completions": ["\n    return 0\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

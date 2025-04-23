@@ -1,0 +1,17 @@
+def fuzzy_search_by_title(self, title, ignore_groups=None):
+        """Find an entry by by fuzzy match.
+
+        This will check lists such as:
+
+            * case insensitive matching
+            * typo checks
+            * prefix matches
+
+        If the ``ignore_groups`` argument is provided, then any matching
+        entries in the ``ignore_groups`` list will not be returned.  This
+        argument can be used to filter out groups you are not interested in.
+
+        Returns a list of empty (an matches list is returned if no matches are
+        found).
+
+        """

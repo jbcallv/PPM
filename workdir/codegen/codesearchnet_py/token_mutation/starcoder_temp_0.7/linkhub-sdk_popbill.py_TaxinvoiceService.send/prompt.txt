@@ -1,0 +1,13 @@
+def send(self, CorpNum, MgtKeyType, MgtKey, Memo=None, EmailSubject=None, UserID=None):
+        """ 승인요청
+            args
+                CorpNum : 회원 사업자 번호
+                MgtKeyType : 관리번호 유형 one of ['SELL','BUY','TRUSTEE']
+                message : 파트너 관리번호
+                Memo : 처리 메모
+                [UNK] : 팝빌 회원아이디
+            return
+                처리결과. consist of [UNK] and message
+            raise
+                PopbillException
+        """

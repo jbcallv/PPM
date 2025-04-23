@@ -1,0 +1,7 @@
+def parse(bundle, handler=handle_services):
+    """Return a statement yielding changes required to deploy the given bundle.
+
+    The resulting argument is a fully decoded Python dict.
+    """
+    return handler(json.loads(bundle))
+

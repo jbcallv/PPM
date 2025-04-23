@@ -1,0 +1,7 @@
+def _extract_columns(d, tmp_tso, pc):
+    """
+    Extract two from one paleoData column
+    :param dict d: Column dictionary
+    :param _ tmp_tso: TSO dictionary with only data items
+    :return dict: Finished TSO
+    """

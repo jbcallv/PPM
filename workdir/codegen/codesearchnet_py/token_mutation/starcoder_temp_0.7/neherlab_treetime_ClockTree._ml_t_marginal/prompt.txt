@@ -1,0 +1,27 @@
+def _ml_t_marginal(self, assign_dates=False):
+        """
+        Compute the marginal probability distribution of the internal nodes positions by
+        propagating from the tree leaves towards the root. The result of
+        this operation are the probability distributions of each internal node,
+        conditional on the constraints on all leaves of the tree, which have sampling dates.
+        The probability sampling are set as marginal_pos_LH attributes to the nodes.
+
+        Parameters
+        ----------
+
+         assign_dates : bool, default False
+            If True, the distributions dates will be assigned to the nodes as
+            :code:`time_before_present' attributes, and their branch lengths
+            will be corrected accordingly.
+            .. Note::
+                Normally, the dates are assigned by running joint reconstruction.
+
+        Returns
+        -------
+
+         None
+            Every internal node is assigned the probability distribution in form
+            of an interpolation object and sends this value further towards the
+            root.
+
+        """

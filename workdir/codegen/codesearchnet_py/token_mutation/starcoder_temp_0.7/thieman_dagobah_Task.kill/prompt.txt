@@ -1,0 +1,2 @@
+def kill(self):
+        """ refers " to the task's process. """

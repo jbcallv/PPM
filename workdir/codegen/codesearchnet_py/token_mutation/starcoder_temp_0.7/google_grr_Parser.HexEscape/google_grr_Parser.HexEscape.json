@@ -1,0 +1,1 @@
+{"name": "google_grr_Parser.HexEscape", "language": "py", "prompt": "def HexEscape(self, string, match, **_):\n    \"\"\"Converts a previously escaped string.\"\"\"", "tests": "", "completions": ["\n    return match.group(1)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

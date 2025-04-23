@@ -1,0 +1,1 @@
+{"name": "apache_incubator-superset_SupersetSecurityManager.sync_role_definitions", "language": "py", "prompt": "def sync_role_definitions(self):\n        \"\"\"Inits the software application with applications software and such\"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

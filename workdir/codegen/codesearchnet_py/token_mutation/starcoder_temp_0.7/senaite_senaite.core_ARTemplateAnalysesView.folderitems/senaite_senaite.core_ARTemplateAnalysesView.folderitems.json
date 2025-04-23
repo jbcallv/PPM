@@ -1,0 +1,1 @@
+{"name": "senaite_senaite.core_ARTemplateAnalysesView.folderitems", "language": "py", "prompt": "def folderitems(self):\n        \"\"\"TODO: return to non-classic mode\n        \"\"\"", "tests": "", "completions": ["\n        items = Folder.folderitems(self)\n        return items\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

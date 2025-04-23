@@ -1,0 +1,2 @@
+def set_aad_metadata(uri, resource, client):
+    """Set the metadata."""

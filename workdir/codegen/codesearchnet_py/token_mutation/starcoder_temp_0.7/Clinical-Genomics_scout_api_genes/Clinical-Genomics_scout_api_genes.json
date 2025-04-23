@@ -1,0 +1,1 @@
+{"name": "Clinical-Genomics_scout_api_genes", "language": "py", "prompt": "def api_genes():\n    \"\"\"Return questions to about genes.\"\"\"", "tests": "", "completions": ["\n    return api_call('/questions/genes')\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

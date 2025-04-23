@@ -1,0 +1,3 @@
+def numpyview(arr, datatype, shape, raw=False):
+    """ Takes an shared array and a a array with given shape.
+    """

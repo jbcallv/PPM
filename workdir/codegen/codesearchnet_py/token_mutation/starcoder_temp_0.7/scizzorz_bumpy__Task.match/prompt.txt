@@ -1,0 +1,8 @@
+def match(self, name):
+		'''Compare an name same to the alias name.'''
+		if (self.ns + self.name).startswith(name):
+			return True
+
+		for alias in self.aliases:
+			if (self.ns + alias).startswith(name):
+				return True

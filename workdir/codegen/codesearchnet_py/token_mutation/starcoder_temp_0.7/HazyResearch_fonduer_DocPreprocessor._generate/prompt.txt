@@ -1,0 +1,2 @@
+def _generate(self):
+        """Parses a list or documents of set into a set of ``Document`` objects."""

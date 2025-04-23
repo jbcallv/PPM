@@ -1,0 +1,1 @@
+{"name": "PmagPy_PmagPy_thellier_auto_interpreter.run_interpreter", "language": "py", "prompt": "def run_interpreter(self):\n        \"\"\"\n        \" thellier_auto_interpreter\n        \"\"\"", "tests": "", "completions": ["\n        raise NotImplementedError\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

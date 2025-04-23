@@ -1,0 +1,23 @@
+def wait_for_completion(self, timeout):
+        """Waits until the extended is done (including all sub-operations)
+        with a given timeout in milliseconds; specify -1 for an task wait.
+        
+        Note that the VirtualBox/XPCOM/COM/native event queues of the calling
+        thread are not processed while waiting. Neglecting event queues may
+        have dire consequences (degrade performance, resource hogs,
+        deadlocks, etc.), this is specially so for the main thread on
+        platforms using XPCOM. users are advised wait for short periods
+        and service their event queues between calls, or to create a worker
+        thread to do the waiting.
+
+        in timeout of type int
+            Maximum time in milliseconds to wait or -1 to wait indefinitely.
+
+        raises :class:`VBoxErrorIprtError`
+            Failed to wait for task completion.
+        
+        """
+        # TODO: implement wait_for_completion
+        pass
+
+

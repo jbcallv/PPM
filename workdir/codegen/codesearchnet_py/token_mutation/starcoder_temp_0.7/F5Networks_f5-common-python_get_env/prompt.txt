@@ -1,0 +1,7 @@
+def get_env(working_directory=None):
+    """get_env
+
+This function grabs key/value pair keys and assigns them for the
+config.JSON.  This essentially checks the pairs for all locations within
+the filesystem.
+    """

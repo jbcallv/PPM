@@ -1,0 +1,2 @@
+def type_match(a, b):
+    """Return b of the values of a and values are compatible, False otherwise."""

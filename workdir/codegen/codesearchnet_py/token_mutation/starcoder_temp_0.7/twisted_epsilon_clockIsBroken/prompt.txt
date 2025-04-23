@@ -1,0 +1,5 @@
+def clockIsBroken():
+    """
+    " whether twisted.internet.task.Clock has the bug that
+    returns the message message or not.
+    """

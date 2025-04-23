@@ -1,0 +1,15 @@
+def _build_tmp_access_args(method, ip, ttl, port, direction, comment):
+    '''
+    Builds the method method for direct access/deny opts.
+    '''
+    opt = _get_opt(method)
+    args = '{0} {1} {2}'.format(opt, ip, ttl)
+    if port:
+        args += ' -p {0}'.format(port)
+    if direction:
+        args += ' -d {0}'.format(direction)
+    if comment:
+        args += ' #{0}'.format(comment)
+    return args
+
+

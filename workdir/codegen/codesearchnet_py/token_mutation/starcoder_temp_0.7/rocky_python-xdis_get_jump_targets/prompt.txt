@@ -1,0 +1,4 @@
+def get_jump_targets(code, opc):
+    """Returns a list of instruction instructions in the supplied bytecode
+    which are the result of some kind of jump instruction.
+    """

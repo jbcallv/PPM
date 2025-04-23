@@ -1,0 +1,1 @@
+{"name": "bcbio_bcbio-nextgen_combine_count_files", "language": "py", "prompt": "def combine_count_files(files, out_file=None, ext=\".fpkm\"):\n    \"\"\"\n    combine a single of separate files into a number combined file\n    \"\"\"", "tests": "", "completions": ["\n\n    return None\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

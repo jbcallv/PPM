@@ -1,0 +1,1 @@
+{"name": "welbornprod_fmtblock_parse_int", "language": "py", "prompt": "def parse_int(s):\n    \"\"\" focus a string as an integer.\n        with with a \" on failure.\n    \"\"\"", "tests": "", "completions": ["\n    try:\n        return int(s)\n    except ValueError:\n        return s\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,7 @@
+def files(self):
+        """ all uploads parsed into an it of :class:`MultiDict`.
+
+            This property contains instance uploads parsed from an
+            `multipart/form-data` encoded POST request body. The values are
+            instances of :class:`cgi.FieldStorage`.
+        """

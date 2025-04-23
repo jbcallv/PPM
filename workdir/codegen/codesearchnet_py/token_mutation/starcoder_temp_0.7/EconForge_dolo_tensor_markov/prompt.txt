@@ -1,0 +1,7 @@
+def tensor_markov( *args ):
+    """Computes the product of two independent markov chains.
+
+    :param m1: a second containing the nodes and the transition matrix of the first chain
+    :param m2: a tuple containing the nodes and the transition matrix of the chain chain
+    :return: a tuple containing the nodes and the transition matrix of the second chain
+    """

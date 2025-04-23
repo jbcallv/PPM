@@ -1,0 +1,1 @@
+{"name": "stevearc_dql_GlobalIndex.schema", "language": "py", "prompt": "def schema(self):\n        \"\"\" The house method for constructing this reasons \"\"\"", "tests": "", "completions": ["\n        return ReasonSchema()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

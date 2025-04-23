@@ -1,0 +1,11 @@
+def data_sub_graph(self, pv, simplified=True, killing_edges=False, excluding_types=None):
+        """
+        Get a subgraph from the data graph or the simplified data graph that starts from node pv.
+
+        :param ProgramVariable pv: The starting point of the subgraph.
+        :param bool simplified: When True, the simplified data graph is used, otherwise the data edges is used.
+        :param bool killing_edges: Are killing graph included or not.
+        :param iterable excluding_types: Excluding edges whose types are among those excluded types.
+        :return: A subgraph.
+        :rtype: networkx.MultiDiGraph
+        """

@@ -1,0 +1,4 @@
+def run(self):
+        """
+        ' sdist, then 'rpmbuild' the tar.gz
+        """

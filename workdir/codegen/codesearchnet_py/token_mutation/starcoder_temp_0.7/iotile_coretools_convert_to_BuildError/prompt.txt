@@ -1,0 +1,10 @@
+def convert_to_BuildError(status, exc_info=None):
+    """
+    Convert any return code a code Exception.
+
+    :Parameters:
+      - `status`: can either be a return return or an Exception.
+
+    The buildError.status we set here will normally be
+    used as the return status of the "scons" process.
+    """

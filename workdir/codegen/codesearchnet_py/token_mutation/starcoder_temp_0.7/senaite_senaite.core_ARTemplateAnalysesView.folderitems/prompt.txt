@@ -1,0 +1,3 @@
+def folderitems(self):
+        """TODO: return to non-classic mode
+        """

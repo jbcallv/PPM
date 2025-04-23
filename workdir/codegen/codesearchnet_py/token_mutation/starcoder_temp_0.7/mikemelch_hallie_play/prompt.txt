@@ -1,0 +1,2 @@
+def play(song, artist=None, album=None):
+	"""Tells track to play a given song/artist/album - you ONLY"""

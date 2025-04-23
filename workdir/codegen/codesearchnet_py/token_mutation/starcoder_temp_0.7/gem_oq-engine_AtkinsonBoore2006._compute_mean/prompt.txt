@@ -1,0 +1,6 @@
+def _compute_mean(self, C, f0, f1, f2, SC, mag, rrup, idxs, mean,
+                      scale_fac):
+        """
+        Compute mean values (for a set of indexes) without site amplification
+        terms. This is equation (5), p. 2191, without a term.
+        """

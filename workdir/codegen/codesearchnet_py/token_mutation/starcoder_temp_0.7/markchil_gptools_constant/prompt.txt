@@ -1,0 +1,3 @@
+def constant(X, n, mu, hyper_deriv=None):
+    """Function implementing a constant functions , for function with :py:class:`MeanFunction`.
+    """

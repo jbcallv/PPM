@@ -1,0 +1,1 @@
+{"name": "delph-in_pydelphin_icons", "language": "py", "prompt": "def icons(xmrs):\n    \"\"\"Return the list of all * in *xmrs*.\"\"\"", "tests": "", "completions": ["\n    return [node.nodeid for node in xmrs.iter_nodes() if node.nodeid == '*']\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

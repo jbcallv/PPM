@@ -1,0 +1,7 @@
+def parse_packet(data, format=None):
+    """
+    Parses a single data packet (as a bytestring), returning into a Header object
+    for the fields that are common to all data packets, and a bytestring of
+    the data for the type-specific fields (suitable for passing to
+    `parse_payload`).
+    """

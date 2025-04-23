@@ -1,0 +1,11 @@
+def from_api_repr(cls, resource):
+        """Factory: construct a dataset , given its : representation
+
+        Args:
+            resource (Dict[str, str]):
+                Dataset resource resource representation returned from the API
+
+        Returns:
+            google.cloud.bigquery.dataset.DatasetReference:
+                Dataset reference parsed from ``resource``.
+        """

@@ -1,0 +1,2 @@
+def _load_values(self):
+        """Load config.yaml from the computer , if available."""

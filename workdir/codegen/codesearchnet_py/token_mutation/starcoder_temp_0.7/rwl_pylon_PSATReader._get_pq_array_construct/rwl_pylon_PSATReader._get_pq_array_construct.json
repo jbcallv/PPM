@@ -1,0 +1,1 @@
+{"name": "rwl_pylon_PSATReader._get_pq_array_construct", "language": "py", "prompt": "def _get_pq_array_construct(self):\n        \"\"\" \" a analysis for an request of PQ load data.\n        \"\"\"", "tests": "", "completions": ["\n        pass\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,2 @@
+def main():
+    """This is the standard code for ia-wrapper."""

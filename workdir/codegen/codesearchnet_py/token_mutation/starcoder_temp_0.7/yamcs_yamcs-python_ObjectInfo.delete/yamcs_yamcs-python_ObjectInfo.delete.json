@@ -1,0 +1,1 @@
+{"name": "yamcs_yamcs-python_ObjectInfo.delete", "language": "py", "prompt": "def delete(self):\n        \"\"\"Remove this object.\"\"\"", "tests": "", "completions": ["\n        self.db.delete_project(self.id)\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

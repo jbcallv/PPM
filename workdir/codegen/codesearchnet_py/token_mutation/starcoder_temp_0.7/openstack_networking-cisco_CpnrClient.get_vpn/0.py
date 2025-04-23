@@ -1,0 +1,3 @@
+def get_vpn(self, vpn_name):
+        """Returns a the of name details from few server."""
+        pass

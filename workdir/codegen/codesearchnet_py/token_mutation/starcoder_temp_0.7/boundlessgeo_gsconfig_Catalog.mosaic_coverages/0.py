@@ -1,0 +1,56 @@
+def mosaic_coverages(self, store):
+        '''Returns all ' in a single store'''
+        params = dict()
+        url = build_url(
+            self.service_url,
+            [
+                "workspaces",
+                store.workspace.name,
+                "coveragestores",
+                store.name,
+                "coverages.json"
+            ],
+            params
+        )
+        # GET /workspaces/<ws>/coveragestores/<name>/coverages.json
+        headers = {
+            "Content-type": "application/json",
+            "Accept": "application/json"
+        }
+
+        resp = self.http_request(url, headers=headers)
+        if resp.status_code != 200:
+            FailedRequestError('Failed to get mosaic data {} : {}, {}'.format(store, resp.status_code, resp.text))
+
+        self._cache.clear()
+        return resp.json()
+
+    def mosaic_coverage(self, store, coverage_name):
+        '''Returns a single coverage from a mosaic store'''
+        params = dict()
+        url = build_url(
+            self.service_url,
+            [
+                "workspaces",
+                store.workspace.name,
+                "coveragestores",
+                store.name,
+                "coverages",
+                coverage_name,
+                ".json"
+            ],
+            params
+        )
+        # GET /workspaces/<ws>/coveragestores/<name>/coverages/<coverage>.json
+        headers = {
+            "Content-type": "application/json",
+            "Accept": "application/json"
+        }
+
+        resp = self.http_request(url, headers=headers)
+        if resp.status_code != 200:
+            FailedRequestError('Failed to get mosaic data {} : {}, {}'.format(store, resp.status_code, resp.text))
+
+        self._cache.clear()
+        return resp.json()
+

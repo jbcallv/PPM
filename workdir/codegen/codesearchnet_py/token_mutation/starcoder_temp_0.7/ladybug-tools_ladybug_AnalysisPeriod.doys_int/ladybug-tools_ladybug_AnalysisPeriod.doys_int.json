@@ -1,0 +1,1 @@
+{"name": "ladybug-tools_ladybug_AnalysisPeriod.doys_int", "language": "py", "prompt": "def doys_int(self):\n        \"\"\"A sorted list of all of the integers in this time period as integers.\"\"\"", "tests": "", "completions": ["\n        return sorted(self._doys_int)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

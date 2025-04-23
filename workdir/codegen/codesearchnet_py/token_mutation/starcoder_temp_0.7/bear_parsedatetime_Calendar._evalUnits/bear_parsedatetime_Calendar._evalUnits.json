@@ -1,0 +1,1 @@
+{"name": "bear_parsedatetime_Calendar._evalUnits", "language": "py", "prompt": "def _evalUnits(self, datetimeString, sourceTime):\n        \"\"\"\n        is { passed by L{_partialParseUnits()}\n        \"\"\"", "tests": "", "completions": ["\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

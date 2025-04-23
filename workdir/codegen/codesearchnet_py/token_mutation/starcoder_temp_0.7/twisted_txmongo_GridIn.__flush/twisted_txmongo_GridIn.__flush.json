@@ -1,0 +1,1 @@
+{"name": "twisted_txmongo_GridIn.__flush", "language": "py", "prompt": "def __flush(self):\n        \"\"\"Flush the data to the database.\n        \"\"\"", "tests": "", "completions": ["\n        self.data = []\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

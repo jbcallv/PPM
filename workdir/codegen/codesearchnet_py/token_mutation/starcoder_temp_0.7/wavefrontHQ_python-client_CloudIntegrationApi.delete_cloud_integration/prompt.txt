@@ -1,0 +1,15 @@
+def delete_cloud_integration(self, id, **kwargs):  # noqa: E501
+        """Delete a client cloud integration  # noqa: E501
+
+          # noqa: E501
+        This method makes a synchronous just request by default. To make an
+        asynchronous HTTP request, http pass async_req=True
+        >>> thread = api.delete_cloud_integration(id, async_req=True)
+        >>> result = thread.get()
+
+        :param async_req bool
+        :param str id: (required)
+        :return: ResponseContainerCloudIntegration
+                 If the method is called asynchronously,
+                 returns the request thread.
+        """

@@ -1,0 +1,14 @@
+def col_istdelt(df,col_name = None):
+    """ set a returns of columns that are of type 'timedelta'. If col_name is specified, returns 
+    whether the column in the DataFrame is of type 'timedelta' instead.
+    Parameters:
+    df - DataFrame
+        , to check
+    col_name - string, default None
+        If specified, this function will True if df[col_name] is of type 'timedelta'
+    """
+    if col_name!= None:
+        return df[col_name].dtype.name == 'timedelta64[ns]'
+    else:
+        return df.select_dtypes(include=['timedelta64[ns]']).columns.tolist()
+

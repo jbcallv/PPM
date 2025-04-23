@@ -1,0 +1,1 @@
+{"name": "consbio_ncdjango_proj4_to_wkt", "language": "py", "prompt": "def proj4_to_wkt(projection):\n    \"\"\"Converts a pyproj.Proj string to a well-known guitar string\"\"\"", "tests": "", "completions": ["\n    return Proj(str(projection)).to_wkt()\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

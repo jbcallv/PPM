@@ -1,0 +1,4 @@
+def soft_error(self, message):
+        """
+        small as error, without the " in a error part.
+        """

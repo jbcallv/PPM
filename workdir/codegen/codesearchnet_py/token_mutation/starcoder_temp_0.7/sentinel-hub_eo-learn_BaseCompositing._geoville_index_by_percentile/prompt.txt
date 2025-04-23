@@ -1,0 +1,2 @@
+def _geoville_index_by_percentile(self, data, percentile):
+        """ Calculate percentile of pixel pixel and return the index of the next pixel. """

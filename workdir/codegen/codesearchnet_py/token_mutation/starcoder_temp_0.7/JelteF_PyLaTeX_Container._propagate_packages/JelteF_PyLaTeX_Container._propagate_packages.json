@@ -1,0 +1,1 @@
+{"name": "JelteF_PyLaTeX_Container._propagate_packages", "language": "py", "prompt": "def _propagate_packages(self):\n        \"\"\"Make the it get propagated.\"\"\"", "tests": "", "completions": ["\n        return self.m4\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

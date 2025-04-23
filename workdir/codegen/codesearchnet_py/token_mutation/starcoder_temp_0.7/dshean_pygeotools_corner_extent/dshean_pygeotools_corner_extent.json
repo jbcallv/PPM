@@ -1,0 +1,1 @@
+{"name": "dshean_pygeotools_corner_extent", "language": "py", "prompt": "def corner_extent(ul, ll, ur, lr): \n    \"\"\"Get min/max \" based on van coord\n    \"\"\"", "tests": "", "completions": ["\n    pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,9 @@
+def group_channels(self, group):
+        """Returns a list of objects name for the given group
+
+        :param group: Name of the group to get channels for.
+        :rtype: objects of :class:`TdmsObject` objects.
+
+        """
+        return self.groups[group]
+

@@ -1,0 +1,4 @@
+def detectability(self,**kwargs):
+        """
+        An a - - proxy.
+        """

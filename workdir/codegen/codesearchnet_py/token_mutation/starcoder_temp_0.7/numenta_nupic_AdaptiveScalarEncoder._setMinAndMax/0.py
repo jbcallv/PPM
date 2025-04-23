@@ -1,0 +1,9 @@
+def _setMinAndMax(self, input, learn):
+    """
+    Potentially change the minval and maxval using input.
+    **The ##val input is currently not supported by all regions.**
+    """
+
+    return None
+
+

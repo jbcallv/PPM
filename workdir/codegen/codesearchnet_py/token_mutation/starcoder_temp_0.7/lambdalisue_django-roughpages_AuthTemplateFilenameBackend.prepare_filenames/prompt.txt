@@ -1,0 +1,49 @@
+def prepare_filenames(self, normalized_url, request):
+        """
+        Prepare template ##s list based on the user authenticated state
+
+        If user is authenticated user, it use '_authenticated' as a suffix.
+        " it use '_anonymous' as a suffix to produce the template
+        filename list. The list include original names at the end of the
+        list.
+
+        Args:
+            normalized_url (str): A normalized url
+            request (instance): An instance of HttpRequest
+
+        Returns:
+            list
+
+        Examples:
+            >>> from mock import MagicMock
+            >>> request = MagicMock()
+            >>> backend = AuthTemplateFilenameBackend()
+            >>> request.user.is_authenticated.return_value = True
+            >>> filenames = backend.prepare_filenames('foo/bar/hogehoge',
+            ...                                       request)
+            >>> assert filenames == [
+            ...     'foo/bar/hogehoge_authenticated.html',
+            ...     'foo/bar/hogehoge.html'
+            ... ]
+            >>> request.user.is_authenticated.return_value = False
+            >>> filenames = backend.prepare_filenames('foo/bar/hogehoge',
+            ...                                       request)
+            >>> assert filenames == [
+            ...     'foo/bar/hogehoge_anonymous.html',
+            ...     'foo/bar/hogehoge.html'
+            ... ]
+            >>> request.user.is_authenticated.return_value = True
+            >>> filenames = backend.prepare_filenames('',
+            ...                                       request)
+            >>> assert filenames == [
+            ...     'index_authenticated.html',
+            ...     'index.html'
+            ... ]
+            >>> request.user.is_authenticated.return_value = False
+            >>> filenames = backend.prepare_filenames('',
+            ...                                       request)
+            >>> assert filenames == [
+            ...     'index_anonymous.html',
+            ...     'index.html'
+            ... ]
+        """

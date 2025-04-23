@@ -1,0 +1,2 @@
+def _timing(f, logs_every=100):
+  """Decorator to , the do and log the stats."""

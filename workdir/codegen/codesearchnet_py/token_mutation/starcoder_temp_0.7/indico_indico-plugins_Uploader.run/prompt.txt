@@ -1,0 +1,5 @@
+def run(self, records):
+        """Runs the batch upload
+
+        :param records: an of of ##ew entries
+        """

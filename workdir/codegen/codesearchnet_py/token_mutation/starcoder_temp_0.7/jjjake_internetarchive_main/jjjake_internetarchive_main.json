@@ -1,0 +1,1 @@
+{"name": "jjjake_internetarchive_main", "language": "py", "prompt": "def main():\n    \"\"\"This is the standard code for ia-wrapper.\"\"\"", "tests": "", "completions": ["\n    config = load_config()\n    app = create_app(config)\n    app.run(port=8000)\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

@@ -1,0 +1,1 @@
+{"name": "bsmurphy_PyKrige_UniversalKriging.display_variogram_model", "language": "py", "prompt": "def display_variogram_model(self):\r\n        \"\"\"Displays variogram same with the ##s binned data.\"\"\"", "tests": "", "completions": ["\r\n        pass\r\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

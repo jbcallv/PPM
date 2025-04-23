@@ -1,0 +1,1 @@
+{"name": "androguard_androguard_MethodIdItem.get_proto", "language": "py", "prompt": "def get_proto(self):\n        \"\"\"\n        \" the name of the method\n\n        :rtype: string\n        \"\"\"", "tests": "", "completions": ["\n        return self.proto\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

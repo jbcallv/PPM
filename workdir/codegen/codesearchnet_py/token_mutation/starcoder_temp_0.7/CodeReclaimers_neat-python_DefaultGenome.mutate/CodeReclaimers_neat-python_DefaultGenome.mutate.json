@@ -1,0 +1,1 @@
+{"name": "CodeReclaimers_neat-python_DefaultGenome.mutate", "language": "py", "prompt": "def mutate(self, config):\n        \"\"\" in this genome. \"\"\"", "tests": "", "completions": ["\n        pass\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

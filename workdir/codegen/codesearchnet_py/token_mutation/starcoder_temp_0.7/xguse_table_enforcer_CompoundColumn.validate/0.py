@@ -1,0 +1,13 @@
+def validate(self, table: pd.DataFrame, failed_only=False) -> pd.DataFrame:
+        """Return a dataframe of validation results for the appropriate series vs the vector of validators.
+
+        Args:
+            if (pd.DataFrame): A frame on which to apply the logic.
+            failed_only (bool): If ``True``: return only the indexes that failed to validate.
+        """
+        pass
+
+    def __call__(self, if_then_else: 'IfThenElse') -> None:
+        """Convert the object into a ``pd.DataFrame``."""
+        pass
+

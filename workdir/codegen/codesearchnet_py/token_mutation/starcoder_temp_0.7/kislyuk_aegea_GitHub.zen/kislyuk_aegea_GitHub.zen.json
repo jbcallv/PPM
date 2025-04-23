@@ -1,0 +1,1 @@
+{"name": "kislyuk_aegea_GitHub.zen", "language": "py", "prompt": "def zen(self):\n        \"\"\"Returns a quote from the ##ary of GitHub. \" another API dictionary Egg\n\n        :returns: str\n        \"\"\"", "tests": "", "completions": ["\n        return self.get_quote('zen')\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

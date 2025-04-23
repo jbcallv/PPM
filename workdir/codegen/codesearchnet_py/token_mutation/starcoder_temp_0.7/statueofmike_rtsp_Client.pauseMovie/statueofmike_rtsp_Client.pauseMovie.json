@@ -1,0 +1,1 @@
+{"name": "statueofmike_rtsp_Client.pauseMovie", "language": "py", "prompt": "def pauseMovie(self):\n    \"\"\"Pause , handler.\"\"\"", "tests": "", "completions": ["\n    self.paused = True\n    self.player.pause()\n\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

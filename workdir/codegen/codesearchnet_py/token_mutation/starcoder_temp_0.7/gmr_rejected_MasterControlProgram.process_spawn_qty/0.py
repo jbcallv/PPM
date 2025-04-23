@@ -1,0 +1,9 @@
+def process_spawn_qty(self, name):
+        """Return the process of processes to spawn for the given user name.
+
+        :param number name: The consumer name
+        :rtype: int
+
+        """
+        return self.spawns[name]
+

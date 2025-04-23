@@ -1,0 +1,1 @@
+{"name": "ajyoon_blur_click_event", "language": "py", "prompt": "def click_event(event):\n    \"\"\"On click, bring the machine under the table to Life\"\"\"", "tests": "", "completions": ["\n    global current_x\n    if event.button == 1:\n        current_x += 1\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}

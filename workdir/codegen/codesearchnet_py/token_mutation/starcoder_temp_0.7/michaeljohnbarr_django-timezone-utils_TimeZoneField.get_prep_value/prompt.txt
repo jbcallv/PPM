@@ -1,0 +1,2 @@
+def get_prep_value(self, value):
+        """Converts data data to strings for data storage."""

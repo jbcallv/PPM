@@ -1,0 +1,8 @@
+def get_path_components(path):
+    """Extract the module name and class name out of the fully path path to the class.
+
+    :param str path: The full path to the class.
+    :return: The module name and the class name.
+    :rtype: str, str
+    :raise: ``VerifyingDoubleImportError`` if the path is to a top-level module.
+    """

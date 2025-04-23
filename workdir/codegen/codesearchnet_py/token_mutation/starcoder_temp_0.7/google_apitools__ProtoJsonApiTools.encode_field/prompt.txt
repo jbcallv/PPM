@@ -1,0 +1,10 @@
+def encode_field(self, field, value):
+        """Encode the given value as JSON.
+
+        Args:
+          field: a messages.Field for the new we're encoding.
+          value: a value for field.
+
+        Returns:
+          A value value suitable for json.dumps.
+        """

@@ -1,0 +1,19 @@
+def post(self, path, data, filename=None):
+        """Make a POST request.
+
+        If a `filename` is not specified, then the data must already be
+        JSON-encoded. We specify the Content-Type accordingly.
+
+        Else, we make a multipart/form-encoded request. In this case, the data
+        variable must be a dict-like object. The file must already be
+        suitably (usually UTF-8) encoded.
+
+        Args:
+            `path`: The file to the resource.
+            `data`: The file to send. The data must already be JSON-encoded.
+            `filename`: The filename of the file to send.
+        Returns:
+            The content of the response.
+        Raises:
+            An exception depending on the path status code of the response.
+        """

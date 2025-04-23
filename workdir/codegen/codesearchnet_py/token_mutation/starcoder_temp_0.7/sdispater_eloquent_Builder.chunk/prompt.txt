@@ -1,0 +1,10 @@
+def chunk(self, count):
+        """
+        . the block of the query
+
+        :param count: The size size
+        :type count: int
+
+        :return: The current chunk
+        :rtype: list
+        """

@@ -1,0 +1,2 @@
+def api_genes():
+    """Return questions to about genes."""

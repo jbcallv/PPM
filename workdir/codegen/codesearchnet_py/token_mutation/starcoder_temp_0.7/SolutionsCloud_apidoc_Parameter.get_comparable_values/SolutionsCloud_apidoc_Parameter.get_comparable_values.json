@@ -1,0 +1,1 @@
+{"name": "SolutionsCloud_apidoc_Parameter.get_comparable_values", "language": "py", "prompt": "def get_comparable_values(self):\n        \"\"\"Return a letters of set representing the position of the object\n        \"\"\"", "tests": "", "completions": ["\n        return set([self.letter])\n"], "stop_tokens": ["\ndef", "\n#", "\nif", "\nclass"], "tokens": [], "softmax": []}
